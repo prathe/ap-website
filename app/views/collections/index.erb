@@ -1,6 +1,7 @@
-<% t('collections').each do |token, collection| %>
-  <% link_to collections_path(:name => token), {:class => 'collection-thumb'} do %>
-    <%= image_tag "/images/collections/#{token}.jpg" %>
+<% %w{feather_necklaces fur fur_necklace white_feather haute_couture fur_earrings sail blue christmas}.each do |token| %>
+  <% collection = t("collections.#{token}")%>
+  <% link_to collections_path(:name => token), {:title => collection, :class => 'collection-thumb'} do %>
+    <%= image_tag "/images/collections/#{token}.jpg", :alt => collection %>
     <span><%= collection %></span>
   <% end %>
 <% end %>
