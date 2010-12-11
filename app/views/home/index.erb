@@ -1,0 +1,12 @@
+<div id='home-slideshow' class='nivoSlider'>
+  <%= link_to :collections do %>
+    <%= image_tag 'arnela.jpg' %>
+  <% end %>
+</div>
+
+<script>
+  $(function () {
+    console.log($('.nivoSlider'));
+    $('.nivoSlider').nivoSlider();
+  })
+</script>

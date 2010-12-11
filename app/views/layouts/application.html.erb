@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>ArnelaCa</title>
-  <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
-  <%= csrf_meta_tag %>
+  <title>Arnela Pandzic design | Bijoux</title>
+  <%= stylesheet_link_tag 'http://yui.yahooapis.com/2.8.2r1/build/reset-fonts-grids/reset-fonts-grids.css' %>
+  <%= stylesheet_link_tag 'nivo-slider', 'app' %>
+
+  <%= javascript_include_tag 'https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js', 'jquery.nivo.slider.pack' %>
 </head>
 <body>
 
-<%= yield %>
+  <div id="doc2" class="yui-t7">
+    <div id="hd"><h1>Arnela Pandzic design</h1></div>
+    <div id="bd">
+      <div class="yui-g">
+        <%= yield %>
+      </div>
+    </div>
+    <div id="ft"><p>© 2010</p></div>
+  </div>
 
 </body>
 </html>
