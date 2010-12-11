@@ -5,6 +5,11 @@ class ApplicationController < ActionController::Base
   
   before_filter :set_locale
   
+  def toggle_locale
+    I18n.locale = {'fr-CA' => 'en-US', 'en-US' => 'fr-CA'}[I18n.locale || I18n.default_locale]
+    redirect(root)
+  end
+  
   def set_locale
     # if params[:locale] is nil then I18n.default_locale will be used
     I18n.locale = compatible_to_available_locale(params[:locale]) || extract_locale_from_accept_language_header
