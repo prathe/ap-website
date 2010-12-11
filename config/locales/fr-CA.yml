@@ -1,5 +1,8 @@
 fr-CA:
   other_language: 'English'
+  title:
+    home:
+      index: Bijoux
   menu:
     collections: Collections
     stores: Boutiques

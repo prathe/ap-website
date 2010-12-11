@@ -1,5 +1,8 @@
 en-US:
   other_language: 'Français'
+  title:
+    home:
+      index: Jewels
   menu:
     collections: Collections
     stores: Stores
