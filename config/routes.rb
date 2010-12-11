@@ -14,7 +14,7 @@ ArnelaCa::Application.routes.draw do
     resources :collections
     resources :stores
     match 'about' => 'home#about', :as => 'about'
-    match 'toggle_locale' => 'toggle_locale', :as => 'toggle_locale'
+    match 'toggle_locale' => 'application#toggle_locale', :as => 'toggle_locale'
     
     # root
     match '/' => 'home#index', :as => 'root'
