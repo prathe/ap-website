@@ -28,3 +28,5 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # group :development, :test do
 #   gem 'webrat'
 # end
+
+gem "http_accept_language", :git => 'http://github.com/iain/http_accept_language.git'

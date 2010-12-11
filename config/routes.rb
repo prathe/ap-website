@@ -13,6 +13,7 @@ ArnelaCa::Application.routes.draw do
   scope "(:locale)", :locale => /en|fr/ do
     resources :collections
     resources :stores
+    match 'about' => 'home#about', :as => 'about'
   end
   
   # Sample resource route with options:

@@ -1,3 +1,9 @@
+GIT
+  remote: http://github.com/iain/http_accept_language.git
+  revision: 0b78aa7
+  specs:
+    http_accept_language (1.0.1)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -70,5 +76,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  http_accept_language!
   rails (= 3.0.0.rc2)
   sqlite3-ruby
