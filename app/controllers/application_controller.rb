@@ -10,6 +10,8 @@ class ApplicationController < ActionController::Base
     redirect_to(root_path)
   end
   
+  private
+  
   def set_locale
     # if params[:locale] is nil then I18n.default_locale will be used
     I18n.locale = compatible_to_available_locale(params[:locale]) || extract_locale_from_accept_language_header
@@ -21,7 +23,6 @@ class ApplicationController < ActionController::Base
     options.merge(I18n.locale ? { :locale => available_to_compatible_locale(I18n.locale) } : {})
   end
   
-  private
   
   def extract_locale_from_accept_language_header
     logger.debug "Prefered languages: #{request.user_preferred_languages.inspect}\n"
