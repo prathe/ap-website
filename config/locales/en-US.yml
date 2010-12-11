@@ -8,3 +8,5 @@ en-US:
     stores: Stores
     about: About
     blog: Blog
+  collections:
+    feather_necklaces: 'Feather necklaces'

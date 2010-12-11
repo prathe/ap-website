@@ -8,3 +8,5 @@ fr-CA:
     stores: Boutiques
     about: "À propos"
     blog: Blogue
+  collections:
+    feather_necklaces: 'Colliers de plumes'
