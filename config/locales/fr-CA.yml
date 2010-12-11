@@ -1,4 +1,7 @@
 fr-CA:
   other_language: 'English'
   menu:
+    collections: Collections
+    stores: Boutiques
     about: "À propos"
+    blog: Blogue

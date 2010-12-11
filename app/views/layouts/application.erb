@@ -14,7 +14,13 @@
       <h1>Arnela Pandzic design</h1>
       <%= toggle_locale_link %>
     </div>
-    <div class="yui-g"><%= render :partial => './menu' %></div>
+    
+    <div class="yui-g">
+      <div id="main-menu">
+        <%= render :partial => './menu' %>
+      </div>
+    </div>
+    
     <div id="bd">
       <div class="yui-g">
         <%= yield %>

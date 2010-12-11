@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Arnela Pandzic design | Bijoux</title>
+  <%= stylesheet_link_tag 'http://yui.yahooapis.com/2.8.2r1/build/reset-fonts-grids/reset-fonts-grids.css' %>
+  <%= stylesheet_link_tag 'base', 'app' %>
+</head>
+<body>
+
+  <div id="doc2" class="yui-t7">
+    <div id="bd">
+      <div class="yui-g">
+        <%= yield %>
+      </div>
+    </div>
+    <div id="ft"><p>© 2010 | <%= toggle_locale_link %></p></div>
+  </div>
+
+</body>
+</html>

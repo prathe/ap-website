@@ -1,4 +1,7 @@
 en-US:
   other_language: 'Français'
   menu:
+    collections: Collections
+    stores: Stores
     about: About
+    blog: Blog
