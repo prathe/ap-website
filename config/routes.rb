@@ -11,8 +11,11 @@ ArnelaCa::Application.routes.draw do
   # This route can be invoked with purchase_url(:id => product.id)
 
   scope "(:locale)", :locale => /en|fr/ do
-    resources :collections
-    resources :stores
+    #resources :collections
+    match 'collections' => 'collections#index', :as => 'collections'
+    match 'collections/show' => 'collections#show', :as => 'collections_show'
+    match 'stores' => 'stores#index', :as => 'stores'
+    
     match 'about' => 'home#about', :as => 'about'
     match 'toggle_locale' => 'application#toggle_locale', :as => 'toggle_locale'
     

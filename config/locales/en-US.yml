@@ -3,6 +3,9 @@ en-US:
   title:
     home:
       index: Jewels
+    collections:
+      index: Collections
+      show: Collection: {{title}}
   menu:
     collections: Collections
     stores: Stores

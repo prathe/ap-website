@@ -3,6 +3,9 @@ fr-CA:
   title:
     home:
       index: Bijoux
+    collections:
+      index: Collections
+      show: Collection: {{title}}
   menu:
     collections: Collections
     stores: Boutiques
