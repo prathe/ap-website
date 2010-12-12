@@ -5,7 +5,7 @@ en-US:
       index: Jewels
     collections:
       index: Collections
-      show: Collection: {{title}}
+      show: "Collection: {{title}}"
   menu:
     collections: Collections
     stores: Stores
