@@ -4,6 +4,13 @@ class CollectionsController < ApplicationController
   
   def show
     @collection = params[:name]
-    @title = t("collections.index.#{params[:name]}")
+    @title = t("collections.index.#{@collection}")
   end
+  
+  def showpic
+    @id = params[:id]
+    @collection = params[:name]
+    @title = t("collections.index.#{@collection}") + " - " + t("collections.#{@collection}.#{@id}")
+  end
+  
 end

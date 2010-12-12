@@ -1,7 +1,7 @@
-<h2><%= @collection %></h2>
+<h2><%= @collection.capitalize %></h2>
 <% 1.upto(6) do |n| %>
   <% title = t("collections.#{@collection}.p#{n}") %>
-  <% link_to collections_show_path(:name => @collection), {:title => title, :class => 'collection-thumb'} do %>
+  <% link_to collections_showpic_path(:name => @collection, :id => "p#{n}"), {:title => title, :class => 'collection-thumb'} do %>
     <%= image_tag "/images/collections/#{@collection}/th/p#{n}.jpg", :alt => title %>
   <% end %>
 <% end %>

@@ -6,6 +6,7 @@ fr-CA:
     collections:
       index: Collections
       show: "Collection: {{title}}"
+      showpic: "Collection: {{title}}"
   menu:
     collections: Collections
     stores: Boutiques
