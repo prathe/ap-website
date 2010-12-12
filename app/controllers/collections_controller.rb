@@ -3,6 +3,7 @@ class CollectionsController < ApplicationController
   end
   
   def show
-    @title = t("collections.#{params[:name]}")
+    @collection = params[:name]
+    @title = t("collections.index.#{params[:name]}")
   end
 end

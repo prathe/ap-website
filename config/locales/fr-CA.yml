@@ -12,12 +12,20 @@ fr-CA:
     about: "À propos"
     blog: Blogue
   collections:
-    feather_necklaces: 'Colliers de plumes'
-    fur: Fourrure
-    fur_necklace: 'Colliers de fourrures'
-    white_feather: 'Plumes blanches'
-    haute_couture: 'Haute couture'
-    fur_earrings: "Boucles d'oreilles en fourrure"
-    sail: "Été marin"
-    blue: "Bleu été"
-    christmas: "Temps des fêtes"
+    index:
+      feather_necklaces: 'Colliers de plumes'
+      fur: Fourrure
+      fur_necklace: 'Colliers de fourrures'
+      white_feather: 'Plumes blanches'
+      haute_couture: 'Haute couture'
+      fur_earrings: "Boucles d'oreilles en fourrure"
+      sail: "Été marin"
+      blue: "Bleu été"
+      christmas: "Temps des fêtes"
+    fur:
+      p1: pic 1
+      p2: pic 2
+      p3: pic 3
+      p4: pic 4
+      p5: pic 5
+      p6: pic 6
