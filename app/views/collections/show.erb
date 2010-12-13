@@ -1,9 +1,10 @@
-<h2><%= t("collections.index.#{@collection}").capitalize %></h2>
+<h2><%= t("collections.index.#{@collection}").capitalize %> &gt; <span id="current-pic-title"></span></h2>
+<h3 id="current-pic-description">&nbsp;</h3>
 <div id="collection">
   <% 1.upto(6) do |n| %>
     <% title = t("collections.#{@collection}.p#{n}") %>
     <%= link_to collections_showpic_path(:name => @collection, :id => "p#{n}"), {:title => title} do %>
-      <%= image_tag "/images/collections/#{@collection}/med/p#{n}.jpg", :alt => title %>
+      <%= image_tag "/images/collections/#{@collection}/med/p#{n}.jpg", :alt => 'description', :title => title %>
     <% end %>
   <% end %>
 </div>
@@ -17,8 +18,9 @@
       show_info: false,
       
       on_image: function(img,thumb) {
-        console.log(img);
-        console.log(thumb);
+        var data = this.getData(this.getIndex());
+        $('#current-pic-title').text(data.title);
+        $('#current-pic-description').text(data.description);
       },
       
       extend: function () {
@@ -32,4 +34,5 @@
       }
     });
   });
+
 </script>
