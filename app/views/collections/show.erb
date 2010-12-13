@@ -2,8 +2,8 @@
 <div id="collection">
   <% 1.upto(6) do |n| %>
     <% title = t("collections.#{@collection}.p#{n}") %>
-    <%= link_to collections_showpic_path(:name => @collection, :id => "p#{n}"), {:title => title, :class => 'collection-thumb'} do %>
-      <%= image_tag "/images/collections/#{@collection}/th/p#{n}.jpg", :alt => title %>
+    <%= link_to collections_showpic_path(:name => @collection, :id => "p#{n}"), {:title => title} do %>
+      <%= image_tag "/images/collections/#{@collection}/med/p#{n}.jpg", :alt => title %>
     <% end %>
   <% end %>
 </div>
