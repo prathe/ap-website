@@ -7,12 +7,15 @@ fr-CA:
       index: Collections
       show: "Collection: {{title}}"
       showpic: "Collection: {{title}}"
+  back:
+    collection: "« Retour à cette collection"
   menu:
     collections: Collections
     stores: Boutiques
     about: "À propos"
     blog: Blogue
   collections:
+    more: Cliquer sur la photo pour plus de détails
     index:
       feather_necklaces: 'Colliers de plumes'
       fur: Fourrure

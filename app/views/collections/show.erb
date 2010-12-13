@@ -1,5 +1,6 @@
 <h2><%= t("collections.index.#{@collection}").capitalize %> &gt; <span id="current-pic-title"></span></h2>
 <h3 id="current-pic-description">&nbsp;</h3>
+<h6>(<%= t('collections.more') %>)</h6>
 <div id="collection">
   <% 1.upto(6) do |n| %>
     <% title = t("collections.#{@collection}.p#{n}.title") %>
@@ -13,6 +14,7 @@
 
 <script>
   Galleria.loadTheme('/javascripts/galleria/src/themes/classic/galleria.classic.js');
+  
   $(function () {
     
     $('#collection').galleria({
@@ -29,6 +31,9 @@
       
       extend: function () {
         var that = this;
+        
+        //this.bindTooltip( this.get('images'), <%= raw t('collections.more').to_json %>);
+        
         $(document).bind('keydown', function (e) {
           if (e.target.type == 'textarea' || e.target.type == 'input') { return true; }
   

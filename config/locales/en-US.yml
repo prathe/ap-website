@@ -7,12 +7,15 @@ en-US:
       index: Collections
       show: "Collection: {{title}}"
       showpic: "Collection: {{title}}"
+  back:
+    collection: "« Back to this collection"
   menu:
     collections: Collections
     stores: Stores
     about: About
     blog: Blog
   collections:
+    more: Click picture for more details
     index:
       feather_necklaces: Feather necklaces
       fur: Fur

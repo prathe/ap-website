@@ -2,6 +2,7 @@
 <% description = t("collections.#{@collection}.p#{@id}.description") %>
 
 <h2><%= link_to t("collections.index.#{@collection}").capitalize, collections_show_path(:name => @collection, :id => @id), {:title => @collection} %> &gt; <%= title %></h2>
+<%= link_to t('back.collection'), collections_show_path(:name => @collection, :id => @id) %>
 <h3><%= description %></h3>
 
 <%= image_tag "/images/collections/#{@collection}/med/p#{@id}.jpg", :alt => title %>
