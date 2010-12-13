@@ -24,9 +24,21 @@ en-US:
       blue: Summer blue
       christmas: Christmas
     fur:
-      p1: pic 1
-      p2: pic 2
-      p3: pic 3
-      p4: pic 4
-      p5: pic 5
-      p6: pic 6
+      p1:
+        title: Pic 1
+        description: Description of pic 1
+      p2:
+        title: Pic 2
+        description: Description of pic 2
+      p3:
+        title: Pic 3
+        description: Description of pic 3
+      p4:
+        title: Pic 4
+        description: Description of pic 4
+      p5:
+        title: Pic 5
+        description: Description of pic 5
+      p6:
+        title: Pic 6
+        description: Description of pic 6

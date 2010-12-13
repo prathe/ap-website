@@ -2,9 +2,11 @@
 <h3 id="current-pic-description">&nbsp;</h3>
 <div id="collection">
   <% 1.upto(6) do |n| %>
-    <% title = t("collections.#{@collection}.p#{n}") %>
-    <%= link_to collections_showpic_path(:name => @collection, :id => "p#{n}"), {:title => title} do %>
-      <%= image_tag "/images/collections/#{@collection}/med/p#{n}.jpg", :alt => 'description', :title => title %>
+    <% title = t("collections.#{@collection}.p#{n}.title") %>
+    <% description = t("collections.#{@collection}.p#{n}.description") %>
+    
+    <%= link_to collections_showpic_path(:name => @collection, :id => n), {:title => title} do %>
+      <%= image_tag "/images/collections/#{@collection}/med/p#{n}.jpg", :alt => description, :title => title %>
     <% end %>
   <% end %>
 </div>
@@ -16,6 +18,8 @@
     $('#collection').galleria({
 
       show_info: false,
+      
+      show: <%= (@id ? (@id.to_i - 1) : 0).to_json %>,
       
       on_image: function(img,thumb) {
         var data = this.getData(this.getIndex());

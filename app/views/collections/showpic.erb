@@ -1,3 +1,7 @@
-<h2><%= link_to t("collections.index.#{@collection}").capitalize, collections_show_path(:name => @collection), {:title => @collection} %> &gt; <%= t("collections.#{@collection}.#{@id}") %></h2>
-<% title = t("collections.#{@collection}.#{@id}") %>
-<%= image_tag "/images/collections/#{@collection}/med/#{@id}.jpg", :alt => title %>
+<% title = t("collections.#{@collection}.p#{@id}.title") %>
+<% description = t("collections.#{@collection}.p#{@id}.description") %>
+
+<h2><%= link_to t("collections.index.#{@collection}").capitalize, collections_show_path(:name => @collection, :id => @id), {:title => @collection} %> &gt; <%= title %></h2>
+<h3><%= description %></h3>
+
+<%= image_tag "/images/collections/#{@collection}/med/p#{@id}.jpg", :alt => title %>
