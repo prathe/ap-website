@@ -1,7 +1,23 @@
 <h2><%= @collection.capitalize %></h2>
-<% 1.upto(6) do |n| %>
-  <% title = t("collections.#{@collection}.p#{n}") %>
-  <% link_to collections_showpic_path(:name => @collection, :id => "p#{n}"), {:title => title, :class => 'collection-thumb'} do %>
-    <%= image_tag "/images/collections/#{@collection}/th/p#{n}.jpg", :alt => title %>
+<div id="collection">
+  <% 1.upto(6) do |n| %>
+    <% title = t("collections.#{@collection}.p#{n}") %>
+    <%= link_to collections_showpic_path(:name => @collection, :id => "p#{n}"), {:title => title, :class => 'collection-thumb'} do %>
+      <%= image_tag "/images/collections/#{@collection}/th/p#{n}.jpg", :alt => title %>
+    <% end %>
   <% end %>
-<% end %>
+</div>
+
+<script>
+  //Galleria.loadTheme('/javascripts/galleria/src/themes/classic/galleria.classic.js');
+  $(function () {
+    $('#collection').galleria({
+      extend: function () {
+        this.attachKeyboard({
+          right: this.next,
+          left: this.prev
+        });
+      }
+    });
+  })
+</script>
