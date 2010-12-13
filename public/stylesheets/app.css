@@ -1,8 +1,10 @@
-html, body {}
+html, body { color: #333; }
 
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 a { color: #FF0000; }
+
+.note { color: #666; font-weight: normal; text-align: center;}
 
 #main-menu {}
 #main-menu ul { margin: 1em 0; }

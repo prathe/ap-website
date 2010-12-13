@@ -1,6 +1,6 @@
 <h2><%= t("collections.index.#{@collection}").capitalize %> &gt; <span id="current-pic-title"></span></h2>
 <h3 id="current-pic-description">&nbsp;</h3>
-<h6>(<%= t('collections.more') %>)</h6>
+<div class="note"><%= t('collections.more') %></div>
 <div id="collection">
   <% 1.upto(6) do |n| %>
     <% title = t("collections.#{@collection}.p#{n}.title") %>
