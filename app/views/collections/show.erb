@@ -12,15 +12,22 @@
   Galleria.loadTheme('/javascripts/galleria/src/themes/classic/galleria.classic.js');
   $(function () {
     $('#collection').galleria({
+      
+      on_image: function(img,thumb) {
+        console.log(img);
+        console.log(thumb);
+      },
+      
       extend: function () {
         var that = this;
         $(document).bind('keydown', function (e) {
           if (e.target.type == 'textarea' || e.target.type == 'input') { return true; }
-
+  
           if (e.keyCode == 39) { that.next(); return false; }
           else if (e.keyCode == 37) { that.prev(); return false; }
         });
       }
+      
     });
-  })
+  });
 </script>
