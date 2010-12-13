@@ -11,7 +11,10 @@
 <script>
   Galleria.loadTheme('/javascripts/galleria/src/themes/classic/galleria.classic.js');
   $(function () {
+    
     $('#collection').galleria({
+
+      show_info: false,
       
       on_image: function(img,thumb) {
         console.log(img);
@@ -27,7 +30,6 @@
           else if (e.keyCode == 37) { that.prev(); return false; }
         });
       }
-      
     });
   });
 </script>
