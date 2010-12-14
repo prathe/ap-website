@@ -28,6 +28,14 @@ a.large-pic, a.large-pic img {
   float: left;
 }
 
+a.etsy {
+  display: inline-block;
+  padding-left: 38px;
+  height: 32px;
+  line-height: 32px;
+  background: transparent url('/images/etsy.png') no-repeat left 50%;
+}
+
 #details {
   width: 318px; /* max is 323 */
   float: right;
