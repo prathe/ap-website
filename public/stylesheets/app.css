@@ -4,7 +4,7 @@ a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 a { color: #FF0000; }
 
-h2 { font-family: Baskerville, ‘Times New Roman’, Times, serif; font-style: italic; font-weight: normal; font-size: 300%; }
+h2 { font-family: Baskerville, ‘Times New Roman’, Times, serif; font-style: italic; font-weight: normal; font-size: 300%; text-align: center; }
 
 td, th { border: 0; text-align: left; }
 
@@ -41,8 +41,7 @@ a.etsy {
   color: #C94E00;
 }
 
-#collection-name, #pic-title{ margin: 0; }
-#collection-name { margin-bottom: 0.5em; text-align: center; }
+#pic-title { margin: 0; }
 #pic-title, #pic-description { padding-left: 38px; }
 #pic-title { /*font-weight: normal;*/ }
 #pic-description { font-style: italic; color: #666; }

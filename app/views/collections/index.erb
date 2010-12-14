@@ -1,3 +1,4 @@
+<h2><%= t('menu.collections') %></h2>
 <% %w{feather_necklaces fur fur_necklace white_feather haute_couture fur_earrings sail blue christmas}.each do |token| %>
   <% collection = t("collections.index.#{token}")%>
   <% link_to collections_show_path(:name => token), {:title => collection, :class => 'collection-thumb'} do %>
