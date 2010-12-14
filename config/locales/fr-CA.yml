@@ -62,6 +62,6 @@ fr-CA:
         description: Description of pic 6
         price: 40$
         etsy_link: 'http://etsy.com'
-  details:
-    price: Prix
-    etsy: Acheter sur Etsy
+  fields:
+    buy_etsy: Achetez cet item
+    more_pics: Plus de photos 

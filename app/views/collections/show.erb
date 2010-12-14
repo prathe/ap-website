@@ -1,14 +1,15 @@
 <h2 id="collection-name"><%= t("collections.index.#{@collection}").capitalize %></h2>
-<h3 id="pic-title">&nbsp;</h3>
-<p id="pic-description">&nbsp;</p>
+<h3 id="pic-title">...</h3>
+<h4 id="etsy"><a class="etsy" href="#"><%= t('fields.buy_etsy') %></a> (<span id="price">...</span>)</h4>
+<p id="pic-description">...</p>
 <!-- <p class="note"><%= t('collections.more') %></p> -->
+
 <div id="collection">
   <% 1.upto(6) do |n| %>
-    <% title = t("collections.#{@collection}.p#{n}.title") %>
-    <% description = t("collections.#{@collection}.p#{n}.description") %>
-    
-    <%= link_to collections_showpic_path(:name => @collection, :id => n), {:title => title} do %>
-      <%= image_tag "/images/collections/#{@collection}/med/p#{n}.jpg", :alt => description, :title => title %>
+    <% product = t("collections.#{@collection}.p#{n}") %>
+  
+    <%= link_to collections_showpic_path(:name => @collection, :id => n), {:title => product[:title]} do %>
+      <%= image_tag "/images/collections/#{@collection}/med/p#{n}.jpg", :alt => product[:description], :title => product[:title], 'data-price' => product[:price], 'data-etsy-link' => product[:etsy_link] %>
     <% end %>
   <% end %>
 </div>
@@ -19,15 +20,20 @@
   $(function () {
     
     $('#collection').galleria({
-
+  
       show_info: false,
       
       show: <%= (@id ? (@id.to_i - 1) : 0).to_json %>,
       
       on_image: function(img,thumb) {
         var data = this.getData(this.getIndex());
+        var price = ($(data.original).data('price'));
+        var etsyLink = ($(data.original).data('etsy-link'));
+        
         $('#pic-title').text(data.title);
         $('#pic-description').text(data.description);
+        $('#etsy a').attr('href', etsyLink);
+        $('#price').text(price);
       },
       
       extend: function () {
