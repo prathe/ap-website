@@ -3,7 +3,7 @@ class CollectionsController < ApplicationController
   end
   
   def show
-    @id = params[:id]
+    @id = params[:id] || '1'
     @collection = params[:name]
     @title = t("collections.index.#{@collection}")
   end

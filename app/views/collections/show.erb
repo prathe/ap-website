@@ -1,7 +1,9 @@
+<% product = t("collections.#{@collection}.p#{@id}") %>
+
 <h2 id="collection-name"><%= t("collections.index.#{@collection}").capitalize %></h2>
-<h3 id="pic-title">&nbsp;</h3>
-<h4 id="etsy"><a class="etsy" href="#"><%= t('fields.buy_etsy') %></a> <span id="price"></span></h4>
-<p id="pic-description"><span class="text"></span> [<a id="more-details" href='#'><%= t('collections.more_details') %></a>]</p>
+<h3 id="pic-title"><%= product[:title] %></h3>
+<h4 id="etsy"><a class="etsy" href="<%= product[:etsy_link] %>"><%= t('fields.buy_etsy') %></a> <span id="price"><%= product[:price] %></span></h4>
+<p id="pic-description"><span class="text"><%= product[:description] %></span> [<%= link_to t('collections.more_details'), collections_showpic_path(:name => @collection, :id => @id) %>]</p>
 
 <div id="collection">
   <% 1.upto(6) do |n| %>
