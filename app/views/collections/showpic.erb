@@ -1,6 +1,6 @@
 <% product = t("collections.#{@collection}.p#{@id}") %>
 <% collection_name = t("collections.index.#{@collection}").capitalize %>
-<% related_pics = product[:related_pics] %>
+<% related_pics = product[:related_pics] || {} %>
 <% n_related_pics = related_pics.keys.length %>
 
 <h2 id="collection-name"><%= link_to '« ' + collection_name, collections_show_path(:name => @collection, :id => @id) %></h2>
