@@ -1,10 +1,10 @@
 <% product = t("collections.#{@collection}.p#{@id}") %>
 
-<h2 id="collection-name"><%= link_to t("collections.index.#{@collection}").capitalize, collections_show_path(:name => @collection, :id => @id), {:title => @collection} %></h2>
+<h2 id="collection-name"><%= link_to '« ' + t("collections.index.#{@collection}").capitalize, collections_show_path(:name => @collection, :id => @id) %></h2>
 <h3 id="pic-title"><%= product[:title] %></h3>
-<h4 id="etsy"><a class="etsy" href="<%= product[:etsy_link] %>"><%= t('fields.buy_etsy') %></a> (<span id="price"><%= product[:price] %></span>)</h4>
+<h4 id="etsy"><%= link_to t('fields.buy_etsy'), product[:etsy_link], {:class => 'etsy', :title => t('fields.buy_etsy_title')} %> (<span id="price"><%= product[:price] %></span>)</h4>
+
 <p id="pic-description" class="text"><%= product[:description] %></p>
-<p><%= link_to t('back.collection'), collections_show_path(:name => @collection, :id => @id) %></p>
 
 <% link_to collections_show_path(:name => @collection, :id => @id), {:class => 'large-pic', :title => t('back.collection')} do %>
   <%= image_tag "/images/collections/#{@collection}/med/p#{@id}.jpg", :alt => product[:title] %>

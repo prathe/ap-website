@@ -13,14 +13,13 @@ fr-CA:
       show: "Collection: {{title}}"
       showpic: "Collection: {{title}}"
   back:
-    collection: "« Retour à la collection"
   menu:
     collections: Collections
     stores: Boutiques
     about: "À propos"
     blog: Blogue
   collections:
-    more_details: plus de détails
+    more_details: plus de détails...
     index:
       feather_necklaces: 'Colliers de plumes'
       fur: Fourrure
@@ -64,4 +63,5 @@ fr-CA:
         etsy_link: 'http://etsy.com'
   fields:
     buy_etsy: Achetez cet item
+    buy_etsy_title: Voir cet item sur etsy.com
     more_pics: Plus de photos 

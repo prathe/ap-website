@@ -4,6 +4,8 @@ a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 a { color: #FF0000; }
 
+h2 { font-family: Baskerville, ‘Times New Roman’, Times, serif; font-style: italic; font-weight: normal; font-size: 300%; }
+
 td, th { border: 0; text-align: left; }
 
 .note { color: #666; font-weight: normal; text-align: center; }
@@ -41,8 +43,9 @@ a.etsy {
 #collection-name, #pic-title{ margin: 0; }
 #collection-name { margin-bottom: 0.5em; text-align: center; }
 #pic-title, #pic-description { padding-left: 38px; }
-#pic-title { font-weight: normal; }
-#pic-description.text, #pic-description .text { font-style: italic; color: #666; }
+#pic-title { /*font-weight: normal;*/ }
+#pic-description { font-style: italic; color: #666; }
+#etsy { font-weight: normal; }
 
 #details {
   width: 305px; /* max is 323 - 12(padding) */

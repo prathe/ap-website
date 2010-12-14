@@ -13,14 +13,13 @@ en-US:
       show: "Collection: {{title}}"
       showpic: "Collection: {{title}}"
   back:
-    collection: "« Back to collection"
   menu:
     collections: Collections
     stores: Stores
     about: About
     blog: Blog
   collections:
-    more_details: mode details
+    more_details: more details...
     index:
       feather_necklaces: Feather necklaces
       fur: Fur
@@ -64,4 +63,5 @@ en-US:
         etsy_link: 'http://etsy.com'
   fields:
     buy_etsy: Buy this item
+    buy_etsy_title: View this item on etsy.com
     more_pics: More pictures
