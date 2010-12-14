@@ -4,6 +4,8 @@ a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 a { color: #FF0000; }
 
+td, th { border: 0; text-align: left; }
+
 .note { color: #666; font-weight: normal; text-align: center;}
 
 #main-menu {}
@@ -20,6 +22,15 @@ a.collection-thumb {
   display: inline-block;
   width: 33.3%;
   text-align: center;
+}
+
+a.large-pic, a.large-pic img {
+  float: left;
+}
+
+#details {
+  width: 318px; /* max is 323 */
+  float: right;
 }
 
 #collection {

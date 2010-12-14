@@ -30,18 +30,26 @@ en-US:
       p1:
         title: Pic 1
         description: Description of pic 1
+        price: 40$
       p2:
         title: Pic 2
         description: Description of pic 2
+        price: 40$
       p3:
         title: Pic 3
         description: Description of pic 3
+        price: 40$
       p4:
         title: Pic 4
         description: Description of pic 4
+        price: 40$
       p5:
         title: Pic 5
         description: Description of pic 5
+        price: 40$
       p6:
         title: Pic 6
         description: Description of pic 6
+        price: 40$
+  details:
+    price: Price
