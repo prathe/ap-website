@@ -4,12 +4,8 @@ class ApplicationController < ActionController::Base
   protect_from_forgery
   
   before_filter :set_locale
-  
-  def toggle_locale
-    I18n.locale = {'fr-CA' => 'en-US', 'en-US' => 'fr-CA'}[(I18n.locale || I18n.default_locale).to_s]
-    redirect_to(root_path)
-  end
-  
+
+
   private
   
   def set_locale

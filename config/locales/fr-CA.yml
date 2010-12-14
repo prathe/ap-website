@@ -1,5 +1,6 @@
 fr-CA:
   other_language: 'english'
+  other_language_link: '/en'
   visit_etsy:
     image: 'visit-etsy-fr.png'
     title: Visitez ma boutique Etsy
