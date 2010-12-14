@@ -8,14 +8,15 @@ h2 { font-family: Baskerville, ‘Times New Roman’, Times, serif; font-style: 
 
 td, th { border: 0; text-align: left; }
 
-.note { color: #666; font-weight: normal; text-align: center; }
-
 #main-menu { text-align: right; }
 #main-menu ul { margin: 1em 0; }
 #main-menu ul li { font-family: Baskerville, ‘Times New Roman’, Times, serif; list-style: none; display: inline-block; margin: 0 0.4em; font-size: 138.5%; font-style: italic;}
 #main-menu.big-menu ul { display: inline-block; }
 #main-menu.big-menu ul li { font-size: 197%; }
 #main-menu.big-menu { text-align: center; margin-top: 30%; }
+
+#hd h1 { float: left; }
+#hd #main-menu { float: right; margin-top: 16px; }
 
 #ft { text-align: center; padding-top: 3em;}
 
