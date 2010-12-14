@@ -12,7 +12,7 @@ en-US:
       show: "Collection: {{title}}"
       showpic: "Collection: {{title}}"
   back:
-    collection: "« Back to this collection"
+    collection: "« Back to collection"
   menu:
     collections: Collections
     stores: Stores

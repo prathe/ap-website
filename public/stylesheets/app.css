@@ -6,7 +6,7 @@ a { color: #FF0000; }
 
 td, th { border: 0; text-align: left; }
 
-.note { color: #666; font-weight: normal; text-align: center;}
+.note { color: #666; font-weight: normal; text-align: center; }
 
 #main-menu {}
 #main-menu ul { margin: 1em 0; }
@@ -38,6 +38,11 @@ a.etsy {
   background: transparent url('/images/etsy.png') no-repeat left 50%;
   color: #C94E00;
 }
+
+#collection-name, #pic-title{ margin: 0; }
+#collection-name { margin-bottom: 0.5em; }
+#pic-title { font-weight: normal; }
+#pic-description { font-style: italic; color: #666; }
 
 #details {
   width: 305px; /* max is 323 - 12(padding) */

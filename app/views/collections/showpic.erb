@@ -2,9 +2,10 @@
 <% title = t("title", :scope => scope) %>
 <% description = t("description", :scope => scope) %>
 
-<h2><%= link_to t("collections.index.#{@collection}").capitalize, collections_show_path(:name => @collection, :id => @id), {:title => @collection} %> &gt; <%= title %></h2>
-<%= link_to t('back.collection'), collections_show_path(:name => @collection, :id => @id) %>
-<h3><%= description %></h3>
+<h2 id="collection-name"><%= link_to t("collections.index.#{@collection}").capitalize, collections_show_path(:name => @collection, :id => @id), {:title => @collection} %></h2>
+<h3 id="pic-title"><%= title %></h3>
+<p id="pic-description"><%= description %></p>
+<p><%= link_to t('back.collection'), collections_show_path(:name => @collection, :id => @id) %></p>
 
 <% link_to collections_show_path(:name => @collection, :id => @id), {:class => 'large-pic', :title => t('back.collection')} do %>
   <%= image_tag "/images/collections/#{@collection}/med/p#{@id}.jpg", :alt => title %>
