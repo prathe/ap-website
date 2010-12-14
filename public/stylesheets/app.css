@@ -47,10 +47,9 @@ a.etsy {
 #pic-description { font-style: italic; color: #666; }
 #etsy { font-weight: normal; }
 
-#details {
-  width: 305px; /* max is 323 - 12(padding) */
+#related-pics {
+  width: 318px; /* max is 323 - 12(padding) */
   float: left;
-  padding-left: 12px;
 }
 
 #collection {
