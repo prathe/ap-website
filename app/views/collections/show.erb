@@ -1,8 +1,7 @@
 <h2 id="collection-name"><%= t("collections.index.#{@collection}").capitalize %></h2>
-<h3 id="pic-title">...</h3>
-<h4 id="etsy"><a class="etsy" href="#"><%= t('fields.buy_etsy') %></a> (<span id="price">...</span>)</h4>
-<p id="pic-description">...</p>
-<!-- <p class="note"><%= t('collections.more') %></p> -->
+<h3 id="pic-title">&nbsp;</h3>
+<h4 id="etsy"><a class="etsy" href="#"><%= t('fields.buy_etsy') %></a> <span id="price"></span></h4>
+<p id="pic-description"><span class="text"></span> [<a id="more-details" href='#'><%= t('collections.more_details') %></a>]</p>
 
 <div id="collection">
   <% 1.upto(6) do |n| %>
@@ -31,7 +30,8 @@
         var etsyLink = ($(data.original).data('etsy-link'));
         
         $('#pic-title').text(data.title);
-        $('#pic-description').text(data.description);
+        $('#pic-description .text').text(data.description);
+        $('#more-details').attr('href', data.link);
         $('#etsy a').attr('href', etsyLink);
         $('#price').text(price);
       },

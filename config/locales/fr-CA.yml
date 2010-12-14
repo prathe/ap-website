@@ -20,7 +20,7 @@ fr-CA:
     about: "À propos"
     blog: Blogue
   collections:
-    more: Cliquez sur la photo pour plus de détails
+    more_details: plus de détails
     index:
       feather_necklaces: 'Colliers de plumes'
       fur: Fourrure

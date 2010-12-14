@@ -8,7 +8,7 @@ td, th { border: 0; text-align: left; }
 
 .note { color: #666; font-weight: normal; text-align: center; }
 
-#main-menu {}
+#main-menu { text-align: right; }
 #main-menu ul { margin: 1em 0; }
 #main-menu ul li { font-family: Baskerville, ‘Times New Roman’, Times, serif; list-style: none; display: inline-block; margin: 0 0.4em; font-size: 138.5%; font-style: italic;}
 #main-menu.big-menu ul { display: inline-block; }
@@ -30,7 +30,6 @@ a.large-pic, a.large-pic img {
 }
 
 a.etsy {
-  margin: 1em 0;
   display: inline-block;
   padding-left: 38px;
   height: 32px;
@@ -40,9 +39,10 @@ a.etsy {
 }
 
 #collection-name, #pic-title{ margin: 0; }
-#collection-name { margin-bottom: 0.5em; }
+#collection-name { margin-bottom: 0.5em; text-align: center; }
+#pic-title, #pic-description { padding-left: 38px; }
 #pic-title { font-weight: normal; }
-#pic-description { font-style: italic; color: #666; }
+#pic-description.text, #pic-description .text { font-style: italic; color: #666; }
 
 #details {
   width: 305px; /* max is 323 - 12(padding) */

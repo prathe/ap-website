@@ -20,7 +20,7 @@ en-US:
     about: About
     blog: Blog
   collections:
-    more: Click picture for details
+    more_details: mode details
     index:
       feather_necklaces: Feather necklaces
       fur: Fur
