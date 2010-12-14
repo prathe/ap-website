@@ -11,6 +11,8 @@
 <% end %>
 
 <div id="details">
+  <%= link_to t('details.etsy'), t('etsy_link', :scope => scope), {:class => 'etsy'} %>
+  
   <table>
     <tbody>
       <tr>
@@ -19,5 +21,4 @@
       </tr>
     </tbody>
   </table>
-  <%= link_to t('details.etsy'), t('etsy_link', :scope => scope), {:class => 'etsy'} %>
 </div>

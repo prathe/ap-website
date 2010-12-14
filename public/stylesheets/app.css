@@ -25,20 +25,24 @@ a.collection-thumb {
 }
 
 a.large-pic, a.large-pic img {
+  display: block;
   float: left;
 }
 
 a.etsy {
+  margin: 1em 0;
   display: inline-block;
   padding-left: 38px;
   height: 32px;
   line-height: 32px;
   background: transparent url('/images/etsy.png') no-repeat left 50%;
+  color: #C94E00;
 }
 
 #details {
-  width: 318px; /* max is 323 */
-  float: right;
+  width: 305px; /* max is 323 - 12(padding) */
+  float: left;
+  padding-left: 12px;
 }
 
 #collection {
