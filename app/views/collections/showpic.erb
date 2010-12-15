@@ -6,23 +6,27 @@
 <h2 id="collection-name"><%= link_to '« ' + collection_name, collections_show_path(:name => @collection, :id => @id) %></h2>
 
 <div id="details">
-  <h3 id="pic-title"><%= product[:title] %></h3>
   <div id="etsy"><%= link_to t('fields.buy_etsy'), product[:etsy_link], {:class => 'etsy', :title => t('fields.buy_etsy_title')} %> (<span id="price"><%= product[:price] %></span>)</div>
+  <h3 id="pic-title"><%= product[:title] %></h3>
   <p id="pic-description" class="text"><%= product[:description] %></p>
 </div>
 
-<% link_to collections_show_path(:name => @collection, :id => @id), {:class => 'large-pic', :title => collection_name} do %>
-  <%= image_tag "/images/collections/#{@collection}/med/p#{@id}.jpg", :alt => product[:title] %>
-<% end %>
-
-<div id="related-pics">
-  <% 1.upto(n_related_pics) do |n| %>
-    <% title = related_pics["p#{n}".to_sym] %>
-    
-    <%= link_to "/images/collections/#{@collection}/related/med/p#{n}.jpg", {:title => title} do %>
-      <%= image_tag "/images/collections/#{@collection}/related/th/p#{n}.jpg", {:alt => title} %>
-    <% end %>
+<div id="related-pics-container">
+  
+  <% link_to collections_show_path(:name => @collection, :id => @id), {:class => 'large-pic', :title => collection_name} do %>
+    <%= image_tag "/images/collections/#{@collection}/med/p#{@id}.jpg", :alt => product[:title] %>
   <% end %>
+
+  <div id="related-pics">
+    <% 1.upto(n_related_pics) do |n| %>
+      <% title = related_pics["p#{n}".to_sym] %>
+    
+      <%= link_to "/images/collections/#{@collection}/related/med/p#{n}.jpg", {:title => title} do %>
+        <%= image_tag "/images/collections/#{@collection}/related/th/p#{n}.jpg", {:alt => title} %>
+      <% end %>
+    <% end %>
+  </div>
+
 </div>
 
 <script>
