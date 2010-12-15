@@ -9,26 +9,36 @@
 </head>
 <body>
 
-  <div id="doc" class="yui-t7">
+  <div id="doc3" class="yui-t7">
+    
     <div id="hd">
-      <h1><%= link_to 'Arnela Pandzic design', root_path, {:class => 'logo'} %></h1>
-      <div id="main-menu">
-        <%= render :partial => './menu' %>
+      <div class="site-content">
+        <% link_to root_path, {:class => 'logo'} do %>
+          <%= image_tag('/images/logo.jpg') %>
+        <% end %>
+        <div id="main-menu">
+          <%= render :partial => './menu' %>
+        </div>
       </div>
     </div>
     
     <div id="bd">
-      <div class="yui-g">
-        <%= yield %>
+      <div class="site-content">
+        <div class="yui-g">
+          <%= yield %>
+        </div>
       </div>
     </div>
+    
     <div id="ft">
-      <% link_to 'http://etsy.com/arnela', {:title => t('visit_etsy.title')} do %>
-        <%= image_tag("/images/#{t('visit_etsy.image')}", {:alt => t('visit_etsy.description')}) %>
-      <% end %>
-      <p>© 2010 | <%= toggle_locale_link %></p>
-      
+      <div class="site-content">
+        <% link_to 'http://etsy.com/arnela', {:title => t('visit_etsy.title')} do %>
+          <%= image_tag("/images/#{t('visit_etsy.image')}", {:alt => t('visit_etsy.description')}) %>
+        <% end %>
+        <p>© 2010 | <%= toggle_locale_link %></p>
+      </div>
     </div>
+
   </div>
 
 </body>

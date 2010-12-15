@@ -1,24 +1,28 @@
 html, body { color: #333; }
 
+#doc3 { margin: auto 0; }
+.site-content { width: 750px; margin: 0 auto; }
+
+#hd { background-color: #000000; height: 144px; padding-top: 16px; }
+
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
-a { color: #FF0000; }
+a { color: #E9001F; }
 
 h2 { font-family: Baskerville, ‘Times New Roman’, Times, serif; font-style: italic; font-weight: normal; font-size: 300%; text-align: center; }
 
 td, th { border: 0; text-align: left; }
 
-a.logo { text-indent: -9000px; display: block; margin-top: 10px; background: #FFFFFF url('/images/logo.jpg') no-repeat left top; width: 335px; height: 31px; }
+a.logo { display: inline-block; width: 100%; text-align: center; margin-top: 16px;}
 
-#main-menu { text-align: right; }
+#main-menu { text-align: center; }
 #main-menu ul { margin: 1em 0; }
 #main-menu ul li { font-family: Baskerville, ‘Times New Roman’, Times, serif; list-style: none; display: inline-block; margin: 0 0.4em; font-size: 138.5%; font-style: italic;}
 #main-menu.big-menu ul { display: inline-block; }
 #main-menu.big-menu ul li { font-size: 197%; }
 #main-menu.big-menu { text-align: center; margin-top: 30%; }
 
-#hd h1 { float: left; }
-#hd #main-menu { float: right; margin-top: 16px; }
+#hd #main-menu { margin-top: 36px; }
 
 #ft { text-align: center; padding-top: 3em;}
 
