@@ -37,6 +37,9 @@ fr-CA:
         description: Description of pic 1
         price: 40$
         etsy_link: 'http://etsy.com'
+        related_pics:
+          p1: A small note
+          p2: Another small note
       p2:
         title: Pic 2
         description: Description of pic 2
