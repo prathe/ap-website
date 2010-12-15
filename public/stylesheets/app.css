@@ -1,4 +1,18 @@
-html, body { color: #333; }
+html, body { color: #333; height: 100%; }
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -160px; /* the bottom margin is the negative value of the footer's height */
+}
+
+#ft, .push {
+	height: 160px; /* .push must be the same height as .footer */
+}
+
+#ft { text-align: center; }
+#bd { margin-bottom: 5em; }
 
 #doc3 { margin: auto 0; }
 .site-content { width: 750px; margin: 0 auto; }
@@ -23,8 +37,6 @@ a.logo { display: inline-block; width: 100%; text-align: center; margin-top: 16p
 #main-menu.big-menu ul { display: inline-block; }
 #main-menu.big-menu ul li {  }
 #main-menu.big-menu { font-size: 300%; text-align: center; }
-
-#ft { text-align: center; padding-top: 3em;}
 
 /* Temporary hacks */
 a.collection-thumb {

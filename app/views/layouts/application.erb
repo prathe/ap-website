@@ -2,15 +2,14 @@
 <html>
 <head>
   <title>Arnela Pandzic design | <%= t("title.#{controller_name}.#{action_name}", {:title => @title}) %> </title>
-  <%= stylesheet_link_tag 'http://yui.yahooapis.com/2.8.2r1/build/reset-fonts-grids/reset-fonts-grids.css' %>
+  <%= stylesheet_link_tag 'http://yui.yahooapis.com/2.8.2r1/build/reset/reset-min.css', 'http://yui.yahooapis.com/2.8.2r1/build/fonts/fonts-min.css' %>
   <%= stylesheet_link_tag 'base', 'app' %>
 
   <%= javascript_include_tag 'https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js', '/javascripts/galleria/src/galleria.js' %>
 </head>
 <body>
-
-  <div id="doc3" class="yui-t7">
-    
+  
+  <div class="wrapper">
     <div id="hd">
       <div class="site-content">
         <% link_to root_path, {:class => 'logo'} do %>
@@ -21,24 +20,23 @@
         </div>
       </div>
     </div>
-    
+  
     <div id="bd">
       <div class="site-content">
-        <div class="yui-g">
-          <%= yield %>
-        </div>
+        <%= yield %>
       </div>
     </div>
-    
-    <div id="ft">
-      <div class="site-content">
-        <% link_to 'http://etsy.com/arnela', {:title => t('visit_etsy.title')} do %>
-          <%= image_tag("/images/#{t('visit_etsy.image')}", {:alt => t('visit_etsy.description')}) %>
-        <% end %>
-        <p>© 2010 | <%= toggle_locale_link %></p>
-      </div>
+  
+    <div class="push"></div>
+  </div>
+  
+  <div id="ft">
+    <div class="site-content">
+      <% link_to 'http://etsy.com/arnela', {:title => t('visit_etsy.title')} do %>
+        <%= image_tag("/images/#{t('visit_etsy.image')}", {:alt => t('visit_etsy.description')}) %>
+      <% end %>
+      <p>© 2010 | <%= toggle_locale_link %></p>
     </div>
-
   </div>
 
 </body>
