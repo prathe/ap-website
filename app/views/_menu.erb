@@ -1,9 +1,17 @@
 <ul>
   <li>
-    <%= link_to_unless_current t('menu.collections'), :collections %>
+    <% if controller_name == 'collections' %>
+      <%= t('menu.collections') %>
+    <% else %>
+      <%= link_to_unless_current t('menu.collections'), :collections %>
+    <% end %>
   </li>
   <li>
-    <%= link_to_unless_current t('menu.stores'), :stores %>
+    <% if controller_name == 'stores' %>
+      <%= t('menu.stores') %>
+    <% else %>
+      <%= link_to_unless_current t('menu.stores'), :stores %>
+    <% end %>
   </li>
   <li>
     <%= link_to_unless_current t('menu.about'), :about %>
