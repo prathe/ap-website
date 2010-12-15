@@ -2,9 +2,12 @@
 <% n_products = t("collections.#{@collection}").keys.length %>
 
 <h2 id="collection-name"><%= t("collections.index.#{@collection}").capitalize %></h2>
-<h3 id="pic-title"><%= product[:title] %></h3>
-<h4 id="etsy"><%= link_to t('fields.buy_etsy'), product[:etsy_link], {:class => 'etsy', :title => t('fields.buy_etsy_title')} %> (<span id="price"><%= product[:price] %></span>)</h4>
-<p id="pic-description"><span class="text"><%= product[:description] %></span> [<%= link_to t('collections.more_details'), collections_showpic_path(:name => @collection, :id => @id) %>]</p>
+
+<div id="details">
+  <div id="etsy"><%= link_to t('fields.buy_etsy'), product[:etsy_link], {:class => 'etsy', :title => t('fields.buy_etsy_title')} %> (<span id="price"><%= product[:price] %></span>)</div>
+  <h3 id="pic-title"><%= product[:title] %></h3>
+  <p id="pic-description"><span class="text"><%= product[:description] %></span> [<%= link_to t('collections.more_details'), collections_showpic_path(:name => @collection, :id => @id) %>]</p>
+</div>
 
 <div id="collection">
   <% 1.upto(n_products) do |n| %>

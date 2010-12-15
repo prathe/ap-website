@@ -59,11 +59,12 @@ a.etsy {
   color: #C94E00;
 }
 
-#pic-title { margin: 0; }
-#pic-title, #pic-description { padding-left: 38px; }
+#details { display: inline-block; width: 100%; }
+#pic-title { font-size: 138.5%; margin: 0; }
+#pic-title, #pic-description { width: 580px; float: left; }
 #pic-title { /*font-weight: normal;*/ }
-#pic-description { font-style: italic; color: #666; }
-#etsy { font-weight: normal; }
+#pic-description { font-style: italic; color: #666; margin-bottom: 0.5em; }
+#etsy { display: block; float: right; width: 150px; }
 
 #related-pics {
   width: 318px; /* max is 323 - 12(padding) */

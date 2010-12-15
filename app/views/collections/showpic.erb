@@ -4,10 +4,12 @@
 <% n_related_pics = related_pics.keys.length %>
 
 <h2 id="collection-name"><%= link_to '« ' + collection_name, collections_show_path(:name => @collection, :id => @id) %></h2>
-<h3 id="pic-title"><%= product[:title] %></h3>
-<h4 id="etsy"><%= link_to t('fields.buy_etsy'), product[:etsy_link], {:class => 'etsy', :title => t('fields.buy_etsy_title')} %> (<span id="price"><%= product[:price] %></span>)</h4>
 
-<p id="pic-description" class="text"><%= product[:description] %></p>
+<div id="details">
+  <h3 id="pic-title"><%= product[:title] %></h3>
+  <div id="etsy"><%= link_to t('fields.buy_etsy'), product[:etsy_link], {:class => 'etsy', :title => t('fields.buy_etsy_title')} %> (<span id="price"><%= product[:price] %></span>)</div>
+  <p id="pic-description" class="text"><%= product[:description] %></p>
+</div>
 
 <% link_to collections_show_path(:name => @collection, :id => @id), {:class => 'large-pic', :title => collection_name} do %>
   <%= image_tag "/images/collections/#{@collection}/med/p#{@id}.jpg", :alt => product[:title] %>
