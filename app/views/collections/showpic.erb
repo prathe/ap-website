@@ -21,8 +21,8 @@
     <% 1.upto(n_related_pics) do |n| %>
       <% title = related_pics["p#{n}".to_sym] %>
     
-      <%= link_to "/images/collections/#{@collection}/related/med/p#{n}.jpg", {:title => title} do %>
-        <%= image_tag "/images/collections/#{@collection}/related/th/p#{n}.jpg", {:alt => title} %>
+      <%= link_to "/images/collections/#{@collection}/related/p#{@id}/med/p#{n}.jpg", {:title => title} do %>
+        <%= image_tag "/images/collections/#{@collection}/related/p#{@id}/th/p#{n}.jpg", {:alt => title} %>
       <% end %>
     <% end %>
   </div>
