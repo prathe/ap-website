@@ -1,14 +1,14 @@
 <ul>
   <li>
-    <%= link_to t('menu.collections'), :collections %>
+    <%= link_to_unless_current t('menu.collections'), :collections %>
   </li>
   <li>
-    <%= link_to t('menu.stores'), :stores %>
+    <%= link_to_unless_current t('menu.stores'), :stores %>
   </li>
   <li>
-    <%= link_to t('menu.about'), :about %>
+    <%= link_to_unless_current t('menu.about'), :about %>
   </li>
   <li>
-    <%= link_to t('menu.blog'), 'http://blog.arnela.ca' %>
+    <%= link_to_unless_current t('menu.blog'), 'http://blog.arnela.ca' %>
   </li>
 </ul>
