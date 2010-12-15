@@ -61,10 +61,10 @@ a.etsy {
 
 #details { position: relative; display: inline-block; width: 100%; }
 #pic-title { font-size: 138.5%; margin: 0; }
-#pic-title, #pic-description { width: 580px; float: left; }
+#pic-title, #pic-description { width: 550px; float: left; }
 #pic-title { /*font-weight: normal;*/ }
 #pic-description { font-style: italic; color: #666; margin-bottom: 0.5em; }
-#etsy { display: block; width: 150px; position: absolute; bottom: 0.5em; right: 0; }
+#etsy { display: block; position: absolute; bottom: 0.5em; right: 0; }
 
 #related-pics-container { display: inline-block; width: 100%; }
 #related-pics {
