@@ -15,7 +15,7 @@ td, th { border: 0; text-align: left; }
 
 a.logo { display: inline-block; width: 100%; text-align: center; margin-top: 16px;}
 
-#slogan { font-family: Baskerville, 'Times New Roman', Times, serif; font-style: italic; text-align: center; color: #FFFFFF; font-weight: normal; font-size: 167.5%; color: #999999; }
+#slogan { font-family: Baskerville, 'Times New Roman', Times, serif; font-style: italic; text-align: center; color: #FFFFFF; font-weight: normal; font-size: 167.5%; color: #FFFFFF; }
 
 #main-menu { font-size: 167.5%; text-align: center; color: #999999; }
 #main-menu ul { margin: 1em 0; }
