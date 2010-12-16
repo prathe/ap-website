@@ -15,30 +15,27 @@
 <div id="related-pics">
   <% 1.upto(n_related_pics) do |n| %>
     <% title = related_pics["p#{n}".to_sym] %>
-  
-    <%= link_to "/images/collections/#{@collection}/related/p#{@id}/med/p#{n}.jpg", {:title => title} do %>
-      <%= image_tag "/images/collections/#{@collection}/related/p#{@id}/th/p#{n}.jpg", {:alt => title} %>
-    <% end %>
+    <%= image_tag "/images/collections/#{@collection}/related/p#{@id}/pic/p#{n}.jpg", {:alt => title} %>
   <% end %>
 </div>
 
 <div id="large-pic">
   <% link_to collections_show_path(:name => @collection, :id => @id), {:class => 'large-pic', :title => collection_name} do %>
-    <%= image_tag "/images/collections/#{@collection}/med/p#{@id}.jpg", :alt => product[:title] %>
+    <%= image_tag "/images/collections/#{@collection}/pic/p#{@id}.jpg", :alt => product[:title] %>
   <% end %>
 </div>
 
 <script>
   $(function () {
-    var originalSrc = $('.large-pic img').attr('src');
-    $('#related-pics a')
+    var originalSrc = $('#large-pic img').attr('src');
+    $('#related-pics img')
       .mouseenter(function () {
-        $('.large-pic img').attr('src', $(this).attr('href'));
+        $('#large-pic img').attr('src', $(this).attr('src'));
       })
       .click(function () { return false; });
     
     $('#related-pics').mouseleave(function () {
-      $('.large-pic img').attr('src', originalSrc);
+      $('#large-pic img').attr('src', originalSrc);
     });
   });
 </script
