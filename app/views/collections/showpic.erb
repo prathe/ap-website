@@ -12,7 +12,7 @@
 </div>
 
 
-<div id="related-pics">
+<div id="related-pics" class="hidden">
   <% 1.upto(n_related_pics) do |n| %>
     <% title = related_pics["p#{n}".to_sym] %>
     <%= image_tag "/images/collections/#{@collection}/related/p#{@id}/pic/p#{n}.jpg", {:alt => title} %>
@@ -27,6 +27,15 @@
 
 <script>
   $(function () {
+    // Resize related pics to appear as thumbnails
+    $('#related-pics img').each(function () {
+      var img = $(this);
+      var maxHeight = 40;
+      var factor = img.height() / maxHeight;
+      img.css({width: (img.width() / factor) + 'px', height: maxHeight});
+    }).parent().removeClass('hidden');
+    
+    // Mouse hover behavior
     var originalSrc = $('#large-pic img').attr('src');
     $('#related-pics img')
       .mouseenter(function () {
@@ -34,7 +43,7 @@
       })
       .click(function () { return false; });
     
-    $('#related-pics').mouseleave(function () {
+    $('#large-pic img').mouseenter(function () {
       $('#large-pic img').attr('src', originalSrc);
     });
   });
