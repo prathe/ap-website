@@ -66,11 +66,8 @@ a.etsy {
 #pic-description { font-style: italic; color: #666; margin-bottom: 0.5em; }
 #etsy { display: block; position: absolute; bottom: 0.5em; right: 0; }
 
-#related-pics-container { display: inline-block; width: 100%; }
-#related-pics {
-  width: 318px; /* max is 323 - 12(padding) */
-  float: left;
-}
+#related-pics {}
+#large-pic { display: inline-block; width: 100%; }
 
 #collection {
    width: 57.69em;

@@ -11,22 +11,21 @@
   <p id="pic-description" class="text"><%= product[:description] %></p>
 </div>
 
-<div id="related-pics-container">
+
+<div id="related-pics">
+  <% 1.upto(n_related_pics) do |n| %>
+    <% title = related_pics["p#{n}".to_sym] %>
   
+    <%= link_to "/images/collections/#{@collection}/related/p#{@id}/med/p#{n}.jpg", {:title => title} do %>
+      <%= image_tag "/images/collections/#{@collection}/related/p#{@id}/th/p#{n}.jpg", {:alt => title} %>
+    <% end %>
+  <% end %>
+</div>
+
+<div id="large-pic">
   <% link_to collections_show_path(:name => @collection, :id => @id), {:class => 'large-pic', :title => collection_name} do %>
     <%= image_tag "/images/collections/#{@collection}/med/p#{@id}.jpg", :alt => product[:title] %>
   <% end %>
-
-  <div id="related-pics">
-    <% 1.upto(n_related_pics) do |n| %>
-      <% title = related_pics["p#{n}".to_sym] %>
-    
-      <%= link_to "/images/collections/#{@collection}/related/p#{@id}/med/p#{n}.jpg", {:title => title} do %>
-        <%= image_tag "/images/collections/#{@collection}/related/p#{@id}/th/p#{n}.jpg", {:alt => title} %>
-      <% end %>
-    <% end %>
-  </div>
-
 </div>
 
 <script>
