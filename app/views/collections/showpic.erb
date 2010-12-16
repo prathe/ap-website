@@ -13,6 +13,10 @@
   </div>
 
   <div id="related-pics" class="hidden">
+    <% link_to "#details", {:title => product[:title]} do %>
+      <%= image_tag "/images/collections/#{@collection}/pic/p#{@id}.jpg", {:alt => product[:title]} %>
+    <% end %>
+    
     <% 1.upto(n_related_pics) do |n| %>
       <% title = related_pics["p#{n}".to_sym] %>
       <% link_to "#details", {:title => title} do %>
@@ -41,13 +45,8 @@
     $('#related-pics').removeClass('hidden');
     
     // Mouse hover behavior
-    var originalSrc = $('#large-pic img').attr('src');
     $('#related-pics img').mouseenter(function () {
       $('#large-pic img').attr('src', $(this).attr('src'));
-    });
-    
-    $('#large-pic img').mouseenter(function () {
-      $('#large-pic img').attr('src', originalSrc);
     });
   });
 </script
