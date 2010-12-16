@@ -7,7 +7,9 @@
 
 <div id="details" name="details">
   <div id="etsy"><%= link_to t('fields.buy_etsy'), product[:etsy_link], {:class => 'etsy', :title => t('fields.buy_etsy_title')} %> (<span id="price"><%= product[:price] %></span>)</div>
-  <h3 id="pic-title"><%= product[:title] %></h3>
+  <div id ="pic-title-container">
+    <h3 id="pic-title"><%= product[:title] %></h3>
+  </div>
   <p id="pic-description" class="text"><%= product[:description] %></p>
 </div>
 

@@ -57,9 +57,9 @@ a.etsy {
 }
 
 #details { position: relative; display: inline-block; width: 100%; border-bottom: 1px dotted #CCCCCC; }
-#pic-title { font-size: 138.5%; margin-bottom: 10px; }
+#pic-title-container { position: relative; height: 2em; }
+#pic-title { position: absolute; bottom: 0; left: 0; font-size: 138.5%; margin-bottom: 10px; line-height: 1em; }
 #pic-title, #pic-description { width: 550px; float: left; }
-#pic-title { /*font-weight: normal;*/ }
 #pic-description { font-style: italic; color: #666; margin-bottom: 16px; }
 #etsy { display: block; position: absolute; bottom: 0.5em; right: 0; }
 
