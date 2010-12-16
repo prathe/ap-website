@@ -56,6 +56,7 @@ a.etsy {
   color: #C94E00;
 }
 
+#pic-info { }
 #details { position: relative; display: inline-block; width: 100%; }
 #pic-title { font-size: 138.5%; margin: 0; }
 #pic-title, #pic-description { width: 550px; float: left; }
@@ -64,7 +65,7 @@ a.etsy {
 #etsy { display: block; position: absolute; bottom: 0.5em; right: 0; }
 
 #related-pics img { border: 1px solid #000000; }
-#large-pic { display: inline-block; width: 100%; }
+#large-pic { display: inline-block; width: 100%; text-align: center; padding: 10px; background-color: #000000; }
 
 #collection {
    width: 57.69em;
