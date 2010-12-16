@@ -3,13 +3,11 @@
 
 <h2 id="collection-name"><%= t("collections.index.#{@collection}").capitalize %></h2>
 
-<div id="pic-info">
-  <div id="details">
-    <h3 id="pic-title"><%= product[:title] %></h3>
-    <p id="pic-description"><span class="text"><%= product[:description] %></span> [<%= link_to t('collections.more_details'), collections_showpic_path(:name => @collection, :id => @id), {:id => 'more-details'} %>]</p>
-    <div id="etsy"><%= link_to t('fields.buy_etsy'), product[:etsy_link], {:class => 'etsy', :title => t('fields.buy_etsy_title')} %> (<span id="price"><%= product[:price] %></span>)</div>
-    
-  </div>
+<div id="details">
+  <h3 id="pic-title"><%= product[:title] %></h3>
+  <p id="pic-description"><span class="text"><%= product[:description] %></span> [<%= link_to t('collections.more_details'), collections_showpic_path(:name => @collection, :id => @id), {:id => 'more-details'} %>]</p>
+  <div id="etsy"><%= link_to t('fields.buy_etsy'), product[:etsy_link], {:class => 'etsy', :title => t('fields.buy_etsy_title')} %> (<span id="price"><%= product[:price] %></span>)</div>
+  
 </div>
 
 <div id="collection">
