@@ -25,6 +25,8 @@ a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 a { color: #E9001F; }
 
+ul li { list-style: none; }
+
 h2 { font-family: Baskerville, 'Times New Roman', Times, serif; font-style: italic; font-weight: normal; font-size: 300%; text-align: center; }
 
 td, th { border: 0; text-align: left; }
@@ -35,7 +37,7 @@ a.logo { display: inline-block; width: 100%; text-align: center; margin-top: 16p
 
 #main-menu { font-size: 167.5%; text-align: center; color: #999999; }
 #main-menu ul { margin: 1em 0; }
-#main-menu ul li { font-family: Baskerville, 'Times New Roman', Times, serif; list-style: none; display: inline; margin: 0 0.4em; font-style: italic;}
+#main-menu ul li { font-family: Baskerville, 'Times New Roman', Times, serif; display: inline; margin: 0 0.4em; font-style: italic;}
 #main-menu.big-menu ul li {  }
 #main-menu.big-menu { font-size: 300%; text-align: center; }
 
@@ -70,3 +72,19 @@ a.large-pic img { display: block;  }
 a.large-pic img { margin: auto; }
 #collection { display: inline-block; margin-top: -4px; width: 57.69em; height: 500px; }
 #credits { text-align: right; color: #666; font-size: 85%; margin-top: 0.25em; }
+
+#stores h3 { border-bottom: 1px dotted #333; }
+ul.stores {
+  display: inline-block;
+  width: 100%;
+  float: left;
+  margin-top: 2em;
+}
+ul.stores li {
+  float: left;
+  width: 33%;
+  height: 120px;
+}
+ul.stores li div {
+  font-size: 93%;
+}
