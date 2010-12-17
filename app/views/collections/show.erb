@@ -7,7 +7,7 @@
   <div id ="pic-title-container">
     <h3 id="pic-title"><%= product[:title] %></h3>
   </div>
-  <p id="pic-description"><span class="text"><%= product[:description] %></span> [<%= link_to t('collections.more_details'), collections_showpic_path(:name => @collection, :id => @id), {:id => 'more-details'} %>]</p>
+  <p id="pic-description"><span class="text"><%= product[:description] %></span> [<%= link_to t('collections.more_details'), collections_showpic_path(:name => @collection, :id => @id), {:id => 'more-details', :title => t('collections.more_details_title')} %>]</p>
   <div id="etsy"><%= link_to t('fields.buy_etsy'), product[:etsy_link], {:class => 'etsy', :title => t('fields.buy_etsy_title')} %> (<span id="price"><%= product[:price] %></span>)</div>
   
 </div>

@@ -21,6 +21,7 @@ fr-CA:
     blog: Blogue
   collections:
     more_details: plus de détails...
+    more_details_title: Description complète et gros plans
     index:
       fall2010: Automne 2010
       feather_necklaces: 'Colliers de plumes'
