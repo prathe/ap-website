@@ -35,15 +35,17 @@
 
 <script>
   $(function () {
+    var n = $('#related-pics img').length;
+
     // Resize related pics to appear as thumbnails
-    $('#related-pics img').each(function () {
+    $('#related-pics img').load(function () {
       var img = $(this);
       var maxHeight = 60;
       var factor = img.height() / maxHeight;
       img.css({width: (img.width() / factor) + 'px', height: maxHeight});
+      n--;
+      if (n === 0) { $('#related-pics').removeClass('hidden'); }
     })
-    
-    $('#related-pics').removeClass('hidden');
     
     // Mouse hover behavior
     $('#related-pics img').mouseenter(function () {
