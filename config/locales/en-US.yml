@@ -31,27 +31,6 @@ en-US:
       fur_earrings: Fur earrings
       blue: Summer blue
       christmas: Christmas
-    credits:
-      photograph:
-        fall2010: "Isabelle Foisy"
-        feather_necklaces: ...
-        fur: ...
-        fur_necklace: ...
-        white_feather: ...
-        haute_couture: ...
-        fur_earrings: ...
-        blue: ...
-        christmas: ...
-      models:
-        fall2010: "Sarah-Annie Frachon-Labrie, Stéphanie Giroux"
-        feather_necklaces: ...
-        fur: ...
-        fur_necklace: ...
-        white_feather: ...
-        haute_couture: ...
-        fur_earrings: ...
-        blue: ...
-        christmas: ...    
     fall2010:
       p1:
         title: "Long thin rooster feather chain earrings with gem (black & silver)"
@@ -59,93 +38,76 @@ en-US:
         long_description: "Sleek long black feathers combined with two long silver metal chains. Blah blah..."
         price: 45$
         etsy_link: 'http://etsy.com'
+        photograph: "Isabelle Foisy"
+        model: "Stéphanie Giroux"
       p2:
         title: "Peacock feather chain earrings with gem (black, white & silver)"
         description: "Sleek long black feathers combined with two long silver metal chains."
         long_description: "Sleek long black feathers combined with two long silver metal chains. Blah blah..."
         price: 40$
         etsy_link: 'http://etsy.com'
+        photograph: "Isabelle Foisy"
+        model: "Stéphanie Giroux"
       p3:
         title: Pic 3
         description: Description of pic 3
         long_description: Description of pic 3
         price: 40$
         etsy_link: 'http://etsy.com'
+        photograph: "Isabelle Foisy"
+        model: "Stéphanie Giroux"
       p4:
         title: Pic 4
         description: Description of pic 4
         long_description: Description of pic 4
         price: 40$
         etsy_link: 'http://etsy.com'
+        photograph: "Isabelle Foisy"
+        model: "Sarah-Annie Frachon-Labrie"
       p5:
         title: Pic 5
         description: Description of pic 5
         long_description: Description of pic 5
         price: 40$
         etsy_link: 'http://etsy.com'
+        photograph: "Isabelle Foisy"
+        model: "Stéphanie Giroux"
       p6:
         title: Pic 6
         description: Description of pic 6
         long_description: Description of pic 6
         price: 40$
         etsy_link: 'http://etsy.com'
+        photograph: "Isabelle Foisy"
+        model: "Stéphanie Giroux"
       p7:
         title: Pic 6
         description: Description of pic 7
         long_description: Description of pic 7
         price: 40$
         etsy_link: 'http://etsy.com'
+        photograph: "Isabelle Foisy"
+        model: "Sarah-Annie Frachon-Labrie"
       p8:
         title: Pic 6
         description: Description of pic 6
         long_description: Description of pic 6
         price: 40$
         etsy_link: 'http://etsy.com'
+        photograph: "Isabelle Foisy"
+        model: "Stéphanie Giroux"
       p9:
         title: Pic 6
         description: Description of pic 6
         long_description: Description of pic 6
         price: 40$
         etsy_link: 'http://etsy.com'
-    fur:
-      p1:
-        title: Pic 1
-        description: Description of pic 1
-        price: 40$
-        etsy_link: 'http://etsy.com'
-        related_pics:
-          p1: A small note
-          p2: Another small note
-      p2:
-        title: Pic 2
-        description: Description of pic 2
-        price: 40$
-        etsy_link: 'http://etsy.com'
-      p3:
-        title: Pic 3
-        description: Description of pic 3
-        price: 40$
-        etsy_link: 'http://etsy.com'
-      p4:
-        title: Pic 4
-        description: Description of pic 4
-        price: 40$
-        etsy_link: 'http://etsy.com'
-      p5:
-        title: Pic 5
-        description: Description of pic 5
-        price: 40$
-        etsy_link: 'http://etsy.com'
-        related_pics:
-          p1: A small note
-          p2: Another small note
-      p6:
-        title: Pic 6
-        description: Description of pic 6
-        price: 40$
-        etsy_link: 'http://etsy.com'
+        photograph: "Isabelle Foisy"
+        model: "Sarah-Annie Frachon-Labrie"
   photograph: "Photograph: {{name}}"
-  models: "Model(s): {{names}}"
+  model: "Model: {{name}}"
+  photographs: "Photographs: {{names}}"
+  models: "Models: {{names}}"
   fields:
     buy_etsy: Buy this item
     buy_etsy_title: View this item on etsy.com

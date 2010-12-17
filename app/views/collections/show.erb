@@ -22,7 +22,13 @@
   <% end %>
 </div>
 
-<%= render :partial => 'credits', :locals => {:collection => @collection} %>
+<% photographs = []; t("collections.#{@collection}").each{|name, product| photographs << product[:photograph]}; photographs = photographs.sort.uniq.join(', ') %>
+<% models = []; t("collections.#{@collection}").each{|name, product| models << product[:model]}; models = models.sort.uniq.join(', ') %>
+
+<div id="credits">
+  <div><%= t('photographs', {:names => photographs}) %></div>
+  <div><%= t('models', {:names => models}) %></div>
+</div>
 
 <script>
   Galleria.loadTheme('/javascripts/galleria/src/themes/classic/galleria.classic.js');
