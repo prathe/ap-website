@@ -106,8 +106,8 @@ fr-CA:
         model: "Sarah-Annie Frachon-Labrie"  
   photograph: "Photographe: {{name}}"
   model: "Mannequin: {{name}}"
-  photographs: "Photographes: {{names}}"
-  models: "Mannequins: {{names}}"
+  photographs: "Photographes: {{name}}"
+  models: "Mannequins: {{name}}"
   fields:
     buy_etsy: Achetez cet item
     buy_etsy_title: Voir cet item sur etsy.com

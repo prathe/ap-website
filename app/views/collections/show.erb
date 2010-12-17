@@ -22,12 +22,12 @@
   <% end %>
 </div>
 
-<% photographs = []; t("collections.#{@collection}").each{|name, product| photographs << product[:photograph]}; photographs = photographs.sort.uniq.join(', ') %>
-<% models = []; t("collections.#{@collection}").each{|name, product| models << product[:model]}; models = models.sort.uniq.join(', ') %>
+<% photographs = []; t("collections.#{@collection}").each{|name, product| photographs << product[:photograph]}; photographs = photographs.sort.uniq %>
+<% models = []; t("collections.#{@collection}").each{|name, product| models << product[:model]}; models = models.sort.uniq %>
 
 <div id="credits">
-  <div><%= t('photographs', {:names => photographs}) %></div>
-  <div><%= t('models', {:names => models}) %></div>
+  <div><%= t((photographs.size > 1 ? 'photographs' : 'photograph'), {:name => photographs.join(', ')}) %></div>
+  <div><%= t((models.size > 1 ? 'models' : 'model'), {:name => models.join(', ')}) %></div>
 </div>
 
 <script>
