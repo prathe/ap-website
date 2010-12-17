@@ -65,8 +65,9 @@ a.etsy {
 
 #related-pics { text-align: center; }
 #related-pics img { border: 1px solid #000000; }
-#large-pic { display: inline-block; width: 100%; text-align: center; background-color: #000000; }
-a.large-pic, a.large-pic img { display: block; }
-
+#large-pic { text-align: center; background-color: #000000; display: inline-block; width: 100%; }
+/* This is a trick to prevent the <a> to be positionned */
+a.large-pic img { display: block;  }
+a.large-pic img { margin: auto; }
 #collection { display: inline-block; margin-top: -4px; width: 57.69em; height: 500px; }
 #credits { text-align: right; color: #666; font-size: 85%; margin-top: 0.25em; }

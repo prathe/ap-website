@@ -26,11 +26,7 @@
   <% end %>
 </div>
 
-<div id="large-pic">
-  <% link_to collections_show_path(:name => @collection, :id => @id), {:class => 'large-pic', :title => collection_name} do %>
-    <%= image_tag "/images/collections/#{@collection}/pic/p#{@id}.jpg", :alt => product[:title] %>
-  <% end %>
-</div>
+<div id="large-pic"><% link_to collections_show_path(:name => @collection, :id => @id), {:class => 'large-pic', :title => collection_name} do %><%= image_tag "/images/collections/#{@collection}/pic/p#{@id}.jpg", :alt => product[:title] %><% end %></div>
 
 <div id="credits">
   <div><%= t('photograph', {:name => product[:photograph]}) %></div>
