@@ -8,7 +8,11 @@ fr-CA:
     description: Visitez ma boutique Etsy
   title:
     home:
-      index: Bijoux
+      index: Designer de mode
+    about:
+      index: "À propos"
+    stores:
+      index: Boutiques
     collections:
       index: Collections
       show: "Collection: {{title}}"

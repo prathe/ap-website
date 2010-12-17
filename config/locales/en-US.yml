@@ -8,7 +8,11 @@ en-US:
     description: Visit my Etsy shop
   title:
     home:
-      index: Jewels
+      index: Fashion Designer
+    about:
+      index: About
+    stores:
+      index: Stores
     collections:
       index: Collections
       show: "Collection: {{title}}"
