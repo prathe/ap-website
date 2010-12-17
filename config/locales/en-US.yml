@@ -31,7 +31,27 @@ en-US:
       fur_earrings: Fur earrings
       blue: Summer blue
       christmas: Christmas
-      
+    credits:
+      photograph:
+        fall2010: "Isabelle Foisy"
+        feather_necklaces: ...
+        fur: ...
+        fur_necklace: ...
+        white_feather: ...
+        haute_couture: ...
+        fur_earrings: ...
+        blue: ...
+        christmas: ...
+      models:
+        fall2010: "Sarah-Annie Frachon-Labrie, Stéphanie Giroux"
+        feather_necklaces: ...
+        fur: ...
+        fur_necklace: ...
+        white_feather: ...
+        haute_couture: ...
+        fur_earrings: ...
+        blue: ...
+        christmas: ...    
     fall2010:
       p1:
         title: "Long thin rooster feather chain earrings with gem (black & silver)"
@@ -87,13 +107,15 @@ en-US:
         long_description: Description of pic 6
         price: 40$
         etsy_link: 'http://etsy.com'
-        
     fur:
       p1:
         title: Pic 1
         description: Description of pic 1
         price: 40$
         etsy_link: 'http://etsy.com'
+        related_pics:
+          p1: A small note
+          p2: Another small note
       p2:
         title: Pic 2
         description: Description of pic 2
@@ -122,6 +144,8 @@ en-US:
         description: Description of pic 6
         price: 40$
         etsy_link: 'http://etsy.com'
+  photograph: "Photograph: {{name}}"
+  models: "Model(s): {{names}}"
   fields:
     buy_etsy: Buy this item
     buy_etsy_title: View this item on etsy.com

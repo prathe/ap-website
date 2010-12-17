@@ -22,6 +22,8 @@
   <% end %>
 </div>
 
+<%= render :partial => 'credits', :locals => {:collection => @collection} %>
+
 <script>
   Galleria.loadTheme('/javascripts/galleria/src/themes/classic/galleria.classic.js');
   

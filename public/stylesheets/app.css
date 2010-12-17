@@ -63,8 +63,10 @@ a.etsy {
 #pic-description { font-style: italic; color: #666; margin-bottom: 16px; }
 #etsy { display: block; position: absolute; bottom: 0.5em; right: 0; }
 
-#related-pics { text-align: center; padding-top: 2px; }
+#related-pics { text-align: center; }
 #related-pics img { border: 1px solid #000000; }
-#large-pic { display: inline-block; width: 100%; text-align: center; padding: 10px; background-color: #000000; }
+#large-pic { display: inline-block; width: 100%; text-align: center; background-color: #000000; }
+a.large-pic, a.large-pic img { display: block; }
 
-#collection { margin-top: -4px; width: 57.69em; height: 500px; }
+#collection { display: inline-block; margin-top: -4px; width: 57.69em; height: 500px; }
+#credits { text-align: right; color: #666; font-size: 85%; margin-top: 0.25em; }
