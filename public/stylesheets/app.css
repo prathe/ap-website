@@ -35,8 +35,7 @@ a.logo { display: inline-block; width: 100%; text-align: center; margin-top: 16p
 
 #main-menu { font-size: 167.5%; text-align: center; color: #999999; }
 #main-menu ul { margin: 1em 0; }
-#main-menu ul li { font-family: Baskerville, 'Times New Roman', Times, serif; list-style: none; display: inline-block; margin: 0 0.4em; font-style: italic;}
-#main-menu.big-menu ul { display: inline-block; }
+#main-menu ul li { font-family: Baskerville, 'Times New Roman', Times, serif; list-style: none; display: inline; margin: 0 0.4em; font-style: italic;}
 #main-menu.big-menu ul li {  }
 #main-menu.big-menu { font-size: 300%; text-align: center; }
 
