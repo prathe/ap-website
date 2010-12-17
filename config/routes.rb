@@ -18,7 +18,7 @@ ArnelaCa::Application.routes.draw do
     
     match 'stores' => 'stores#index', :as => 'stores'
     
-    match 'about' => 'home#about', :as => 'about'
+    match 'about' => 'about#index', :as => 'about'
     
     # root
     match '/' => 'home#index', :as => 'root'
