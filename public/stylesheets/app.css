@@ -41,16 +41,10 @@ td, th { border: 0; text-align: left; }
 #main-menu ul { margin: 1em 0; }
 #main-menu ul li { font-family: Baskerville, 'Times New Roman', Times, serif; display: inline; margin: 0 0.4em; font-style: italic;}
 
-/* Temporary hacks */
-a.collection-thumb {
-  display: inline-block;
-  width: 33.3%;
-  text-align: center;
-  height: 200px;
-  margin-bottom: 24px;
-}
-
-a.collection-thumb img { display: block; margin: auto; }
+#collections { display: inline-block; width: 100%; }
+.collection-thumb { width: 28.3%; text-align: center; height: 200px; margin: 0 2.5% 24px 2.5%; float: left; }
+.collection-thumb a { display: inline-block; }
+.collection-thumb a img { display: block; margin: auto; }
 
 a.etsy {
   display: inline-block;
