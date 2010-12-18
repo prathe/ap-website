@@ -20,6 +20,7 @@ html, body { color: #333; height: 100%; }
 .site-content { width: 750px; margin: 0 auto; }
 
 #hd { background-color: #000000; height: 144px; padding-top: 16px; }
+#hd.home { padding-top: 200px; }
 
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -39,8 +40,6 @@ td, th { border: 0; text-align: left; }
 #main-menu { font-size: 167.5%; text-align: center; color: #999999; }
 #main-menu ul { margin: 1em 0; }
 #main-menu ul li { font-family: Baskerville, 'Times New Roman', Times, serif; display: inline; margin: 0 0.4em; font-style: italic;}
-#main-menu.big-menu ul li {  }
-#main-menu.big-menu { font-size: 300%; text-align: center; }
 
 /* Temporary hacks */
 a.collection-thumb {
