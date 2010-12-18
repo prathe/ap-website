@@ -12,9 +12,9 @@
   <div class="wrapper">
     <div id="hd">
       <div class="site-content">
-        <% link_to root_path, {:class => 'logo'} do %>
-          <%= image_tag('/images/logo.jpg') %>
-        <% end %>
+        <h1 id="logo">
+          <%= link_to 'Arnela Pandzic', root_path, {:alt => 'Arnela Pandzic'} %>
+        </h1>
         <div id="main-menu">
           <%= render :partial => './menu' %>
         </div>
