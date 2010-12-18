@@ -1,10 +1,13 @@
 <h2><%= t('menu.collections') %></h2>
 <div id="collections">
   <% %w{fall2010 feather_necklaces fur fur_necklace white_feather haute_couture fur_earrings blue christmas}.each do |token| %>
-    <% collection = t("collections.index.#{token}")%>
+    <% collection = t("collections.index.#{token}") %>
+    <% class_names = [] %>
+    <% class_names << 'horizontal' if t("collections.orientation.#{token}") == 'h' %>
+    
     <div class="collection-thumb">
       <% link_to collections_show_path(:name => token), {:title => collection} do %>
-        <%= image_tag "/images/collections/index/#{token}.jpg", :alt => collection %>
+        <%= image_tag "/images/collections/index/#{token}.jpg", {:alt => collection, :class => class_names.join(' ')} %>
       <% end %>
     </div>
   <% end %>

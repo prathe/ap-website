@@ -37,6 +37,16 @@ en-US:
       fur_earrings: Fur earrings
       blue: Summer blue
       christmas: Christmas
+    orientation:
+      fall2010: v
+      feather_necklaces: v
+      fur: h
+      fur_necklace: v
+      white_feather: v
+      haute_couture: v
+      fur_earrings: v
+      blue: v
+      christmas: v
     fall2010:
       p1:
         title: "Long thin rooster feather chain earrings with gem (black & silver)"

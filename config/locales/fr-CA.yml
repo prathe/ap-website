@@ -37,6 +37,16 @@ fr-CA:
       fur_earrings: "Boucles d'oreilles en fourrure"
       blue: "Bleu été"
       christmas: "Temps des fêtes"
+    orientation:
+      fall2010: v
+      feather_necklaces: v
+      fur: h
+      fur_necklace: v
+      white_feather: v
+      haute_couture: v
+      fur_earrings: v
+      blue: v
+      christmas: v
     fall2010:
       p1:
         title: "Long thin rooster feather chain earrings with gem (black & silver)"
