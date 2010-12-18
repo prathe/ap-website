@@ -46,7 +46,11 @@ a.collection-thumb {
   display: inline-block;
   width: 33.3%;
   text-align: center;
+  height: 200px;
+  margin-bottom: 24px;
 }
+
+a.collection-thumb img { display: block; margin: auto; }
 
 a.etsy {
   display: inline-block;
