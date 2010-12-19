@@ -8,7 +8,7 @@
     <div class="collection-thumb">
       <% link_to collections_show_path(:name => token), {:title => collection, :class => 'boxgrid captionfull', :style => "color: #{text_color};"} do %>
         <%= image_tag "/images/collections/index/#{token}.jpg", {:alt => collection} %>
-        <div class="cover boxcaption" style="top: 200px; background-color: <%= background_color %>"><%= collection %></div>
+        <div class="cover boxcaption" style="background-color: <%= background_color %>"><%= collection %></div>
       <% end %>
     </div>
     
@@ -19,11 +19,9 @@
   $(function () {
   	//Full Caption Sliding (Hidden to Visible)
   	$('.boxgrid.captionfull').hover(function(){
-  	  $("img", this).hide();
-  		$(".cover", this).stop().animate({top:'0px'},{queue:false,duration:0});
+  	  $("img", this).stop().animate({opacity:0},{queue:false,duration:200});
   	}, function() {
-  	  $("img", this).show();
-  		$(".cover", this).stop().animate({top:'200px'},{queue:false,duration:0});
+  		$("img", this).stop().animate({opacity:1.0},{queue:false,duration:200});
   	});
   });
 </script>

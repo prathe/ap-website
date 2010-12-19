@@ -38,7 +38,7 @@ en-US:
       blue: Summer blue
       christmas: Christmas
     text_color:
-      fall2010: "#DB1E48"
+      fall2010: "#000000"
       feather_necklaces: "#C60027"
       fur: "#B1B0AC"
       fur_necklace: "#D6D4DA"
@@ -48,7 +48,7 @@ en-US:
       blue: v
       christmas: v
     background_color:
-      fall2010: "#000000"
+      fall2010: "#CC7E89"
       feather_necklaces: "#000000"
       fur: "#2621A4"
       fur_necklace: "#30282D"
