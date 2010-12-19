@@ -6,9 +6,22 @@
     <% class_names << 'horizontal' if t("collections.orientation.#{token}") == 'h' %>
     
     <div class="collection-thumb">
-      <% link_to collections_show_path(:name => token), {:title => collection} do %>
+      <% link_to collections_show_path(:name => token), {:title => collection, :class => 'boxgrid captionfull'} do %>
         <%= image_tag "/images/collections/index/#{token}.jpg", {:alt => collection, :class => class_names.join(' ')} %>
+        <div class="cover boxcaption" style="top: 200px;">Automne 2010</div>
       <% end %>
     </div>
+    
   <% end %>
 </div>
+
+<script>
+  $(function () {
+  	//Full Caption Sliding (Hidden to Visible)
+  	$('.boxgrid.captionfull').hover(function(){
+  		$(".cover", this).stop().animate({top:'0px'},{queue:false,duration:160});
+  	}, function() {
+  		$(".cover", this).stop().animate({top:'200px'},{queue:false,duration:160});
+  	});
+  });
+</script
