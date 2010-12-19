@@ -38,8 +38,9 @@
     $('#collection').galleria({
   
       show_info: false,
-      
+      show_counter: false,
       show: <%= (@id ? (@id.to_i - 1) : 0).to_json %>,
+      width: 750,
       
       on_image: function(img,thumb) {
         var data = this.getData(this.getIndex());
