@@ -5,7 +5,7 @@
 
 <h2 id="collection-name"><%= link_to '« ' + collection_name, collections_show_path(:name => @collection, :id => @id) %></h2>
 
-<div id="details" name="details">
+<div id="details" name="details" class="showpic">
   <div id="etsy"><%= link_to t('fields.buy_etsy'), product[:etsy_link], {:class => 'etsy', :title => t('fields.buy_etsy_title')} %> (<span id="price"><%= product[:price] %></span>)</div>
   <div id ="pic-title-container">
     <h3 id="pic-title"><%= product[:title] %></h3>
