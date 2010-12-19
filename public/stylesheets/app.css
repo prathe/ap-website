@@ -42,10 +42,9 @@ td, th { border: 0; text-align: left; }
 #main-menu ul li { font-family: Baskerville, 'Times New Roman', Times, serif; display: inline; margin: 0 0.4em; font-style: italic;}
 
 #collections { display: inline-block; width: 100%; }
-.collection-thumb { width: 200px; height: 200px; text-align: center; margin: 0 2.5% 24px 2.5%; float: left; background-color: #000000; }
+.collection-thumb { width: 200px; height: 200px; float: left; margin: 0 25px 50px 25px; }
 .collection-thumb a { display: block; width: 200px; height: 200px; }
-.collection-thumb a img { display: block; margin: auto; }
-.collection-thumb a img.horizontal { padding-top: 33px; }
+.collection-thumb a img { display: block; }
 
 a.etsy {
   display: inline-block;
@@ -108,6 +107,7 @@ a.captionfull:hover { text-decoration: none; }
   font-weight: bold;
   padding: 76px 10px 0 10px;
   cursor: pointer;
+  text-align: center; 
 	float: left;
 	position: absolute;
 	background: #000000;

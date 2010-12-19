@@ -37,16 +37,6 @@ en-US:
       fur_earrings: Fur earrings
       blue: Summer blue
       christmas: Christmas
-    orientation:
-      fall2010: v
-      feather_necklaces: v
-      fur: h
-      fur_necklace: v
-      white_feather: v
-      haute_couture: v
-      fur_earrings: v
-      blue: v
-      christmas: v
     text_color:
       fall2010: "#DB1E48"
       feather_necklaces: "#C60027"

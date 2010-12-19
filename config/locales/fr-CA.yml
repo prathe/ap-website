@@ -37,14 +37,24 @@ fr-CA:
       fur_earrings: "Boucles d'oreilles en fourrure"
       blue: "Bleu été"
       christmas: "Temps des fêtes"
-    orientation:
-      fall2010: v
-      feather_necklaces: v
-      fur: h
-      fur_necklace: v
-      white_feather: v
-      haute_couture: v
-      fur_earrings: v
+    text_color:
+      fall2010: "#DB1E48"
+      feather_necklaces: "#C60027"
+      fur: "#B1B0AC"
+      fur_necklace: "#D6D4DA"
+      white_feather: "#000000"
+      haute_couture: "#C60027"
+      fur_earrings: "#FFFFFF"
+      blue: v
+      christmas: v
+    background_color:
+      fall2010: "#000000"
+      feather_necklaces: "#000000"
+      fur: "#2621A4"
+      fur_necklace: "#30282D"
+      white_feather: "#E6E9EE"
+      haute_couture: "#000000"
+      fur_earrings: "#63AC22"
       blue: v
       christmas: v
     fall2010:
