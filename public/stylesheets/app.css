@@ -64,10 +64,10 @@ a.etsy {
 
 #related-pics { text-align: center; padding-bottom: 4px;}
 #related-pics img { border: 1px solid #000000; display: block; margin: auto; }
-#large-pic { text-align: center; background-color: #000000; }
+#large-pic { text-align: center; }
 a.large-pic img { display: block;  margin: auto; }
 #collection { display: inline-block; margin-top: -4px; width: 57.69em; height: 500px; }
-#credits { text-align: right; color: #666; font-size: 85%; margin-top: 0.25em; }
+#credits { text-align: center; color: #666; font-size: 85%; margin-top: 0.25em; }
 
 #stores h3 { border-bottom: 1px dotted #333; }
 ul.stores {
