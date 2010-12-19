@@ -28,7 +28,7 @@ en-US:
     more_details: more details...
     more_details_title: Complete description and close-ups
     index:
-      fall2010: Fall 2010 verylonggggggggg
+      fall2010: Fall 2010
       feather_necklaces: Feather necklaces
       fur: Fur Collection
       fur_necklace: Fur necklaces
@@ -45,6 +45,26 @@ en-US:
       white_feather: v
       haute_couture: v
       fur_earrings: v
+      blue: v
+      christmas: v
+    text_color:
+      fall2010: "#DB1E48"
+      feather_necklaces: "#C60027"
+      fur: "#B1B0AC"
+      fur_necklace: "#D6D4DA"
+      white_feather: "#000000"
+      haute_couture: "#C60027"
+      fur_earrings: "#FFFFFF"
+      blue: v
+      christmas: v
+    background_color:
+      fall2010: "#000000"
+      feather_necklaces: "#000000"
+      fur: "#2621A4"
+      fur_necklace: "#30282D"
+      white_feather: "#E6E9EE"
+      haute_couture: "#000000"
+      fur_earrings: "#63AC22"
       blue: v
       christmas: v
     fall2010:

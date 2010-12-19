@@ -4,11 +4,13 @@
     <% collection = t("collections.index.#{token}") %>
     <% class_names = [] %>
     <% class_names << 'horizontal' if t("collections.orientation.#{token}") == 'h' %>
+    <% text_color =  t("collections.text_color.#{token}") %>
+    <% background_color =  t("collections.background_color.#{token}") %>
     
     <div class="collection-thumb">
-      <% link_to collections_show_path(:name => token), {:title => collection, :class => 'boxgrid captionfull'} do %>
+      <% link_to collections_show_path(:name => token), {:title => collection, :class => 'boxgrid captionfull', :style => "color: #{text_color};"} do %>
         <%= image_tag "/images/collections/index/#{token}.jpg", {:alt => collection, :class => class_names.join(' ')} %>
-        <div class="cover boxcaption" style="top: 200px;"><%= collection %></div>
+        <div class="cover boxcaption" style="top: 200px; background-color: <%= background_color %>"><%= collection %></div>
       <% end %>
     </div>
     
