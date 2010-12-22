@@ -4,9 +4,8 @@ fr-CA:
   other_language: 'english'
   other_language_link: '/en'
   visit_etsy:
-    image: 'visit-etsy-fr.png'
+    link: Visitez ma boutique Etsy
     title: Visitez ma boutique Etsy
-    description: Visitez ma boutique Etsy
   title:
     home:
       index: Designer de mode

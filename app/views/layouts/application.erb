@@ -32,9 +32,7 @@
   
   <div id="ft">
     <div class="site-content">
-      <% link_to 'http://etsy.com/arnela', {:title => t('visit_etsy.title')} do %>
-        <%= image_tag("/images/#{t('visit_etsy.image')}", {:alt => t('visit_etsy.description')}) %>
-      <% end %>
+      <%= link_to t('visit_etsy.link'), 'http://etsy.com/arnela', {:title => t('visit_etsy.title')} %>
       <p>© 2010 | <%= toggle_locale_link %></p>
     </div>
   </div>

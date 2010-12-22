@@ -4,9 +4,8 @@ en-US:
   other_language: 'français'
   other_language_link: '/fr'
   visit_etsy:
-    image: 'visit-etsy-en.png'
+    link: Visit my Etsy shop
     title: Visit my Etsy shop
-    description: Visit my Etsy shop
   title:
     home:
       index: Fashion Designer

@@ -8,31 +8,31 @@
 <body>
 
   <div class="wrapper">
-    <div id="hd" class="home">
-      <div class="site-content">
-        <h1 id="logo">
-          <%= link_to 'Arnela Pandzic', root_path, {:title => t('home')} %>
-        </h1>
-        <div id="main-menu">
-          <%= render :partial => './menu' %>
+    <div id="home">
+      <div id="hd" class="home">
+        <div class="site-content">
+          <h1 id="logo">
+            <%= link_to 'Arnela Pandzic', root_path, {:title => t('home')} %>
+          </h1>
+          <div id="main-menu">
+            <%= render :partial => './menu' %>
+          </div>
+        </div>
+      </div>
+  
+      <div id="bd">
+        <div class="site-content">
+          <%= yield %>
         </div>
       </div>
     </div>
-  
-    <div id="bd">
-      <div class="site-content">
-        <%= yield %>
-      </div>
-    </div>
     
-    <div class="push"></div>
+      <div class="push"></div>
   </div>
   
   <div id="ft">
     <div class="site-content">
-      <% link_to 'http://etsy.com/arnela', {:title => t('visit_etsy.title')} do %>
-        <%= image_tag("/images/#{t('visit_etsy.image')}", {:alt => t('visit_etsy.description')}) %>
-      <% end %>
+      <%= link_to t('visit_etsy.link'), 'http://etsy.com/arnela', {:title => t('visit_etsy.title')} %>
       <p>© 2010 | <%= toggle_locale_link %></p>
     </div>
   </div>
