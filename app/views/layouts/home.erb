@@ -13,7 +13,9 @@
         <h1 id="logo">
           <%= link_to 'Arnela Pandzic', root_path, {:title => t('home')} %>
         </h1>
-        <h3 id="slogan"><%= t("slogan") %></h3>
+        <div id="main-menu">
+          <%= render :partial => './menu' %>
+        </div>
       </div>
     </div>
   
