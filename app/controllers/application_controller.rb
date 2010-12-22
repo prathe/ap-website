@@ -14,15 +14,15 @@ class ApplicationController < ActionController::Base
   end
   
   def default_url_options(options={})
-    logger.debug "Default locale: #{I18n.default_locale}\n"
+    #logger.debug "Default locale: #{I18n.default_locale}\n"
     # At this point locale should be 'en-US', 'fr-CA' or nil
     options.merge(I18n.locale ? { :locale => available_to_compatible_locale(I18n.locale) } : {})
   end
   
   
   def extract_locale_from_accept_language_header
-    logger.debug "Prefered languages: #{request.user_preferred_languages.inspect}\n"
-    logger.debug "Compatible language: #{request.compatible_language_from(%w{en-US fr-CA})}\n"
+    #logger.debug "Prefered languages: #{request.user_preferred_languages.inspect}\n"
+    #logger.debug "Compatible language: #{request.compatible_language_from(%w{en-US fr-CA})}\n"
     request.compatible_language_from(%w{en-US fr-CA})
   end
   
