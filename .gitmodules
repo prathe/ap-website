@@ -1,0 +1,3 @@
+[submodule "public/javascripts/galleria"]
+	path = public/javascripts/galleria
+	url = git@github.com:prathe/galleria.git
