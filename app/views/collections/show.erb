@@ -1,15 +1,12 @@
-<% product = t("collections.#{@collection}.p#{@id}") %>
+<% @id ||= 1 %>
+<% current_product = t("collections.#{@collection}.p#{@id}") %>
 <% n_products = t("collections.#{@collection}").keys.length %>
 
 <h2 id="collection-name"><%= t("collections.index.#{@collection}").capitalize %></h2>
 
-<div id="details">
-  <div id ="pic-title-container">
-    <h3 id="pic-title"><%= product[:title] %></h3>
-  </div>
-  <p id="pic-description"><span class="text"><%= product[:description] %></span> [<%= link_to t('collections.more_details'), collections_showpic_path(:name => @collection, :id => @id), {:id => 'more-details', :title => t('collections.more_details_title')} %>]</p>
-  <div id="etsy"><%= link_to t('fields.buy_etsy'), product[:etsy_link], {:class => 'etsy', :title => t('fields.buy_etsy_title')} %> (<span id="price"><%= product[:price] %></span>)</div>
-  
+<h3 id="pic-title"><%= current_product[:title] %></h3>
+<div id="more-details">
+  <%= link_to t('collections.more_details'), collections_showpic_path(:name => @collection, :id => @id), {:id => 'more-details-link', :title => t('collections.more_details_title')} %>
 </div>
 
 <div id="collection">
@@ -17,7 +14,7 @@
     <% product = t("collections.#{@collection}.p#{n}") %>
   
     <%= link_to collections_showpic_path(:name => @collection, :id => n), {:title => product[:title]} do %>
-      <%= image_tag "/images/collections/#{@collection}/pic/p#{n}.jpg", :alt => product[:description], :title => product[:title], 'data-price' => product[:price], 'data-etsy-link' => product[:etsy_link] %>
+      <%= image_tag "/images/collections/#{@collection}/pic/p#{n}.jpg", :alt => product[:description], :title => product[:title], 'data-price' => product[:price], 'data-etsy-link' => product[:etsy_link], 'data-link' => collections_showpic_path(:name => @collection, :id => n) %>
     <% end %>
   <% end %>
 </div>
@@ -37,22 +34,26 @@
     
     $('#collection').galleria({
   
+      show_imagenav: false,
       show_info: false,
       show_counter: false,
       clicknext: true,
-      show: <%= (@id ? (@id.to_i - 1) : 0).to_json %>,
       width: 750,
+      transition: 'fade',
+      thumb_quality: true,
+      show: <%= (@id.to_i - 1).to_json %>,
       
       on_image: function(img,thumb) {
         var data = this.getData(this.getIndex());
-        var price = ($(data.original).data('price'));
-        var etsyLink = ($(data.original).data('etsy-link'));
-        
+        var original = $(data.original);
+        // var price = original.data('price');
+        // var etsyLink = original.data('etsy-link');
+
         $('#pic-title').text(data.title);
-        $('#pic-description .text').text(data.description);
-        $('#more-details').attr('href', data.link);
-        $('#etsy a').attr('href', etsyLink);
-        $('#price').text(price);
+        //$('#pic-description .text').text(data.description);
+        $('#more-details-link').attr('href', original.data('link'));
+        //$('#etsy a').attr('href', etsyLink);
+        //$('#price').text(price);
       },
       
       extend: function () {

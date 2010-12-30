@@ -55,16 +55,17 @@ a.etsy {
   color: #C94E00;
 }
 
-#details { position: relative; display: inline-block; width: 100%; }
-#details.showpic { border-bottom: 1px dotted #CCCCCC; }
-#pic-title-container { position: relative; height: 2em; }
-#pic-title { position: absolute; bottom: 0; left: 0; font-size: 138.5%; margin-bottom: 10px; line-height: 1em; }
-#pic-title, #pic-description { width: 550px; float: left; }
+#pic-title { font-family: Baskerville, 'Times New Roman', Times, serif;  font-style: italic; font-weight: normal; font-size: 138.5%; margin: 1em 0 0 0; line-height: 1em; text-align: center; }
+#more-details, #less-details { text-align: center; margin: 0 auto 1.5em auto; }
 #pic-description { font-style: italic; color: #666; padding-bottom: 16px; margin-bottom: 0;}
-#etsy { display: block; position: absolute; bottom: 0.5em; right: 0; }
 
-#related-pics { text-align: center; padding-bottom: 4px;}
-#related-pics img { border: 1px solid #000000; display: block; margin: auto; }
+#collection-name { margin-bottom: 0; }
+#details { position: relative; margin-bottom: 0.5em; padding: 0.5em; border-top: 1px dotted #999; border-bottom: 1px dotted #999; }
+#pic-title, #pic-description { }
+#details a.etsy { position: absolute; bottom: 0.5em; right: 0.5em; }
+#related-pics { width: 75%; }
+#related-pics img { border: 1px solid #000000; display: block; }
+
 #large-pic { text-align: center; }
 a.large-pic img { display: block;  margin: auto; }
 #collection { display: inline-block; width: 100%; height: 500px; }
@@ -89,7 +90,7 @@ ul.stores li div {
 /* Galleria */
 .galleria-thumbnails { margin: auto; }
 #bd .galleria-container { background-color: #FFFFFF; }
-#bd .galleria-stage { background-color: #FFFFFF; border: 1px dotted #000; top: 0; left: 0; right: 0;}
+#bd .galleria-stage { background-color: #FFFFFF; top: 0; left: 0; right: 0;}
 
 /* CSS3 */
 .galleria-container, .collection-thumb, #large-pic { -moz-border-radius: 4px; border-radius: 4px; }

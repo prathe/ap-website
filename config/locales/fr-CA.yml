@@ -25,8 +25,9 @@ fr-CA:
     about: "À propos"
     blog: Blogue
   collections:
-    more_details: plus de détails...
-    more_details_title: Description complète et gros plans
+    more_details: plus de détails »
+    back_to_collection: « retour à la collection
+    more_details_title: Description du produit et gros plans
     index:
       fall2010: Automne 2010
       feather_necklaces: 'Colliers de plumes'
@@ -61,7 +62,6 @@ fr-CA:
       p1:
         title: "Long thin rooster feather chain earrings with gem (black & silver)"
         description: "Sleek long black feathers combined with two long silver metal chains."
-        long_description: "Sleek long black feathers combined with two long silver metal chains. Blah blah..."
         price: 45$
         etsy_link: 'http://etsy.com'
         photograph: "Isabelle Foisy"
@@ -69,7 +69,6 @@ fr-CA:
       p2:
         title: "Peacock feather chain earrings with gem (black, white & silver)"
         description: "Sleek long black feathers combined with two long silver metal chains."
-        long_description: "Sleek long black feathers combined with two long silver metal chains. Blah blah..."
         price: 40$
         etsy_link: 'http://etsy.com'
         photograph: "Isabelle Foisy"
@@ -77,7 +76,6 @@ fr-CA:
       p3:
         title: Pic 3
         description: Description of pic 3
-        long_description: Description of pic 3
         price: 40$
         etsy_link: 'http://etsy.com'
         photograph: "Isabelle Foisy"
@@ -85,7 +83,6 @@ fr-CA:
       p4:
         title: Pic 4
         description: Description of pic 4
-        long_description: Description of pic 4
         price: 40$
         etsy_link: 'http://etsy.com'
         photograph: "Isabelle Foisy"
@@ -93,7 +90,6 @@ fr-CA:
       p5:
         title: Pic 5
         description: Description of pic 5
-        long_description: Description of pic 5
         price: 40$
         etsy_link: 'http://etsy.com'
         photograph: "Isabelle Foisy"
@@ -101,7 +97,6 @@ fr-CA:
       p6:
         title: Pic 6
         description: Description of pic 6
-        long_description: Description of pic 6
         price: 40$
         etsy_link: 'http://etsy.com'
         photograph: "Isabelle Foisy"
@@ -109,7 +104,6 @@ fr-CA:
       p7:
         title: Pic 6
         description: Description of pic 7
-        long_description: Description of pic 7
         price: 40$
         etsy_link: 'http://etsy.com'
         photograph: "Isabelle Foisy"
@@ -117,7 +111,6 @@ fr-CA:
       p8:
         title: Pic 6
         description: Description of pic 6
-        long_description: Description of pic 6
         price: 40$
         etsy_link: 'http://etsy.com'
         photograph: "Isabelle Foisy"
@@ -125,7 +118,6 @@ fr-CA:
       p9:
         title: Pic 6
         description: Description of pic 6
-        long_description: Description of pic 6
         price: 40$
         etsy_link: 'http://etsy.com'
         photograph: "Isabelle Foisy"
