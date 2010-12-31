@@ -1,0 +1,4 @@
+<h2><%= @name %></h2>
+<div id="store">
+  <%= render :partial => @short_name + '_' + I18n.locale.to_s.gsub(/-/,'_') %>
+</div>

@@ -57,20 +57,20 @@ a.etsy {
 
 #pic-title { font-family: Baskerville, 'Times New Roman', Times, serif;  font-style: italic; font-weight: normal; font-size: 138.5%; margin: 1em 0 0 0; line-height: 1em; text-align: center; }
 #more-details, #less-details { text-align: center; margin: 0 auto 1.5em auto; }
-#pic-description { font-style: italic; color: #666; padding-bottom: 16px; margin-bottom: 0;}
+#pic-description, #product-availability { font-style: italic; color: #666; }
 
 #collection-name { margin-bottom: 0; }
 #details { position: relative; margin-bottom: 0.5em; padding: 0.5em; border-top: 1px dotted #999; border-bottom: 1px dotted #999; }
 #pic-title, #pic-description { }
 #details a.etsy { position: absolute; bottom: 0.5em; right: 0.5em; }
-#related-pics { width: 75%; }
-#related-pics img { border: 1px solid #000000; display: block; }
+#related-pics { display: inline-block; width: 75%; }
+#related-pics img { border: 1px solid #000000; display: block; float: left; }
 
 #large-pic { text-align: center; }
 a.large-pic img { display: block;  margin: auto; }
 #collection { display: inline-block; width: 100%; height: 500px; }
 #credits { text-align: center; color: #666; font-size: 85%; margin-top: 0.25em; }
-
+#store { width: 248px; margin: 0 auto; }
 #stores h3 { border-bottom: 1px dotted #333; }
 ul.stores {
   display: inline-block;

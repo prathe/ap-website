@@ -1,6 +1,6 @@
 <% @id ||= 1 %>
-<% current_product = t("collections.#{@collection}.p#{@id}") %>
-<% n_products = t("collections.#{@collection}").keys.length %>
+<% current_product = t("collections.#{@collection}.products.p#{@id}") %>
+<% n_products = t("collections.#{@collection}.products").keys.length %>
 
 <h2 id="collection-name"><%= t("collections.index.#{@collection}").capitalize %></h2>
 
@@ -11,16 +11,16 @@
 
 <div id="collection">
   <% 1.upto(n_products) do |n| %>
-    <% product = t("collections.#{@collection}.p#{n}") %>
+    <% product = t("collections.#{@collection}.products.p#{n}") %>
   
     <%= link_to collections_showpic_path(:name => @collection, :id => n), {:title => product[:title]} do %>
       <%= image_tag "/images/collections/#{@collection}/pic/p#{n}.jpg", :alt => product[:description], :title => product[:title], 'data-price' => product[:price], 'data-etsy-link' => product[:etsy_link], 'data-link' => collections_showpic_path(:name => @collection, :id => n) %>
     <% end %>
   <% end %>
 </div>
-
-<% photographs = []; t("collections.#{@collection}").each{|name, product| photographs << product[:photograph]}; photographs = photographs.sort.uniq %>
-<% models = []; t("collections.#{@collection}").each{|name, product| models << product[:model]}; models = models.sort.uniq %>
+<% logger.debug  %>
+<% photographs = []; t("collections.#{@collection}.products").each{|name, product| photographs << product[:photograph]}; photographs = photographs.sort.uniq %>
+<% models = []; t("collections.#{@collection}.products").each{|name, product| models << product[:model]}; models = models.sort.uniq %>
 
 <div id="credits">
   <div><%= t((photographs.size > 1 ? 'photographs' : 'photograph'), {:name => photographs.join(', ')}) %></div>

@@ -1,7 +1,8 @@
-<% product = t("collections.#{@collection}.p#{@id}") %>
+<% product = t("collections.#{@collection}.products.p#{@id}") %>
 <% collection_name = t("collections.index.#{@collection}").capitalize %>
 <% related_pics = product[:related_pics] || {} %>
 <% n_related_pics = related_pics.keys.size %>
+<% availability = product_availability(t("collections.#{@collection}.availability")) %>
 
 <h2 id="collection-name"><%= link_to collection_name, collections_show_path(:name => @collection, :id => @id) %></h2>
 
@@ -12,6 +13,7 @@
 
 <div id="details" name="details">
   <p id="pic-description" class="text"><%= product[:description] %></p>
+  <p id="product-availability"><%= raw "#{t('stores.availability')} #{availability}" %></p>
   
   <div id="related-pics" class="hidden">
     <% link_to "#details", {:title => product[:title]} do %>
@@ -37,6 +39,10 @@
 </div>
 
 <script>
+  $(function () {
+    $('#related-pics a').smoothScroll();
+  });
+
   (function () {
     var n = $('#related-pics img').length;
 

@@ -59,73 +59,79 @@ fr-CA:
       blue: v
       christmas: v
     fall2010:
-      p1:
-        title: "Long thin rooster feather chain earrings with gem (black & silver)"
-        description: "Sleek long black feathers combined with two long silver metal chains."
-        price: 45$
-        etsy_link: 'http://etsy.com'
-        photograph: "Isabelle Foisy"
-        model: "Stéphanie Giroux"
-      p2:
-        title: "Peacock feather chain earrings with gem (black, white & silver)"
-        description: "Sleek long black feathers combined with two long silver metal chains."
-        price: 40$
-        etsy_link: 'http://etsy.com'
-        photograph: "Isabelle Foisy"
-        model: "Stéphanie Giroux"
-      p3:
-        title: Pic 3
-        description: Description of pic 3
-        price: 40$
-        etsy_link: 'http://etsy.com'
-        photograph: "Isabelle Foisy"
-        model: "Stéphanie Giroux"
-      p4:
-        title: Pic 4
-        description: Description of pic 4
-        price: 40$
-        etsy_link: 'http://etsy.com'
-        photograph: "Isabelle Foisy"
-        model: "Sarah-Annie Frachon-Labrie"
-      p5:
-        title: Pic 5
-        description: Description of pic 5
-        price: 40$
-        etsy_link: 'http://etsy.com'
-        photograph: "Isabelle Foisy"
-        model: "Stéphanie Giroux"
-      p6:
-        title: Pic 6
-        description: Description of pic 6
-        price: 40$
-        etsy_link: 'http://etsy.com'
-        photograph: "Isabelle Foisy"
-        model: "Stéphanie Giroux"
-      p7:
-        title: Pic 6
-        description: Description of pic 7
-        price: 40$
-        etsy_link: 'http://etsy.com'
-        photograph: "Isabelle Foisy"
-        model: "Sarah-Annie Frachon-Labrie"
-      p8:
-        title: Pic 6
-        description: Description of pic 6
-        price: 40$
-        etsy_link: 'http://etsy.com'
-        photograph: "Isabelle Foisy"
-        model: "Stéphanie Giroux"
-      p9:
-        title: Pic 6
-        description: Description of pic 6
-        price: 40$
-        etsy_link: 'http://etsy.com'
-        photograph: "Isabelle Foisy"
-        model: "Sarah-Annie Frachon-Labrie"  
+      availability: "oclan,urbain"
+      products:
+        p1:
+          title: "Long thin rooster feather chain earrings with gem (black & silver)"
+          description: "Sleek long black feathers combined with two long silver metal chains."
+          price: 45$
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+        p2:
+          title: "Peacock feather chain earrings with gem (black, white & silver)"
+          description: "Sleek long black feathers combined with two long silver metal chains."
+          price: 40$
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+        p3:
+          title: Pic 3
+          description: Description of pic 3
+          price: 40$
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+        p4:
+          title: Pic 4
+          description: Description of pic 4
+          price: 40$
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Sarah-Annie Frachon-Labrie"
+        p5:
+          title: Pic 5
+          description: Description of pic 5
+          price: 40$
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+        p6:
+          title: Pic 6
+          description: Description of pic 6
+          price: 40$
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+        p7:
+          title: Pic 6
+          description: Description of pic 7
+          price: 40$
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Sarah-Annie Frachon-Labrie"
+        p8:
+          title: Pic 6
+          description: Description of pic 6
+          price: 40$
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+        p9:
+          title: Pic 6
+          description: Description of pic 6
+          price: 40$
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Sarah-Annie Frachon-Labrie"  
+  stores:
+    availability: "Disponibilité en magasin :"
+    oclan: Oclan
+    urbain: Urbain
   photograph: "Photographe: {{name}}"
   model: "Mannequin: {{name}}"
   photographs: "Photographes: {{name}}"
   models: "Mannequins: {{name}}"
   fields:
-    buy_etsy: Achetez cet item
+    buy_etsy: Achetez en ligne
     buy_etsy_title: Voir cet item sur etsy.com

@@ -17,6 +17,7 @@ ArnelaCa::Application.routes.draw do
     match 'collections/showpic' => 'collections#showpic', :as => 'collections_showpic'
     
     match 'stores' => 'stores#index', :as => 'stores'
+    match 'stores/show' => 'stores#show', :as => 'stores_show'
     
     match 'about' => 'about#index', :as => 'about'
     
