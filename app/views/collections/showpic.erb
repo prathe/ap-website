@@ -13,7 +13,9 @@
 
 <div id="details" name="details">
   <p id="pic-description" class="text"><%= product[:description] %></p>
-  <p id="product-availability"><%= raw "#{t('stores.availability')} #{availability}" %></p>
+  <% unless availability.empty? %>
+    <p id="product-availability"><%= raw "#{t('stores.availability')} #{availability}" %></p>
+  <% end %>
   
   <div id="related-pics" class="hidden">
     <% link_to "#details", {:title => product[:title]} do %>
