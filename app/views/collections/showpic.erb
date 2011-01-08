@@ -1,6 +1,6 @@
 <% product = t("collections.#{@collection}.products.p#{@id}") %>
 <% collection_name = t("collections.index.#{@collection}").capitalize %>
-<% related_pics = product[:related_pics] || {} %>
+<% related_pics = product[:related] || {} %>
 <% n_related_pics = related_pics.keys.size %>
 <% availability = product_availability(t("collections.#{@collection}.availability")) %>
 
@@ -17,13 +17,13 @@
   
   <div id="related-pics" class="hidden">
     <% link_to "#details", {:title => product[:title]} do %>
-      <%= image_tag "/images/collections/#{@collection}/pic/p#{@id}.jpg", {:alt => product[:title]} %>
+      <%= image_tag "/images/collections/#{@collection}/slideshow/p#{@id}.jpg", {:alt => product[:title]} %>
     <% end %>
 
     <% 1.upto(n_related_pics) do |n| %>
       <% title = related_pics["p#{n}".to_sym] %>
       <% link_to "#details", {:title => title} do %>
-        <%= image_tag "/images/collections/#{@collection}/related/p#{@id}/pic/p#{n}.jpg", {:alt => title} %>
+        <%= image_tag "/images/collections/#{@collection}/related/p#{@id}/p#{n}.jpg", {:alt => title} %>
       <% end %>
     <% end %>
   </div>
@@ -31,7 +31,7 @@
   <%= link_to t('fields.buy_etsy'), product[:etsy_link], {:class => 'etsy', :title => t('fields.buy_etsy_title')} %>
 </div>
 
-<div id="large-pic"><% link_to collections_show_path(:name => @collection, :id => @id), {:class => 'large-pic', :title => collection_name} do %><%= image_tag "/images/collections/#{@collection}/pic/p#{@id}.jpg", :alt => product[:title] %><% end %></div>
+<div id="large-pic"><% link_to collections_show_path(:name => @collection, :id => @id), {:class => 'large-pic', :title => collection_name} do %><%= image_tag "/images/collections/#{@collection}/slideshow/p#{@id}.jpg", :alt => product[:title] %><% end %></div>
 
 <div id="credits">
   <div><%= t('photograph', {:name => product[:photograph]}) %></div>

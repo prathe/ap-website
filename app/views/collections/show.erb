@@ -14,7 +14,7 @@
     <% product = t("collections.#{@collection}.products.p#{n}") %>
   
     <%= link_to collections_showpic_path(:name => @collection, :id => n), {:title => product[:title]} do %>
-      <%= image_tag "/images/collections/#{@collection}/pic/p#{n}.jpg", :alt => product[:description], :title => product[:title], 'data-price' => product[:price], 'data-etsy-link' => product[:etsy_link], 'data-link' => collections_showpic_path(:name => @collection, :id => n) %>
+      <%= image_tag "/images/collections/#{@collection}/slideshow/p#{n}.jpg", :alt => product[:description], :title => product[:title], 'data-price' => product[:price], 'data-etsy-link' => product[:etsy_link], 'data-link' => collections_showpic_path(:name => @collection, :id => n) %>
     <% end %>
   <% end %>
 </div>

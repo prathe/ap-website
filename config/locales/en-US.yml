@@ -29,6 +29,7 @@ en-US:
     back_to_collection: « back to collection
     more_details_title: Product description and close-ups
     index:
+      spring2010: Printemps 2010
       fall2010: Fall 2010
       feather_necklaces: Feather necklaces
       fur: Fur Collection
@@ -39,6 +40,7 @@ en-US:
       blue: Summer blue
       christmas: Christmas
     text_color:
+      spring2010: "#000000"
       fall2010: "#000000"
       feather_necklaces: "#C60027"
       fur: "#B1B0AC"
@@ -49,6 +51,7 @@ en-US:
       blue: v
       christmas: v
     background_color:
+      spring2010: "#FFFFFF"
       fall2010: "#CC7E89"
       feather_necklaces: "#000000"
       fur: "#2621A4"
@@ -58,79 +61,96 @@ en-US:
       fur_earrings: "#63AC22"
       blue: v
       christmas: v
-    fall2010:
-      availability: "oclan,urbain"
+    spring2010:
+      availability: ""
       products:
         p1:
-          title: "Long thin rooster feather chain earrings with gem (black & silver)"
-          description: "Sleek long black feathers combined with two long silver metal chains."
-          price: 45$
+          title: "The title"
+          description: "The description"
           etsy_link: 'http://etsy.com'
-          photograph: "Isabelle Foisy"
-          model: "Stéphanie Giroux"
+          photograph: "Arthur Aaron"
+          model: "Clémentine Pagès"
+          related:
+            p1: "The title"
         p2:
-          title: "Peacock feather chain earrings with gem (black, white & silver)"
-          description: "Sleek long black feathers combined with two long silver metal chains."
-          price: 40$
+          title: "The title"
+          description: "The description"
           etsy_link: 'http://etsy.com'
-          photograph: "Isabelle Foisy"
-          model: "Stéphanie Giroux"
+          photograph: "Arthur Aaron"
+          model: "Clémentine Pagès"
         p3:
-          title: Pic 3
-          description: Description of pic 3
-          price: 40$
+          title: "The title"
+          description: "The description"
           etsy_link: 'http://etsy.com'
-          photograph: "Isabelle Foisy"
-          model: "Stéphanie Giroux"
+          photograph: "Arthur Aaron"
+          model: "Clémentine Pagès"
         p4:
-          title: Pic 4
-          description: Description of pic 4
-          price: 40$
+          title: "The title"
+          description: "The description"
           etsy_link: 'http://etsy.com'
-          photograph: "Isabelle Foisy"
-          model: "Sarah-Annie Frachon-Labrie"
+          photograph: "Arthur Aaron"
+          model: "Clémentine Pagès"
         p5:
-          title: Pic 5
-          description: Description of pic 5
-          price: 40$
+          title: "The title"
+          description: "The description"
           etsy_link: 'http://etsy.com'
-          photograph: "Isabelle Foisy"
-          model: "Stéphanie Giroux"
+          photograph: "Arthur Aaron"
+          model: "Clémentine Pagès"
         p6:
-          title: Pic 6
-          description: Description of pic 6
-          price: 40$
+          title: "The title"
+          description: "The description"
           etsy_link: 'http://etsy.com'
-          photograph: "Isabelle Foisy"
-          model: "Stéphanie Giroux"
+          photograph: "Arthur Aaron"
+          model: "Clémentine Pagès"  
         p7:
-          title: Pic 6
-          description: Description of pic 7
-          price: 40$
+          title: "The title"
+          description: "The description"
           etsy_link: 'http://etsy.com'
-          photograph: "Isabelle Foisy"
-          model: "Sarah-Annie Frachon-Labrie"
+          photograph: "Arthur Aaron"
+          model: "Clémentine Pagès"
         p8:
-          title: Pic 6
-          description: Description of pic 6
-          price: 40$
+          title: "The title"
+          description: "The description"
           etsy_link: 'http://etsy.com'
-          photograph: "Isabelle Foisy"
-          model: "Stéphanie Giroux"
+          photograph: "Arthur Aaron"
+          model: "Clémentine Pagès"
         p9:
-          title: Pic 6
-          description: Description of pic 6
-          price: 40$
+          title: "The title"
+          description: "The description"
           etsy_link: 'http://etsy.com'
-          photograph: "Isabelle Foisy"
-          model: "Sarah-Annie Frachon-Labrie"
+          photograph: "Arthur Aaron"
+          model: "Clémentine Pagès"
+        p10:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arthur Aaron"
+          model: "Clémentine Pagès"
+        p11:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arthur Aaron"
+          model: "Clémentine Pagès"
+        p12:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arthur Aaron"
+          model: "Clémentine Pagès"   
+        p13:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arthur Aaron"
+          model: "Clémentine Pagès" 
   stores:
     availability: "Availability in stores:"
     oclan: "Oclan"
     urbain: "Urbain"
-  photograph: "Photograph: {{name}}"
+  photograph: "Photo: {{name}}"
   model: "Model: {{name}}"
-  photographs: "Photographs: {{name}}"
+  photographs: "Photos: {{name}}"
   models: "Models: {{name}}"
   fields:
     buy_etsy: Buy online

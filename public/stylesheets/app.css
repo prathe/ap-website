@@ -64,7 +64,7 @@ a.etsy {
 #pic-title, #pic-description { }
 #details a.etsy { position: absolute; bottom: 0.5em; right: 0.5em; }
 #related-pics { display: inline-block; width: 75%; }
-#related-pics img { border: 1px solid #000000; display: block; float: left; }
+#related-pics img { border: 1px solid #000000; display: block; float: left; margin-right: 4px; }
 
 #large-pic { text-align: center; }
 a.large-pic img { display: block;  margin: auto; }
