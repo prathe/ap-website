@@ -29,7 +29,7 @@ en-US:
     back_to_collection: « back to collection
     more_details_title: Product description and close-ups
     index:
-      spring2010: Printemps 2010
+      spring2010: Spring 2010
       fall2010: Fall 2010
       feather_necklaces: Feather necklaces
       fur: Fur Collection
@@ -84,6 +84,8 @@ en-US:
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
+          related:
+            p1: The title
         p4:
           title: "The title"
           description: "The description"
@@ -96,24 +98,34 @@ en-US:
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
+          related:
+            p1: The title
         p6:
           title: "The title"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
-          model: "Clémentine Pagès"  
+          model: "Clémentine Pagès"
+          related:
+            p1: The title
         p7:
           title: "The title"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
+          related:
+            p1: The title
         p8:
           title: "The title"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
+          related:
+            p1: The title
+            p2: The title
+            p3: The title
         p9:
           title: "The title"
           description: "The description"
@@ -126,12 +138,16 @@ en-US:
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
+          related:
+            p1: The title
         p11:
           title: "The title"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
+          related:
+            p1: The title
         p12:
           title: "The title"
           description: "The description"
@@ -143,7 +159,9 @@ en-US:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
-          model: "Clémentine Pagès" 
+          model: "Clémentine Pagès"
+          related:
+            p1: The title
   stores:
     availability: "Availability in stores:"
     oclan: "Oclan"
