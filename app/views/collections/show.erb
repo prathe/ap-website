@@ -34,10 +34,9 @@
     
     $('#collection').galleria({
   
-      show_imagenav: false,
+      idle_time: Math.pow(2, 31) - 1, // indefinitely (galleria does not allow not setting a timeout)
       show_info: false,
       show_counter: false,
-      clicknext: true,
       width: 750,
       transition: 'fade',
       thumb_quality: true,

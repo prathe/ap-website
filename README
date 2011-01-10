@@ -2,5 +2,5 @@
 git submodule update --init --recursive
 
 # Updating galleria
-cd public/javascripts/galleria
+cd public/javascripts/galleria;
 git pull
