@@ -29,38 +29,14 @@ en-US:
     back_to_collection: « back to collection
     more_details_title: Product description and close-ups
     index:
+      summer2010: Summer 2010
       spring2010: Spring 2010
-      fall2010: Fall 2010
-      feather_necklaces: Feather necklaces
-      fur: Fur Collection
-      fur_necklace: Fur necklaces
-      white_feather: White feathers
-      haute_couture: Haute Couture
-      fur_earrings: Fur earrings
-      blue: Summer blue
-      christmas: Christmas
     text_color:
+      summer2010: "#000000"
       spring2010: "#000000"
-      fall2010: "#000000"
-      feather_necklaces: "#C60027"
-      fur: "#B1B0AC"
-      fur_necklace: "#D6D4DA"
-      white_feather: "#000000"
-      haute_couture: "#C60027"
-      fur_earrings: "#FFFFFF"
-      blue: v
-      christmas: v
     background_color:
+      summer2010: "#FFFFFF"
       spring2010: "#FFFFFF"
-      fall2010: "#CC7E89"
-      feather_necklaces: "#000000"
-      fur: "#2621A4"
-      fur_necklace: "#30282D"
-      white_feather: "#E6E9EE"
-      haute_couture: "#000000"
-      fur_earrings: "#63AC22"
-      blue: v
-      christmas: v
     spring2010:
       availability: ""
       products:
