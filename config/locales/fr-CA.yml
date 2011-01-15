@@ -37,6 +37,96 @@ fr-CA:
     background_color:
       summer2010: "#000000"
       spring2010: "#000000"
+    summer2010:
+      availability: ""
+      products:
+        p1:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Sarah-Annie Frachon-Labrie"
+          related:
+            p1: "The title"
+        p2:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Sarah-Annie Frachon-Labrie"
+          related:
+            p1: "The title"
+        p3:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Sarah-Annie Frachon-Labrie"
+          related:
+            p1: "The title"
+        p4:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+          related:
+            p1: "The title"
+        p5:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Sarah-Annie Frachon-Labrie"
+          related:
+            p1: "The title"
+        p6:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Sarah-Annie Frachon-Labrie"
+        p7:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+          related:
+            p1: "The title"
+        p8:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+          related:
+            p1: "The title"
+            p2: "The title"
+        p9:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Sarah-Annie Frachon-Labrie"
+          related:
+            p1: "The title"
+        p10:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Sarah-Annie Frachon-Labrie"
+          related:
+            p1: "The title"
+        p11:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Sarah-Annie Frachon-Labrie"
+          related:
+            p1: "The title"
     spring2010:
       availability: ""
       products:
