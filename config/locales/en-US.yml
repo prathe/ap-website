@@ -24,19 +24,118 @@ en-US:
     stores: Stores
     about: About
     blog: Blog
+  stores:
+    availability: "Availability in stores:"
+    oclan: "Oclan"
+    urbain: "Urbain"
+  photograph: "Photo: {{name}}"
+  model: "Model: {{name}}"
+  photographs: "Photos: {{name}}"
+  models: "Models: {{name}}"
+  fields:
+    buy_etsy: Buy online
+    buy_etsy_title: View this item on etsy.com
   collections:
     more_details: more details »
     back_to_collection: « back to collection
     more_details_title: Product description and close-ups
     index:
+      fall2010: Fall 2010
       summer2010: Summer 2010
       spring2010: Spring 2010
     text_color:
+      fall2010: "#000000"
       summer2010: "#000000"
       spring2010: "#000000"
     background_color:
+      fall2010: "#FFFFFF"
       summer2010: "#FFFFFF"
       spring2010: "#FFFFFF"
+    fall2010:
+      availability: ""
+      products:
+        p1:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+        p2:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Sarah-Annie Frachon-Labrie"
+          related:
+            p1: "The title"
+        p3:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+        p4:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+        p5:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Sarah-Annie Frachon-Labrie"
+          related:
+            p1: "The title"
+        p6:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+          related:
+            p1: "The title"
+        p7:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+        p8:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Sarah-Annie Frachon-Labrie"
+        p9:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Sarah-Annie Frachon-Labrie"
+          related:
+            p1: "The title"
+        p10:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+          related:
+            p1: "The title"
+        p11:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+        p12:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Sarah-Annie Frachon-Labrie"
     summer2010:
       availability: ""
       products:
@@ -228,14 +327,3 @@ en-US:
           model: "Clémentine Pagès"
           related:
             p1: The title
-  stores:
-    availability: "Availability in stores:"
-    oclan: "Oclan"
-    urbain: "Urbain"
-  photograph: "Photo: {{name}}"
-  model: "Model: {{name}}"
-  photographs: "Photos: {{name}}"
-  models: "Models: {{name}}"
-  fields:
-    buy_etsy: Buy online
-    buy_etsy_title: View this item on etsy.com

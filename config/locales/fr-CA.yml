@@ -24,17 +24,31 @@ fr-CA:
     stores: Boutiques
     about: "À propos"
     blog: Blogue
+  stores:
+    availability: "Disponibilité en magasin :"
+    oclan: Oclan
+    urbain: Urbain
+  photograph: "Photo: {{name}}"
+  model: "Mannequin: {{name}}"
+  photographs: "Photos: {{name}}"
+  models: "Mannequins: {{name}}"
+  fields:
+    buy_etsy: Achetez en ligne
+    buy_etsy_title: Voir cet item sur etsy.com
   collections:
     more_details: plus de détails »
     back_to_collection: « retour à la collection
     more_details_title: Description du produit et gros plans
     index:
+      fall2010: Automne 2010
       summer2010: Été 2010
       spring2010: Printemps 2010
     text_color:
+      fall2010: "#FFFFFF"
       summer2010: "#FFFFFF"
       spring2010: "#FFFFFF"
     background_color:
+      fall2010: "#000000"
       summer2010: "#000000"
       spring2010: "#000000"
     summer2010:
@@ -228,14 +242,3 @@ fr-CA:
           model: "Clémentine Pagès"
           related:
             p1: The title
-  stores:
-    availability: "Disponibilité en magasin :"
-    oclan: Oclan
-    urbain: Urbain
-  photograph: "Photo: {{name}}"
-  model: "Mannequin: {{name}}"
-  photographs: "Photos: {{name}}"
-  models: "Mannequins: {{name}}"
-  fields:
-    buy_etsy: Achetez en ligne
-    buy_etsy_title: Voir cet item sur etsy.com
