@@ -40,17 +40,172 @@ en-US:
     back_to_collection: « back to collection
     more_details_title: Product description and close-ups
     index:
+      winter2010: Winter 2010-11
       fall2010: Fall 2010
       summer2010: Summer 2010
       spring2010: Spring 2010
     text_color:
+      winter2010: "#000000"
       fall2010: "#000000"
       summer2010: "#000000"
       spring2010: "#000000"
     background_color:
+      winter2010: "#FFFFFF"
       fall2010: "#FFFFFF"
       summer2010: "#FFFFFF"
       spring2010: "#FFFFFF"
+    winter2010:
+      availability: ""
+      products:
+        p1:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Khady Seye"
+          related:
+            p1: "The title"
+        p2:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Khady Seye"
+        p3:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Khady Seye"
+          related:
+            p1: "The title"
+        p4:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Khady Seye"
+        p5:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Khady Seye"
+        p6:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Khady Seye"
+          related:
+            p1: "The title"
+        p7:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Khady Seye"
+        p8:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Khady Seye"
+          related:
+            p1: "The title"
+        p9:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Khady Seye"
+          related:
+            p1: "The title"
+        p10:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Khady Seye"
+          related:
+            p1: "The title"
+        p11:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Alexe Simard"
+          model: "Alexe Simard"
+          related:
+            p1: "The title"
+            p2: "The title"
+        p12:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Alexe Simard"
+          model: "Alexe Simard"
+          related:
+            p1: "The title"
+        p13:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Alexe Simard"
+          model: "Alexe Simard"
+          related:
+            p1: "The title"
+        p14:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Alexe Simard"
+          model: "Alexe Simard"
+          related:
+            p1: "The title"
+        p15:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Alexe Simard"
+          model: "Alexe Simard"  
+        p16:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Alexe Simard"
+          model: "Alexe Simard"
+          related:
+            p1: "The title"
+        p17:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Alexe Simard"
+          model: "Alexe Simard"
+        p18:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Alexe Simard"
+          model: "Alexe Simard"
+          related:
+            p1: "The title"
+        p19:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Alexe Simard"
+          model: "Alexe Simard"
+          related:
+            p1: "The title"
+        p20:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Alexe Simard"
+          model: "Alexe Simard"
+          related:
+            p1: "The title" 
     fall2010:
       availability: ""
       products:
