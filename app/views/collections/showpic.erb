@@ -16,7 +16,8 @@
   <% unless availability.empty? %>
     <p id="product-availability"><%= raw "#{t('stores.availability')} #{availability}" %></p>
   <% end %>
-  
+
+<% if n_related_pics > 0 %>
   <div id="related-pics" class="hidden">
     <% link_to "#details", {:title => product[:title]} do %>
       <%= image_tag "/images/collections/#{@collection}/slideshow/p#{@id}.jpg", {:alt => product[:title]} %>
@@ -29,6 +30,7 @@
       <% end %>
     <% end %>
   </div>
+<% end %>
 
   <%= link_to t('fields.buy_etsy'), product[:etsy_link], {:class => 'etsy', :title => t('fields.buy_etsy_title')} %>
 </div>
