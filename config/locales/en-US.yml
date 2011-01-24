@@ -159,6 +159,8 @@ en-US:
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
           model: "Khady Seye"
+          related:
+            p1: "The title"
         p8:
           title: "The title"
           description: "The description"
