@@ -40,20 +40,74 @@ en-US:
     back_to_collection: « back to collection
     more_details_title: Product description and close-ups
     index:
+      winter_chic2010: Winter Chic 2010-11
       winter2010: Winter 2010-11
       fall2010: Fall 2010
       summer2010: Summer 2010
       spring2010: Spring 2010
     text_color:
+      winter_chic2010: "#000000"
       winter2010: "#000000"
       fall2010: "#000000"
       summer2010: "#000000"
       spring2010: "#000000"
     background_color:
+      winter_chic2010: "#FFFFFF"
       winter2010: "#FFFFFF"
       fall2010: "#FFFFFF"
       summer2010: "#FFFFFF"
       spring2010: "#FFFFFF"
+    winter_chic2010:
+      availability: ""
+      products:
+        p1:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+        p2:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: "The title"
+        p3:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+        p4:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: "The title"
+        p5:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+        p6:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+        p7:
+          title: "The title"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: "The title"
     winter2010:
       availability: ""
       products:
