@@ -61,288 +61,288 @@ en-US:
       availability: ""
       products:
         p1:
-          title: "The title"
+          title: "Igloo Romance"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arnela Pandzic"
           model: "Arnela Pandzic"
         p2:
-          title: "The title"
+          title: "Alaska"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arnela Pandzic"
           model: "Arnela Pandzic"
           related:
-            p1: "The title"
+            p1: ""
         p3:
-          title: "The title"
+          title: "Olga"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arnela Pandzic"
           model: "Arnela Pandzic"
         p4:
-          title: "The title"
+          title: "Maria"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arnela Pandzic"
           model: "Arnela Pandzic"
           related:
-            p1: "The title"
+            p1: ""
         p5:
-          title: "The title"
+          title: "Irina"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arnela Pandzic"
           model: "Arnela Pandzic"
         p6:
-          title: "The title"
+          title: "Karenina"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arnela Pandzic"
           model: "Arnela Pandzic"
         p7:
-          title: "The title"
+          title: "Oh Sister!"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arnela Pandzic"
           model: "Arnela Pandzic"
           related:
-            p1: "The title"
+            p1: ""
     winter2010:
       availability: ""
       products:
         p1:
-          title: "The title"
+          title: "Osez Joséphine"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
           model: "Khady Seye"
           related:
-            p1: "The title"
+            p1: ""
         p2:
-          title: "The title"
+          title: "Deep Purple"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
           model: "Khady Seye"
         p3:
-          title: "The title"
+          title: "Cactus"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
           model: "Khady Seye"
           related:
-            p1: "The title"
+            p1: ""
         p4:
-          title: "The title"
+          title: "Couleur Café"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
           model: "Khady Seye"
         p5:
-          title: "The title"
+          title: "My Old Flame"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
           model: "Khady Seye"
         p6:
-          title: "The title"
+          title: "Mary"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
           model: "Khady Seye"
           related:
-            p1: "The title"
+            p1: ""
         p7:
-          title: "The title"
+          title: "Venus"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
           model: "Khady Seye"
           related:
-            p1: "The title"
+            p1: ""
         p8:
-          title: "The title"
+          title: "Etta"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
           model: "Khady Seye"
           related:
-            p1: "The title"
+            p1: ""
         p9:
-          title: "The title"
+          title: "Lady Day"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
           model: "Khady Seye"
           related:
-            p1: "The title"
+            p1: ""
         p10:
-          title: "The title"
+          title: "Aretha"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
           model: "Khady Seye"
           related:
-            p1: "The title"
+            p1: ""
         p11:
-          title: "The title"
+          title: "Beauty and the Beast"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Alexe Simard"
           model: "Alexe Simard"
           related:
-            p1: "The title"
-            p2: "The title"
+            p1: ""
+            p2: ""
         p12:
-          title: "The title"
+          title: "Christmas story"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Alexe Simard"
           model: "Alexe Simard"
           related:
-            p1: "The title"
+            p1: ""
         p13:
-          title: "The title"
+          title: "Chamane"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Alexe Simard"
           model: "Alexe Simard"
           related:
-            p1: "The title"
+            p1: ""
         p14:
-          title: "The title"
+          title: "Water Lily"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Alexe Simard"
           model: "Alexe Simard"
           related:
-            p1: "The title"
+            p1: ""
         p15:
-          title: "The title"
+          title: "Gray Cloud"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Alexe Simard"
           model: "Alexe Simard"  
         p16:
-          title: "The title"
+          title: "Fox in the Snow"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Alexe Simard"
           model: "Alexe Simard"
           related:
-            p1: "The title"
+            p1: ""
         p17:
-          title: "The title"
+          title: "Winter Jellyfish"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Alexe Simard"
           model: "Alexe Simard"
         p18:
-          title: "The title"
+          title: "Stendhal"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Alexe Simard"
           model: "Alexe Simard"
           related:
-            p1: "The title"
+            p1: ""
         p19:
-          title: "The title"
+          title: "Winter Octopus"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Alexe Simard"
           model: "Alexe Simard"
           related:
-            p1: "The title"
+            p1: ""
         p20:
-          title: "The title"
+          title: "On the Road"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Alexe Simard"
           model: "Alexe Simard"
           related:
-            p1: "The title" 
+            p1: "" 
     fall2010:
       availability: ""
       products:
         p1:
-          title: "The title"
+          title: "Fashion Victim"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Stéphanie Giroux"
         p2:
-          title: "The title"
+          title: "Bonaparte"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Sarah-Annie Frachon-Labrie"
           related:
-            p1: "The title"
+            p1: ""
         p3:
-          title: "The title"
+          title: "Black and White"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Stéphanie Giroux"
         p4:
-          title: "The title"
+          title: "Wild Thing"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Stéphanie Giroux"
         p5:
-          title: "The title"
+          title: "Back in Black"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Sarah-Annie Frachon-Labrie"
           related:
-            p1: "The title"
+            p1: ""
         p6:
-          title: "The title"
+          title: "Purple Rain"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Stéphanie Giroux"
           related:
-            p1: "The title"
+            p1: ""
         p7:
-          title: "The title"
+          title: "Clair de Lune"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Stéphanie Giroux"
         p8:
-          title: "The title"
+          title: "Voodoo Child"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Sarah-Annie Frachon-Labrie"
         p9:
-          title: "The title"
+          title: "My Generation"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Sarah-Annie Frachon-Labrie"
           related:
-            p1: "The title"
+            p1: ""
         p10:
-          title: "The title"
+          title: "Été Indien"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Stéphanie Giroux"
           related:
-            p1: "The title"
+            p1: ""
         p11:
-          title: "The title"
+          title: "Ghost Dance"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Stéphanie Giroux"
         p12:
-          title: "The title"
+          title: "Hymne à l'Amour"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
@@ -351,190 +351,190 @@ en-US:
       availability: ""
       products:
         p1:
-          title: "The title"
+          title: "Pretty in Pink"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Sarah-Annie Frachon-Labrie"
           related:
-            p1: "The title"
+            p1: ""
         p2:
-          title: "The title"
+          title: "Ciel d'Été"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Sarah-Annie Frachon-Labrie"
           related:
-            p1: "The title"
+            p1: ""
         p3:
-          title: "The title"
+          title: "Nouvelle Vague"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Sarah-Annie Frachon-Labrie"
           related:
-            p1: "The title"
+            p1: ""
         p4:
-          title: "The title"
+          title: "Blue Moon"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Stéphanie Giroux"
           related:
-            p1: "The title"
+            p1: ""
         p5:
-          title: "The title"
+          title: "American Beauty"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Sarah-Annie Frachon-Labrie"
           related:
-            p1: "The title"
+            p1: ""
         p6:
-          title: "The title"
+          title: "Susanne"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Sarah-Annie Frachon-Labrie"
         p7:
-          title: "The title"
+          title: "Sweet Jane"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Stéphanie Giroux"
           related:
-            p1: "The title"
+            p1: ""
         p8:
-          title: "The title"
+          title: "Yellow Submarine"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Stéphanie Giroux"
           related:
-            p1: "The title"
-            p2: "The title"
+            p1: ""
+            p2: ""
         p9:
-          title: "The title"
+          title: "Papillon de Nuit"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Sarah-Annie Frachon-Labrie"
           related:
-            p1: "The title"
+            p1: ""
         p10:
-          title: "The title"
+          title: "Elisa"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Sarah-Annie Frachon-Labrie"
           related:
-            p1: "The title"
+            p1: ""
         p11:
-          title: "The title"
+          title: "Winona"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Sarah-Annie Frachon-Labrie"
           related:
-            p1: "The title"
+            p1: ""
     spring2010:
       availability: ""
       products:
         p1:
-          title: "The title"
+          title: "Jasmine"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: "The title"
+            p1: ""
         p2:
-          title: "The title"
+          title: "White Lily"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
         p3:
-          title: "The title"
+          title: "These Flowers"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: The title
+            p1: 
         p4:
-          title: "The title"
+          title: "These Flowers II"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
         p5:
-          title: "The title"
+          title: "Under the Pink"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: The title
+            p1: 
         p6:
-          title: "The title"
+          title: "These Flowers III"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: The title
+            p1: 
         p7:
-          title: "The title"
+          title: "Candy Perfume Girl"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: The title
+            p1: 
         p8:
-          title: "The title"
+          title: "Blanche-Neige"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: The title
-            p2: The title
-            p3: The title
+            p1: 
+            p2: 
+            p3: 
         p9:
-          title: "The title"
+          title: "Lila"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
         p10:
-          title: "The title"
+          title: "Conte Bleu"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: The title
+            p1: 
         p11:
-          title: "The title"
+          title: "Les Ailes du Désir"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: The title
+            p1: 
         p12:
-          title: "The title"
+          title: "Ève"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"   
         p13:
-          title: "The title"
+          title: "Magnolia Blossom"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: The title
+            p1: 
