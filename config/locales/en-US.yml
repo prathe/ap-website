@@ -40,6 +40,7 @@ en-US:
     back_to_collection: « back to collection
     more_details_title: Product description and close-ups
     index:
+      ss2011: SS2011
       boudoir: Boudoir
       winter_chic2010: Winter Chic 2010-11
       winter2010: Winter 2010-11
@@ -47,6 +48,7 @@ en-US:
       summer2010: Summer 2010
       spring2010: Spring 2010
     text_color:
+      ss2011: "#000000"
       boudoir: "#000000"
       winter_chic2010: "#000000"
       winter2010: "#000000"
@@ -54,12 +56,90 @@ en-US:
       summer2010: "#000000"
       spring2010: "#000000"
     background_color:
+      ss2011: "#FFFFFF"
       boudoir: "#FFFFFF"
       winter_chic2010: "#FFFFFF"
       winter2010: "#FFFFFF"
       fall2010: "#FFFFFF"
       summer2010: "#FFFFFF"
       spring2010: "#FFFFFF"
+    ss2011:
+      availability: ""
+      products:
+        p1:
+          title: "Louise I"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+            p2: ""
+        p2:
+          title: "Louise II"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p3:
+          title: "Fanny"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p4:
+          title: "Sarah I"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+            p2: ""
+        p5:
+          title: "Sarah II"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p6:
+          title: "Enfant du Paradis"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+        p7:
+          title: "Vanilla Romance I"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p8:
+          title: "Vanilla Romance II"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
     boudoir:
       availability: ""
       products:
@@ -68,7 +148,7 @@ en-US:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
-          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+          model: "Christyna Fortin"
           related:
             p1: ""
             p2: ""
@@ -79,7 +159,7 @@ en-US:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
-          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+          model: "Christyna Fortin"
           related:
             p1: ""
             p2: ""
@@ -88,7 +168,7 @@ en-US:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
-          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+          model: "Christyna Fortin"
           related:
             p1: ""
             p2: ""
@@ -98,7 +178,7 @@ en-US:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
-          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+          model: "Christyna Fortin"
           related:
             p1: ""
             p2: ""
@@ -108,7 +188,7 @@ en-US:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
-          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+          model: "Christyna Fortin"
           related:
             p1: ""
             p2: ""
@@ -119,7 +199,7 @@ en-US:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
-          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+          model: "Christyna Fortin"
           related:
             p1: ""
             p2: ""
@@ -128,7 +208,7 @@ en-US:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
-          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+          model: "Christyna Fortin"
           related:
             p1: ""
             p2: ""
@@ -137,7 +217,7 @@ en-US:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
-          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+          model: "Christyna Fortin"
           related:
             p1: ""
             p2: ""
@@ -146,7 +226,7 @@ en-US:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
-          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"    
+          model: "Christyna Fortin"    
           related:
             p1: ""
             p2: ""
@@ -156,7 +236,7 @@ en-US:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
-          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"    
+          model: "Christyna Fortin"    
           related:
             p1: ""
             p2: ""
@@ -166,7 +246,7 @@ en-US:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
-          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"    
+          model: "Christyna Fortin"    
           related:
             p1: ""
             p2: ""
@@ -177,7 +257,7 @@ en-US:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
-          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  
+          model: "Christyna Fortin"  
           related:
             p1: ""
             p2: ""
@@ -186,7 +266,7 @@ en-US:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
-          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"    
+          model: "Christyna Fortin"    
           related:
             p1: ""
             p2: ""
@@ -196,7 +276,7 @@ en-US:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
-          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" 
+          model: "Christyna Fortin" 
           related:
             p1: ""
             p2: ""
