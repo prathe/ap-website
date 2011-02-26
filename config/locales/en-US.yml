@@ -40,23 +40,166 @@ en-US:
     back_to_collection: « back to collection
     more_details_title: Product description and close-ups
     index:
+      boudoir: Boudoir
       winter_chic2010: Winter Chic 2010-11
       winter2010: Winter 2010-11
       fall2010: Fall 2010
       summer2010: Summer 2010
       spring2010: Spring 2010
     text_color:
+      boudoir: "#000000"
       winter_chic2010: "#000000"
       winter2010: "#000000"
       fall2010: "#000000"
       summer2010: "#000000"
       spring2010: "#000000"
     background_color:
+      boudoir: "#FFFFFF"
       winter_chic2010: "#FFFFFF"
       winter2010: "#FFFFFF"
       fall2010: "#FFFFFF"
       summer2010: "#FFFFFF"
       spring2010: "#FFFFFF"
+    boudoir:
+      availability: ""
+      products:
+        p1:
+          title: "Laurence"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+            p4: ""
+        p2:
+          title: "Apricot Love"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+          related:
+            p1: ""
+            p2: ""
+        p3:
+          title: "Kate"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p4:
+          title: "Birds and Flowers"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p5:
+          title: "Ariane"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+            p4: ""
+        p6:
+          title: "Marie Antoinette I"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+          related:
+            p1: ""
+            p2: ""
+        p7:
+          title: "Marie Antoinette II"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+          related:
+            p1: ""
+            p2: ""
+        p8:
+          title: "Petite Fleur"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+          related:
+            p1: ""
+            p2: ""
+        p9:
+          title: "Laura"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"    
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p10:
+          title: "Fanny"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"    
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p11:
+          title: "Bouton D'or"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"    
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+            p4: ""
+        p12:
+          title: "Vanilla Romance"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  
+          related:
+            p1: ""
+            p2: ""
+        p13:
+          title: "Gardenia"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"    
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p14:
+          title: "Judith"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" 
+          related:
+            p1: ""
+            p2: ""
     winter_chic2010:
       availability: ""
       products:
