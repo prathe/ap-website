@@ -12,10 +12,10 @@
 </div>
 
 <div id="details" name="details">
-  <p id="pic-description" class="text"><%= product[:description] %></p>
+  <!-- <p id="pic-description" class="text"><%= product[:description] %></p>
   <% unless availability.empty? %>
     <p id="product-availability"><%= raw "#{t('stores.availability')} #{availability}" %></p>
-  <% end %>
+  <% end %> -->
 
 <% if n_related_pics > 0 %>
   <div id="related-pics" class="hidden">
@@ -32,7 +32,7 @@
   </div>
 <% end %>
 
-  <%= link_to t('fields.buy_etsy'), product[:etsy_link], {:class => 'etsy', :title => t('fields.buy_etsy_title')} %>
+  <%#= link_to t('fields.buy_etsy'), product[:etsy_link], {:class => 'etsy', :title => t('fields.buy_etsy_title')} %>
 </div>
 
 <div id="large-pic"><% link_to collections_show_path(:name => @collection, :id => @id), {:class => 'large-pic', :title => collection_name} do %><%= image_tag "/images/collections/#{@collection}/slideshow/p#{@id}.jpg", :alt => product[:title] %><% end %></div>
