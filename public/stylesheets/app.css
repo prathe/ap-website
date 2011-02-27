@@ -6,11 +6,11 @@ html, body { color: #333; height: 100%; }
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -40px; /* the bottom margin is the negative value of the footer's height */
+	margin: 0 auto -30px; /* the bottom margin is the negative value of the footer's height */
 }
 
 #ft, .push {
-	height: 40px; /* .push must be the same height as .footer */
+	height: 30px; /* .push must be the same height as .footer */
 }
 
 #ft { text-align: center; }

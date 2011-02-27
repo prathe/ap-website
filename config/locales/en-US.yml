@@ -28,7 +28,7 @@ en-US:
     availability: "Availability in stores:"
     oclan: "Oclan"
     urbain: "Urbain"
-  photograph: "Photo: {{name}}"
+  photograph: "Photographer: {{name}}"
   model: "Model: {{name}}"
   photographs: "Photos: {{name}}"
   models: "Models: {{name}}"

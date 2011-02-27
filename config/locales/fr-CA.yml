@@ -28,7 +28,7 @@ fr-CA:
     availability: "Disponibilité en magasin :"
     oclan: Oclan
     urbain: Urbain
-  photograph: "Photo: {{name}}"
+  photograph: "Photographe: {{name}}"
   model: "Mannequin: {{name}}"
   photographs: "Photos: {{name}}"
   models: "Mannequins: {{name}}"
