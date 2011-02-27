@@ -40,6 +40,7 @@ fr-CA:
     back_to_collection: « retour à la collection
     more_details_title: Description du produit et gros plans
     index:
+      ss2011: "P/É2011"
       boudoir: Boudoir
       winter_chic2010: Hiver Chic 2010-11
       winter2010: Hiver 2010-11
@@ -47,6 +48,7 @@ fr-CA:
       summer2010: Été 2010
       spring2010: Printemps 2010
     text_color:
+      ss2011: "#FFFFFF"
       boudoir: "#FFFFFF"
       winter_chic2010: "#FFFFFF"
       winter2010: "#FFFFFF"
@@ -54,200 +56,708 @@ fr-CA:
       summer2010: "#FFFFFF"
       spring2010: "#FFFFFF"
     background_color:
-      boudoir: "#FFFFFF"
-      winter_chic2010: "#FFFFFF"
+      ss2011: "#000000"
+      boudoir: "#000000"
+      winter_chic2010: "#000000"
       winter2010: "#000000"
       fall2010: "#000000"
       summer2010: "#000000"
       spring2010: "#000000"
+    ss2011:
+      availability: ""
+      products:
+        p1:
+          title: "Louise I"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+            p2: ""
+        p2:
+          title: "Louise II"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p3:
+          title: "Fanny"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p4:
+          title: "Sarah I"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+            p2: ""
+        p5:
+          title: "Sarah II"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p6:
+          title: "Enfant du Paradis"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+        p7:
+          title: "Vanilla Romance I"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p8:
+          title: "Vanilla Romance II"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+    boudoir:
+      availability: ""
+      products:
+        p1:
+          title: "Laurence"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+            p4: ""
+        p2:
+          title: "Apricot Love"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+            p2: ""
+        p3:
+          title: "Kate"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p4:
+          title: "Birds and Flowers"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p5:
+          title: "Ariane"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+            p4: ""
+        p6:
+          title: "Marie Antoinette I"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+            p2: ""
+        p7:
+          title: "Marie Antoinette II"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+            p2: ""
+        p8:
+          title: "Petite Fleur"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"
+          related:
+            p1: ""
+            p2: ""
+        p9:
+          title: "Laura"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"    
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p10:
+          title: "Fanny"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"    
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p11:
+          title: "Bouton D'or"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"    
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+            p4: ""
+        p12:
+          title: "Vanilla Romance"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"  
+          related:
+            p1: ""
+            p2: ""
+        p13:
+          title: "Gardenia"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin"    
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p14:
+          title: "Judith"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Christyna Fortin" 
+          related:
+            p1: ""
+            p2: ""
+    winter_chic2010:
+      availability: ""
+      products:
+        p1:
+          title: "Igloo Romance"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+        p2:
+          title: "Alaska"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: ""
+        p3:
+          title: "Olga"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+        p4:
+          title: "Maria"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: ""
+        p5:
+          title: "Irina"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+        p6:
+          title: "Karenina"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+        p7:
+          title: "Oh Sister!"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: ""
+    winter2010:
+      availability: ""
+      products:
+        p1:
+          title: "Osez Joséphine"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Khady Seye"
+          related:
+            p1: ""
+        p2:
+          title: "Deep Purple"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Khady Seye"
+        p3:
+          title: "Cactus"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Khady Seye"
+          related:
+            p1: ""
+        p4:
+          title: "Couleur Café"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Khady Seye"
+        p5:
+          title: "My Old Flame"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Khady Seye"
+        p6:
+          title: "Mary"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Khady Seye"
+          related:
+            p1: ""
+        p7:
+          title: "Venus"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Khady Seye"
+          related:
+            p1: ""
+        p8:
+          title: "Etta"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Khady Seye"
+          related:
+            p1: ""
+        p9:
+          title: "Lady Day"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Khady Seye"
+          related:
+            p1: ""
+        p10:
+          title: "Aretha"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Kaven Tremblay"
+          model: "Khady Seye"
+          related:
+            p1: ""
+        p11:
+          title: "Beauty and the Beast"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Alexe Simard"
+          model: "Alexe Simard"
+          related:
+            p1: ""
+            p2: ""
+        p12:
+          title: "Christmas story"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Alexe Simard"
+          model: "Alexe Simard"
+          related:
+            p1: ""
+        p13:
+          title: "Chamane"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Alexe Simard"
+          model: "Alexe Simard"
+          related:
+            p1: ""
+        p14:
+          title: "Water Lily"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Alexe Simard"
+          model: "Alexe Simard"
+          related:
+            p1: ""
+        p15:
+          title: "Gray Cloud"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Alexe Simard"
+          model: "Alexe Simard"  
+        p16:
+          title: "Fox in the Snow"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Alexe Simard"
+          model: "Alexe Simard"
+          related:
+            p1: ""
+        p17:
+          title: "Winter Jellyfish"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Alexe Simard"
+          model: "Alexe Simard"
+        p18:
+          title: "Stendhal"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Alexe Simard"
+          model: "Alexe Simard"
+          related:
+            p1: ""
+        p19:
+          title: "Winter Octopus"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Alexe Simard"
+          model: "Alexe Simard"
+          related:
+            p1: ""
+        p20:
+          title: "On the Road"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Alexe Simard"
+          model: "Alexe Simard"
+          related:
+            p1: "" 
+    fall2010:
+      availability: ""
+      products:
+        p1:
+          title: "Fashion Victim"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+        p2:
+          title: "Bonaparte"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Sarah-Annie Frachon-Labrie"
+          related:
+            p1: ""
+        p3:
+          title: "Black and White"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+        p4:
+          title: "Wild Thing"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+        p5:
+          title: "Back in Black"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Sarah-Annie Frachon-Labrie"
+          related:
+            p1: ""
+        p6:
+          title: "Purple Rain"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+          related:
+            p1: ""
+        p7:
+          title: "Clair de Lune"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+        p8:
+          title: "Voodoo Child"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Sarah-Annie Frachon-Labrie"
+        p9:
+          title: "My Generation"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Sarah-Annie Frachon-Labrie"
+          related:
+            p1: ""
+        p10:
+          title: "Été Indien"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+          related:
+            p1: ""
+        p11:
+          title: "Ghost Dance"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Stéphanie Giroux"
+        p12:
+          title: "Hymne à l'Amour"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Isabelle Foisy"
+          model: "Sarah-Annie Frachon-Labrie"
     summer2010:
       availability: ""
       products:
         p1:
-          title: "The title"
+          title: "Pretty in Pink"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Sarah-Annie Frachon-Labrie"
           related:
-            p1: "The title"
+            p1: ""
         p2:
-          title: "The title"
+          title: "Ciel d'Été"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Sarah-Annie Frachon-Labrie"
           related:
-            p1: "The title"
+            p1: ""
         p3:
-          title: "The title"
+          title: "Nouvelle Vague"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Sarah-Annie Frachon-Labrie"
           related:
-            p1: "The title"
+            p1: ""
         p4:
-          title: "The title"
+          title: "Blue Moon"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Stéphanie Giroux"
           related:
-            p1: "The title"
+            p1: ""
         p5:
-          title: "The title"
+          title: "American Beauty"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Sarah-Annie Frachon-Labrie"
           related:
-            p1: "The title"
+            p1: ""
         p6:
-          title: "The title"
+          title: "Susanne"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Sarah-Annie Frachon-Labrie"
         p7:
-          title: "The title"
+          title: "Sweet Jane"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Stéphanie Giroux"
           related:
-            p1: "The title"
+            p1: ""
         p8:
-          title: "The title"
+          title: "Yellow Submarine"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Stéphanie Giroux"
           related:
-            p1: "The title"
-            p2: "The title"
+            p1: ""
+            p2: ""
         p9:
-          title: "The title"
+          title: "Papillon de Nuit"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Sarah-Annie Frachon-Labrie"
           related:
-            p1: "The title"
+            p1: ""
         p10:
-          title: "The title"
+          title: "Elisa"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Sarah-Annie Frachon-Labrie"
           related:
-            p1: "The title"
+            p1: ""
         p11:
-          title: "The title"
+          title: "Winona"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Isabelle Foisy"
           model: "Sarah-Annie Frachon-Labrie"
           related:
-            p1: "The title"
+            p1: ""
     spring2010:
       availability: ""
       products:
         p1:
-          title: "The title"
+          title: "Jasmine"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: "The title"
+            p1: ""
         p2:
-          title: "The title"
+          title: "White Lily"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
         p3:
-          title: "The title"
+          title: "These Flowers"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: The title
+            p1: 
         p4:
-          title: "The title"
+          title: "These Flowers II"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
         p5:
-          title: "The title"
+          title: "Under the Pink"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: The title
+            p1: 
         p6:
-          title: "The title"
+          title: "These Flowers III"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: The title
+            p1: 
         p7:
-          title: "The title"
+          title: "Candy Perfume Girl"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: The title
+            p1: 
         p8:
-          title: "The title"
+          title: "Blanche-Neige"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: The title
-            p2: The title
-            p3: The title
+            p1: 
+            p2: 
+            p3: 
         p9:
-          title: "The title"
+          title: "Lila"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
         p10:
-          title: "The title"
+          title: "Conte Bleu"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: The title
+            p1: 
         p11:
-          title: "The title"
+          title: "Les Ailes du Désir"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: The title
+            p1: 
         p12:
-          title: "The title"
+          title: "Ève"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"   
         p13:
-          title: "The title"
+          title: "Magnolia Blossom"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: The title
+            p1: 

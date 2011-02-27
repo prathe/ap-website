@@ -1,5 +1,5 @@
 <% product = t("collections.#{@collection}.products.p#{@id}") %>
-<% collection_name = t("collections.index.#{@collection}").capitalize %>
+<% collection_name = t("collections.index.#{@collection}") %>
 <% related_pics = product[:related] || {} %>
 <% n_related_pics = related_pics.keys.size %>
 <% availability = product_availability(t("collections.#{@collection}.availability")) %>

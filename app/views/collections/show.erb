@@ -2,7 +2,7 @@
 <% current_product = t("collections.#{@collection}.products.p#{@id}") %>
 <% n_products = t("collections.#{@collection}.products").keys.length %>
 
-<h2 id="collection-name"><%= t("collections.index.#{@collection}").capitalize %></h2>
+<h2 id="collection-name"><%= t("collections.index.#{@collection}") %></h2>
 
 <h3 id="pic-title"><%= current_product[:title] %></h3>
 <div id="more-details">
