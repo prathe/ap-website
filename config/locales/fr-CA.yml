@@ -226,7 +226,7 @@ fr-CA:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
-          model: "Christyna Fortin"    
+          model: "Christyna Fortin"
           related:
             p1: ""
             p2: ""
@@ -236,7 +236,7 @@ fr-CA:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
-          model: "Christyna Fortin"    
+          model: "Christyna Fortin"
           related:
             p1: ""
             p2: ""
@@ -246,7 +246,7 @@ fr-CA:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
-          model: "Christyna Fortin"    
+          model: "Christyna Fortin"
           related:
             p1: ""
             p2: ""
@@ -257,7 +257,7 @@ fr-CA:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
-          model: "Christyna Fortin"  
+          model: "Christyna Fortin"
           related:
             p1: ""
             p2: ""
@@ -266,7 +266,7 @@ fr-CA:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
-          model: "Christyna Fortin"    
+          model: "Christyna Fortin"
           related:
             p1: ""
             p2: ""
@@ -276,7 +276,7 @@ fr-CA:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Kaven Tremblay"
-          model: "Christyna Fortin" 
+          model: "Christyna Fortin"
           related:
             p1: ""
             p2: ""
@@ -289,6 +289,9 @@ fr-CA:
           etsy_link: 'http://etsy.com'
           photograph: "Arnela Pandzic"
           model: "Arnela Pandzic"
+          related:
+            p1: ""
+            p2: ""
         p2:
           title: "Alaska"
           description: "The description"
@@ -297,12 +300,16 @@ fr-CA:
           model: "Arnela Pandzic"
           related:
             p1: ""
+            p2: ""
         p3:
           title: "Olga"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arnela Pandzic"
           model: "Arnela Pandzic"
+          related:
+            p1: ""
+            p2: ""
         p4:
           title: "Maria"
           description: "The description"
@@ -311,19 +318,18 @@ fr-CA:
           model: "Arnela Pandzic"
           related:
             p1: ""
+            p2: ""
+            p3: ""
         p5:
-          title: "Irina"
-          description: "The description"
-          etsy_link: 'http://etsy.com'
-          photograph: "Arnela Pandzic"
-          model: "Arnela Pandzic"
-        p6:
           title: "Karenina"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arnela Pandzic"
           model: "Arnela Pandzic"
-        p7:
+          related:
+            p1: ""
+            p2: ""
+        p6:
           title: "Oh Sister!"
           description: "The description"
           etsy_link: 'http://etsy.com'
@@ -331,6 +337,29 @@ fr-CA:
           model: "Arnela Pandzic"
           related:
             p1: ""
+            p2: ""
+        p7:
+          title: "Coeur Slave"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""           
+            p4: ""       
+        p8:
+          title: "Beauty and the Beast + Ave Maria"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""           
+            p4: ""    
     winter2010:
       availability: ""
       products:
@@ -446,7 +475,7 @@ fr-CA:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Alexe Simard"
-          model: "Alexe Simard"  
+          model: "Alexe Simard"
         p16:
           title: "Fox in the Snow"
           description: "The description"
@@ -484,7 +513,7 @@ fr-CA:
           photograph: "Alexe Simard"
           model: "Alexe Simard"
           related:
-            p1: "" 
+            p1: ""
     fall2010:
       availability: ""
       products:
@@ -684,7 +713,7 @@ fr-CA:
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: 
+            p1:
         p4:
           title: "These Flowers II"
           description: "The description"
@@ -698,7 +727,7 @@ fr-CA:
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: 
+            p1:
         p6:
           title: "These Flowers III"
           description: "The description"
@@ -706,7 +735,7 @@ fr-CA:
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: 
+            p1:
         p7:
           title: "Candy Perfume Girl"
           description: "The description"
@@ -714,7 +743,7 @@ fr-CA:
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: 
+            p1:
         p8:
           title: "Blanche-Neige"
           description: "The description"
@@ -722,9 +751,9 @@ fr-CA:
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: 
-            p2: 
-            p3: 
+            p1:
+            p2:
+            p3:
         p9:
           title: "Lila"
           description: "The description"
@@ -738,7 +767,7 @@ fr-CA:
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: 
+            p1:
         p11:
           title: "Les Ailes du Désir"
           description: "The description"
@@ -746,13 +775,13 @@ fr-CA:
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: 
+            p1:
         p12:
           title: "Ève"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
-          model: "Clémentine Pagès"   
+          model: "Clémentine Pagès"
         p13:
           title: "Magnolia Blossom"
           description: "The description"
@@ -760,4 +789,4 @@ fr-CA:
           photograph: "Arthur Aaron"
           model: "Clémentine Pagès"
           related:
-            p1: 
+            p1:

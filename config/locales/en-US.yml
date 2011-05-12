@@ -289,6 +289,9 @@ en-US:
           etsy_link: 'http://etsy.com'
           photograph: "Arnela Pandzic"
           model: "Arnela Pandzic"
+          related:
+            p1: ""
+            p2: ""
         p2:
           title: "Alaska"
           description: "The description"
@@ -297,12 +300,16 @@ en-US:
           model: "Arnela Pandzic"
           related:
             p1: ""
+            p2: ""
         p3:
           title: "Olga"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arnela Pandzic"
           model: "Arnela Pandzic"
+          related:
+            p1: ""
+            p2: ""
         p4:
           title: "Maria"
           description: "The description"
@@ -311,19 +318,18 @@ en-US:
           model: "Arnela Pandzic"
           related:
             p1: ""
+            p2: ""
+            p3: ""
         p5:
-          title: "Irina"
-          description: "The description"
-          etsy_link: 'http://etsy.com'
-          photograph: "Arnela Pandzic"
-          model: "Arnela Pandzic"
-        p6:
           title: "Karenina"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arnela Pandzic"
           model: "Arnela Pandzic"
-        p7:
+          related:
+            p1: ""
+            p2: ""
+        p6:
           title: "Oh Sister!"
           description: "The description"
           etsy_link: 'http://etsy.com'
@@ -331,6 +337,29 @@ en-US:
           model: "Arnela Pandzic"
           related:
             p1: ""
+            p2: ""
+        p7:
+          title: "Coeur Slave"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""           
+            p4: ""       
+        p8:
+          title: "Beauty and the Beast + Ave Maria"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""           
+            p4: ""    
     winter2010:
       availability: ""
       products:
