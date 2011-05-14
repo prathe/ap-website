@@ -63,7 +63,8 @@ a.etsy {
 #details { position: relative; margin-bottom: 0.5em; padding: 0.5em; border-top: 1px dotted #999; border-bottom: 1px dotted #999; }
 #pic-title, #pic-description { }
 #details a.etsy { position: absolute; bottom: 0.5em; right: 0.5em; }
-#related-pics { display: inline-block; width: 75%; }
+/*#related-pics { display: inline-block; width: 75%; }*/
+#related-pics { display: inline-block; width: 100%; }
 #related-pics img { border: 1px solid #000000; display: block; float: left; margin-right: 4px; }
 
 #large-pic { text-align: center; min-height: 750px; }

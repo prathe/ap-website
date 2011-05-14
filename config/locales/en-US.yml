@@ -28,10 +28,10 @@ en-US:
     availability: "Availability in stores:"
     oclan: "Oclan"
     urbain: "Urbain"
-  photograph: "Photographer: {{name}}"
+  photograph: "Picture: {{name}}"
   model: "Model: {{name}}"
   photographs: "Photos: {{name}}"
-  models: "Models: {{name}}"
+  models: "Picture: {{name}}"
   fields:
     buy_etsy: Buy online
     buy_etsy_title: View this item on etsy.com
@@ -40,6 +40,7 @@ en-US:
     back_to_collection: « back to collection
     more_details_title: Product description and close-ups
     index:
+      macarons: "Macarons, ces petits délices"
       ss2011: S/S2011
       boudoir: Boudoir
       winter_chic2010: Winter Chic 2010-11
@@ -48,6 +49,7 @@ en-US:
       summer2010: Summer 2010
       spring2010: Spring 2010
     text_color:
+      macarons: "#000000"
       ss2011: "#000000"
       boudoir: "#000000"
       winter_chic2010: "#000000"
@@ -56,6 +58,7 @@ en-US:
       summer2010: "#000000"
       spring2010: "#000000"
     background_color:
+      macarons: "#FFFFFF"
       ss2011: "#FFFFFF"
       boudoir: "#FFFFFF"
       winter_chic2010: "#FFFFFF"
@@ -63,6 +66,52 @@ en-US:
       fall2010: "#FFFFFF"
       summer2010: "#FFFFFF"
       spring2010: "#FFFFFF"
+    macarons:
+      availability: ""
+      products:
+        p1:
+          title: "Barely Blue"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Niki Charlie"
+          model: "Amélie Marquis"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p2:
+          title: "Black Bird"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Niki Charlie"
+          model: "Amélie Marquis"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+            p4: ""
+        p3:
+          title: "Bright Rose"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Niki Charlie"
+          model: "Amélie Marquis"
+          related:
+            p1: ""
+            p2: ""
+        p4:
+          title: "Apricot Love"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Niki Charlie"
+          model: "Amélie Marquis"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+            p4: ""
+            p5: ""
+            p6: ""
     ss2011:
       availability: ""
       products:
