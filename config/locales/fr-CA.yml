@@ -112,6 +112,43 @@ fr-CA:
             p4: ""
             p5: ""
             p6: ""
+        p5:
+          title: "Celadon"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p6:
+          title: "Melon Day"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: ""
+            p2: ""
+        p7:
+          title: "Temps des Cerises"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: ""
+            p2: ""
+        p8:
+          title: "Lys B."
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Sarah-Annie Frachon-Labrie"
+          related:
+            p1: ""
+            p2: ""
     ss2011:
       availability: ""
       products:
@@ -396,8 +433,8 @@ fr-CA:
           related:
             p1: ""
             p2: ""
-            p3: ""           
-            p4: ""       
+            p3: ""
+            p4: ""
         p8:
           title: "Beauty and the Beast + Ave Maria"
           description: "The description"
@@ -407,8 +444,8 @@ fr-CA:
           related:
             p1: ""
             p2: ""
-            p3: ""           
-            p4: ""    
+            p3: ""
+            p4: ""
     winter2010:
       availability: ""
       products:
@@ -746,7 +783,7 @@ fr-CA:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
-          model: "Clémentine Pagès"
+          model: "Clémentine Pages"
           related:
             p1: ""
         p2:
@@ -754,13 +791,13 @@ fr-CA:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
-          model: "Clémentine Pagès"
+          model: "Clémentine Pages"
         p3:
           title: "These Flowers"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
-          model: "Clémentine Pagès"
+          model: "Clémentine Pages"
           related:
             p1:
         p4:
@@ -768,13 +805,13 @@ fr-CA:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
-          model: "Clémentine Pagès"
+          model: "Clémentine Pages"
         p5:
           title: "Under the Pink"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
-          model: "Clémentine Pagès"
+          model: "Clémentine Pages"
           related:
             p1:
         p6:
@@ -782,7 +819,7 @@ fr-CA:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
-          model: "Clémentine Pagès"
+          model: "Clémentine Pages"
           related:
             p1:
         p7:
@@ -790,7 +827,7 @@ fr-CA:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
-          model: "Clémentine Pagès"
+          model: "Clémentine Pages"
           related:
             p1:
         p8:
@@ -798,7 +835,7 @@ fr-CA:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
-          model: "Clémentine Pagès"
+          model: "Clémentine Pages"
           related:
             p1:
             p2:
@@ -808,13 +845,13 @@ fr-CA:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
-          model: "Clémentine Pagès"
+          model: "Clémentine Pages"
         p10:
           title: "Conte Bleu"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
-          model: "Clémentine Pagès"
+          model: "Clémentine Pages"
           related:
             p1:
         p11:
@@ -822,7 +859,7 @@ fr-CA:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
-          model: "Clémentine Pagès"
+          model: "Clémentine Pages"
           related:
             p1:
         p12:
@@ -830,12 +867,12 @@ fr-CA:
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
-          model: "Clémentine Pagès"
+          model: "Clémentine Pages"
         p13:
           title: "Magnolia Blossom"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
-          model: "Clémentine Pagès"
+          model: "Clémentine Pages"
           related:
             p1:
