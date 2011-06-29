@@ -31,7 +31,7 @@ en-US:
   photograph: "Picture: {{name}}"
   model: "Model: {{name}}"
   photographs: "Photos: {{name}}"
-  models: "Picture: {{name}}"
+  models: "Models: {{name}}"
   fields:
     buy_etsy: Buy online
     buy_etsy_title: View this item on etsy.com
