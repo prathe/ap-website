@@ -18,6 +18,13 @@ html, body { color: #333; height: 100%; }
     top: 132px;
 }
 
+#facebook-small {
+    display: inline-block;
+    height: 15px;
+    line-height: 15px;
+    vertical-align: middle;
+}
+
 #ft, .push {
 	height: 30px; /* .push must be the same height as .footer */
 }
@@ -91,7 +98,7 @@ ul.stores {
 ul.stores li {
   float: left;
   width: 33%;
-  height: 120px;
+  min-height: 120px;
 }
 ul.stores li div {
   font-size: 93%;
