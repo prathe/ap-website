@@ -6,7 +6,7 @@
     <% background_color =  t("collections.background_color.#{token}") %>
     
     <div class="collection-thumb">
-      <% link_to collections_show_path(:name => token), {:title => collection, :class => 'boxgrid captionfull', :style => "color: #{text_color};"} do %>
+      <%= link_to collections_show_path(:name => token), {:title => collection, :class => 'boxgrid captionfull', :style => "color: #{text_color};"} do %>
         <%= image_tag "/images/collections/index/#{token}.jpg", {:alt => collection} %>
         <div class="cover boxcaption" style="background-color: <%= background_color %>"><%= collection %></div>
       <% end %>
