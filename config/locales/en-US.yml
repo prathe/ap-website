@@ -16,8 +16,8 @@ en-US:
       index: Stores
     collections:
       index: Collections
-      show: "Collection: {{name}}"
-      showpic: "Collection: {{name}}"
+      show: "Collection: %{name}"
+      showpic: "Collection: %{name}"
   back:
   menu:
     collections: Collections
@@ -28,10 +28,10 @@ en-US:
     availability: "Availability in stores:"
     oclan: "Oclan"
     urbain: "Urbain"
-  photograph: "Picture: {{name}}"
-  model: "Model: {{name}}"
-  photographs: "Photos: {{name}}"
-  models: "Models: {{name}}"
+  photograph: "Picture: %{name}"
+  model: "Model: %{name}"
+  photographs: "Photos: %{name}"
+  models: "Models: %{name}"
   fields:
     buy_etsy: Buy online
     buy_etsy_title: View this item on etsy.com
@@ -40,6 +40,7 @@ en-US:
     back_to_collection: « back to collection
     more_details_title: Product description and close-ups
     index:
+      fall2011: "FW 2011/12"
       macarons: "Rubans"
       ss2011: S/S2011
       boudoir: Boudoir
@@ -49,6 +50,7 @@ en-US:
       summer2010: Summer 2010
       spring2010: Spring 2010
     text_color:
+      fall2011: "#000000"
       macarons: "#000000"
       ss2011: "#000000"
       boudoir: "#000000"
@@ -58,6 +60,7 @@ en-US:
       summer2010: "#000000"
       spring2010: "#000000"
     background_color:
+      fall2011: "#FFFFFF"
       macarons: "#FFFFFF"
       ss2011: "#FFFFFF"
       boudoir: "#FFFFFF"
@@ -66,6 +69,161 @@ en-US:
       fall2010: "#FFFFFF"
       summer2010: "#FFFFFF"
       spring2010: "#FFFFFF"
+    fall2011:
+      availability: ""
+      products:
+        p1:
+          title: "Kateri I"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Violaine Tardif"
+          related:
+            p1: ""
+        p2:
+          title: "Kangi I"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Violaine Tardif"
+          related:
+            p1: ""
+            p2: ""
+        p3:
+          title: "The Great Spirit II"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Violaine Tardif"
+          related:
+            p1: ""
+            p2: ""
+        p4:
+          title: "Kangi II"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Violaine Tardif"
+          related:
+            p1: ""
+        p5:
+          title: "The Great Spirit III"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Violaine Tardif"
+          related:
+            p1: ""
+            p2: ""
+        p6:
+          title: "The Great Spirit IV"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Violaine Tardif"
+          related:
+            p1: ""
+        p7:
+          title: "The Great Spirit I"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Kim Bélanger"
+          related:
+            p1: ""
+        p8:
+          title: "Pocahontas"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Kim Bélanger"
+          related:
+            p1: ""
+        p9:
+          title: "Tokala I"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Kim Bélanger"
+          related:
+            p1: ""
+        p10:
+          title: "La chanson de Prévert"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Alexe Simard"
+          related:
+            p1: ""
+            p2: ""
+        p11:
+          title: "Chou Chérie One"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Alexe Simard"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p12:
+          title: "Chou Chérie Two"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Alexe Simard"
+          related:
+            p1: ""
+        p13:
+          title: "Chou Chérie Again"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Alexe Simard"
+          related:
+            p1: ""
+        p14:
+          title: "Frau Holle I"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Alexe Simard"
+          related:
+            p1: ""
+        p15:
+          title: "Blanche Neige"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Alexe Simard"
+          related:
+            p1: ""
+        p16:
+          title: "Gretel"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Alexe Simard"
+          related:
+            p1: ""
+            p2: ""
+        p17:
+          title: "La Belle au bois dormant I"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Alexe Simard"
+          related:
+            p1: ""
+            p2: ""
+        p18:
+          title: "Le Petit Chaperon Rouge I"
+          description: "The description"
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Alexe Simard"
+          related:
+            p1: ""
     macarons:
       availability: ""
       products:
