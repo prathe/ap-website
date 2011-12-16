@@ -40,16 +40,18 @@ en-US:
     back_to_collection: « back to collection
     more_details_title: Product description and close-ups
     index:
+      winter_chic2011: Winter Chic 2011
       fall2011: "FW 2011/12"
       macarons: "Rubans"
       ss2011: S/S2011
       boudoir: Boudoir
-      winter_chic2010: Winter Chic 2010-11
+      winter_chic2010: Winter Chic 2010
       winter2010: Winter 2010-11
       fall2010: Fall 2010
       summer2010: Summer 2010
       spring2010: Spring 2010
     text_color:
+      winter_chic2011: "#000000"
       fall2011: "#000000"
       macarons: "#000000"
       ss2011: "#000000"
@@ -60,6 +62,7 @@ en-US:
       summer2010: "#000000"
       spring2010: "#000000"
     background_color:
+      winter_chic2011: "#FFFFFF"
       fall2011: "#FFFFFF"
       macarons: "#FFFFFF"
       ss2011: "#FFFFFF"
