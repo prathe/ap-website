@@ -72,6 +72,86 @@ en-US:
       fall2010: "#FFFFFF"
       summer2010: "#FFFFFF"
       spring2010: "#FFFFFF"
+    winter_chic2011:
+      availability: ""
+      products:
+        p1:
+          title: "Blanche"
+          description: ""
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p2:
+          title: "Lac des Cygnes"
+          description: ""
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: ""
+        p3:
+          title: "Coco & Cardinal I"
+          description: ""
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: ""
+            p2: ""
+        p4:
+          title: "Coco & Cardinal II"
+          description: ""
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p5:
+          title: "Coco & Cardinal III"
+          description: ""
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+            p4: ""
+        p6:
+          title: "Coco & Cardinal IV"
+          description: ""
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: ""
+            p2: ""
+        p7:
+          title: "Flabellum I"
+          description: ""
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p8:
+          title: "Flabellum II"
+          description: ""
+          etsy_link: 'http://etsy.com'
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
     fall2011:
       availability: ""
       products:
