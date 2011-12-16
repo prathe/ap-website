@@ -1,5 +1,8 @@
 class CollectionsController < ApplicationController
   def index
+    if params[:page] == '2'
+      render :index2 and return
+    end
   end
   
   def show

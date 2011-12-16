@@ -144,3 +144,6 @@ a.captionfull:hover { text-decoration: none; }
 	left: 0;
 }
 
+#pagination {
+    text-align: center;
+}
