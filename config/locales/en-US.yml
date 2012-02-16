@@ -188,15 +188,6 @@ en-US:
           model: "Violaine Tardif"
           related:
             p1: ""
-        p5:
-          title: "The Great Spirit III"
-          description: "The description"
-          etsy_link: 'http://etsy.com'
-          photograph: "Arnela Pandzic"
-          model: "Violaine Tardif"
-          related:
-            p1: ""
-            p2: ""
         p6:
           title: "The Great Spirit IV"
           description: "The description"
@@ -245,7 +236,6 @@ en-US:
           photograph: "Arnela Pandzic"
           model: "Alexe Simard"
           related:
-            p1: ""
             p2: ""
             p3: ""
         p12:
@@ -258,14 +248,6 @@ en-US:
             p1: ""
         p13:
           title: "Chou Chérie Again"
-          description: "The description"
-          etsy_link: 'http://etsy.com'
-          photograph: "Arnela Pandzic"
-          model: "Alexe Simard"
-          related:
-            p1: ""
-        p14:
-          title: "Frau Holle I"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arnela Pandzic"
