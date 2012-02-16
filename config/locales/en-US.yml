@@ -403,15 +403,6 @@ en-US:
             p1: ""
             p2: ""
             p3: ""
-        p4:
-          title: "Sarah I"
-          description: "The description"
-          etsy_link: 'http://etsy.com'
-          photograph: "Kaven Tremblay"
-          model: "Christyna Fortin"
-          related:
-            p1: ""
-            p2: ""
         p5:
           title: "Sarah II"
           description: "The description"
@@ -430,16 +421,6 @@ en-US:
           model: "Christyna Fortin"
           related:
             p1: ""
-        p7:
-          title: "Vanilla Romance I"
-          description: "The description"
-          etsy_link: 'http://etsy.com'
-          photograph: "Kaven Tremblay"
-          model: "Christyna Fortin"
-          related:
-            p1: ""
-            p2: ""
-            p3: ""
         p8:
           title: "Vanilla Romance II"
           description: "The description"
