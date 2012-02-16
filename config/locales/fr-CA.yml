@@ -321,19 +321,6 @@ fr-CA:
           related:
             p1: ""
             p2: ""
-        p4:
-          title: "Apricot Love"
-          description: "The description"
-          etsy_link: 'http://etsy.com'
-          photograph: "Niki Charlie"
-          model: "Amélie Marquis"
-          related:
-            p1: ""
-            p2: ""
-            p3: ""
-            p4: ""
-            p5: ""
-            p6: ""
         p5:
           title: "Celadon"
           description: "The description"
@@ -346,15 +333,6 @@ fr-CA:
             p3: ""
         p6:
           title: "Melon Day"
-          description: "The description"
-          etsy_link: 'http://etsy.com'
-          photograph: "Arnela Pandzic"
-          model: "Clémentine Pages"
-          related:
-            p1: ""
-            p2: ""
-        p7:
-          title: "Temps des Cerises"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arnela Pandzic"
