@@ -440,7 +440,6 @@ fr-CA:
           model: "Christyna Fortin"
           related:
             p1: ""
-            p2: ""
             p3: ""
             p4: ""
         p2:
@@ -459,8 +458,6 @@ fr-CA:
           photograph: "Kaven Tremblay"
           model: "Christyna Fortin"
           related:
-            p1: ""
-            p2: ""
             p3: ""
         p4:
           title: "Birds and Flowers"
@@ -469,7 +466,6 @@ fr-CA:
           photograph: "Kaven Tremblay"
           model: "Christyna Fortin"
           related:
-            p1: ""
             p2: ""
             p3: ""
         p5:
@@ -480,8 +476,6 @@ fr-CA:
           model: "Christyna Fortin"
           related:
             p1: ""
-            p2: ""
-            p3: ""
             p4: ""
         p6:
           title: "Marie Antoinette I"
@@ -499,7 +493,6 @@ fr-CA:
           photograph: "Kaven Tremblay"
           model: "Christyna Fortin"
           related:
-            p1: ""
             p2: ""
         p8:
           title: "Petite Fleur"
@@ -539,7 +532,6 @@ fr-CA:
           related:
             p1: ""
             p2: ""
-            p3: ""
             p4: ""
         p12:
           title: "Vanilla Romance"
@@ -548,7 +540,6 @@ fr-CA:
           photograph: "Kaven Tremblay"
           model: "Christyna Fortin"
           related:
-            p1: ""
             p2: ""
         p13:
           title: "Gardenia"
@@ -557,7 +548,6 @@ fr-CA:
           photograph: "Kaven Tremblay"
           model: "Christyna Fortin"
           related:
-            p1: ""
             p2: ""
             p3: ""
         p14:
@@ -567,7 +557,6 @@ fr-CA:
           photograph: "Kaven Tremblay"
           model: "Christyna Fortin"
           related:
-            p1: ""
             p2: ""
     winter_chic2010:
       availability: ""
