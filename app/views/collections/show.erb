@@ -1,6 +1,6 @@
 <% @id ||= 1 %>
 <% current_product = t("collections.#{@collection}.products.p#{@id}") %>
-<% products_keys = t("collections.#{@collection}.products").keys.sort %>
+<% products_keys = t("collections.#{@collection}.products").keys.sort_by {|k| k[/[0-9]+/].to_i} %>
 <% index = products_keys.index("p#{@id}".to_sym) + 1%>
 
 <h2 id="collection-name"><%= t("collections.index.#{@collection}") %></h2>
