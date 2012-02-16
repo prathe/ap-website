@@ -1,6 +1,7 @@
 <% @id ||= 1 %>
 <% current_product = t("collections.#{@collection}.products.p#{@id}") %>
-<% n_products = t("collections.#{@collection}.products").keys.length %>
+<% products_keys = t("collections.#{@collection}.products").keys %>
+<% index = products_keys.index("p#{@id}".to_sym) + 1%>
 
 <h2 id="collection-name"><%= t("collections.index.#{@collection}") %></h2>
 
@@ -10,15 +11,16 @@
 </div>
 
 <div id="collection">
-  <% 1.upto(n_products) do |n| %>
-    <% product = t("collections.#{@collection}.products.p#{n}") %>
+  <% products_keys.each do |key| %>
+    <%
+        n = key[/[0-9]+/]
+        product = t("collections.#{@collection}.products.#{key}") %>
   
     <%= link_to collections_showpic_path(:name => @collection, :id => n), {:title => product[:title]} do %>
       <%= image_tag "/images/collections/#{@collection}/slideshow/p#{n}.jpg", :alt => product[:description], :title => product[:title], 'data-price' => product[:price], 'data-etsy-link' => product[:etsy_link], 'data-link' => collections_showpic_path(:name => @collection, :id => n) %>
     <% end %>
   <% end %>
 </div>
-<% logger.debug  %>
 <% photographs = []; t("collections.#{@collection}.products").each{|name, product| photographs << product[:photograph]}; photographs = photographs.sort.uniq %>
 <% models = []; t("collections.#{@collection}.products").each{|name, product| models << product[:model]}; models = models.sort.uniq %>
 
@@ -40,7 +42,7 @@
       width: 750,
       transition: 'fade',
       thumb_quality: true,
-      show: <%= (@id.to_i - 1).to_json %>,
+      show: <%= (index.to_i - 1).to_json %>,
       
       on_image: function(img,thumb) {
         var data = this.getData(this.getIndex());

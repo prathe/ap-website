@@ -1,7 +1,7 @@
 <% product = t("collections.#{@collection}.products.p#{@id}") %>
 <% collection_name = t("collections.index.#{@collection}") %>
 <% related_pics = product[:related] || {} %>
-<% n_related_pics = related_pics.keys.size %>
+<% related_pics_keys = related_pics.keys %>
 <% availability = product_availability(t("collections.#{@collection}.availability")) %>
 
 <h2 id="collection-name"><%= link_to collection_name, collections_show_path(:name => @collection, :id => @id) %></h2>
@@ -17,14 +17,16 @@
     <p id="product-availability"><%= raw "#{t('stores.availability')} #{availability}" %></p>
   <% end %> -->
 
-<% if n_related_pics > 0 %>
+<% unless related_pics.keys.empty? %>
   <div id="related-pics" class="hidden">
     <%= link_to "#details", {:title => product[:title]} do %>
       <%= image_tag "/images/collections/#{@collection}/slideshow/p#{@id}.jpg", {:alt => product[:title]} %>
     <% end %>
 
-    <% 1.upto(n_related_pics) do |n| %>
-      <% title = related_pics["p#{n}".to_sym] %>
+    <% related_pics_keys.each do |key| %>
+      <%
+        n = key[/[0-9]+/]
+        title = related_pics["p#{n}".to_sym] %>
       <%= link_to "#details", {:title => title} do %>
         <%= image_tag "/images/collections/#{@collection}/related/p#{@id}/p#{n}.jpg", {:alt => title} %>
       <% end %>
