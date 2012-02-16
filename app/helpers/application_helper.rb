@@ -5,8 +5,10 @@ module ApplicationHelper
   
   def facebook_locale
     case I18n.locale || I18n.default_locale
-    when :'en-US': 'en_US'
-    when :'fr-CA': 'fr_FR'
+    when :'en-US'
+      'en_US'
+    when :'fr-CA'
+      'fr_FR'
     end
   end
 end
