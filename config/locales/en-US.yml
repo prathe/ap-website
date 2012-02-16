@@ -75,7 +75,7 @@ en-US:
     winter_chic2011:
       availability: ""
       products:
-        p1:
+        p4:
           title: "Blanche"
           description: ""
           etsy_link: 'http://etsy.com'
@@ -102,14 +102,13 @@ en-US:
           related:
             p1: ""
             p2: ""
-        p4:
+        p1:
           title: "Coco & Cardinal II"
           description: ""
           etsy_link: 'http://etsy.com'
           photograph: "Arnela Pandzic"
           model: "Arnela Pandzic"
           related:
-            p1: ""
             p2: ""
             p3: ""
         p5:
