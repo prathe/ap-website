@@ -903,13 +903,6 @@ fr-CA:
           photograph: "Arthur Aaron"
           model: "Clémentine Pages"
           related:
-            p1: ""
-        p2:
-          title: "White Lily"
-          description: "The description"
-          etsy_link: 'http://etsy.com'
-          photograph: "Arthur Aaron"
-          model: "Clémentine Pages"
         p3:
           title: "These Flowers"
           description: "The description"
@@ -918,12 +911,6 @@ fr-CA:
           model: "Clémentine Pages"
           related:
             p1:
-        p4:
-          title: "These Flowers II"
-          description: "The description"
-          etsy_link: 'http://etsy.com'
-          photograph: "Arthur Aaron"
-          model: "Clémentine Pages"
         p5:
           title: "Under the Pink"
           description: "The description"
@@ -954,24 +941,6 @@ fr-CA:
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pages"
-          related:
-            p1:
-            p2:
-            p3:
-        p9:
-          title: "Lila"
-          description: "The description"
-          etsy_link: 'http://etsy.com'
-          photograph: "Arthur Aaron"
-          model: "Clémentine Pages"
-        p10:
-          title: "Conte Bleu"
-          description: "The description"
-          etsy_link: 'http://etsy.com'
-          photograph: "Arthur Aaron"
-          model: "Clémentine Pages"
-          related:
-            p1:
         p11:
           title: "Les Ailes du Désir"
           description: "The description"
@@ -980,17 +949,9 @@ fr-CA:
           model: "Clémentine Pages"
           related:
             p1:
-        p12:
-          title: "Ève"
-          description: "The description"
-          etsy_link: 'http://etsy.com'
-          photograph: "Arthur Aaron"
-          model: "Clémentine Pages"
         p13:
           title: "Magnolia Blossom"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Arthur Aaron"
           model: "Clémentine Pages"
-          related:
-            p1:
