@@ -569,7 +569,6 @@ en-US:
           model: "Arnela Pandzic"
           related:
             p1: ""
-            p2: ""
         p2:
           title: "Alaska"
           description: "The description"
@@ -586,7 +585,6 @@ en-US:
           photograph: "Arnela Pandzic"
           model: "Arnela Pandzic"
           related:
-            p1: ""
             p2: ""
         p4:
           title: "Maria"
@@ -596,7 +594,6 @@ en-US:
           model: "Arnela Pandzic"
           related:
             p1: ""
-            p2: ""
             p3: ""
         p5:
           title: "Karenina"
@@ -604,18 +601,6 @@ en-US:
           etsy_link: 'http://etsy.com'
           photograph: "Arnela Pandzic"
           model: "Arnela Pandzic"
-          related:
-            p1: ""
-            p2: ""
-        p6:
-          title: "Oh Sister!"
-          description: "The description"
-          etsy_link: 'http://etsy.com'
-          photograph: "Arnela Pandzic"
-          model: "Arnela Pandzic"
-          related:
-            p1: ""
-            p2: ""
         p7:
           title: "Coeur Slave"
           description: "The description"
@@ -624,7 +609,6 @@ en-US:
           model: "Arnela Pandzic"
           related:
             p1: ""
-            p2: ""
             p3: ""
             p4: ""
         p8:
@@ -634,8 +618,6 @@ en-US:
           photograph: "Arnela Pandzic"
           model: "Arnela Pandzic"
           related:
-            p1: ""
-            p2: ""
             p3: ""
             p4: ""
     winter2010:
