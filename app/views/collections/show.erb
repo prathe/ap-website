@@ -1,6 +1,6 @@
 <% @id ||= 1 %>
 <% current_product = t("collections.#{@collection}.products.p#{@id}") %>
-<% products_keys = t("collections.#{@collection}.products").keys.sort_by {|k| k[/[0-9]+/].to_i} %>
+<% products_keys = t("collections.#{@collection}.products").keys.sort_by {|k| k.to_s[/[0-9]+/].to_i} %>
 <% index = products_keys.index("p#{@id}".to_sym) + 1%>
 
 <h2 id="collection-name"><%= t("collections.index.#{@collection}") %></h2>
@@ -14,7 +14,7 @@
 <div id="collection">
   <% products_keys.each do |key| %>
     <%
-        n = key[/[0-9]+/]
+        n = key.to_s[/[0-9]+/]
         product = t("collections.#{@collection}.products.#{key}") %>
   
     <%= link_to collections_showpic_path(:name => @collection, :id => n), {:title => product[:title]} do %>

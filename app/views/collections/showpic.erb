@@ -25,7 +25,7 @@
 
       <% related_pics_keys.each do |key| %>
         <%
-          n = key[/[0-9]+/]
+          n = key.to_s[/[0-9]+/]
           title = related_pics["p#{n}".to_sym] %>
         <%= link_to "#details", {:title => title} do %>
           <%= image_tag "/images/collections/#{@collection}/related/p#{@id}/p#{n}.jpg", {:alt => title} %>
