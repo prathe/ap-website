@@ -750,20 +750,6 @@ en-US:
       availability: ""
       products:
         p1:
-          title: "Fashion Victim"
-          description: "The description"
-          etsy_link: 'http://etsy.com'
-          photograph: "Isabelle Foisy"
-          model: "Stéphanie Giroux"
-        p2:
-          title: "Bonaparte"
-          description: "The description"
-          etsy_link: 'http://etsy.com'
-          photograph: "Isabelle Foisy"
-          model: "Sarah-Annie Frachon-Labrie"
-          related:
-            p1: ""
-        p3:
           title: "Black and White"
           description: "The description"
           etsy_link: 'http://etsy.com'
@@ -783,20 +769,6 @@ en-US:
           model: "Sarah-Annie Frachon-Labrie"
           related:
             p1: ""
-        p6:
-          title: "Purple Rain"
-          description: "The description"
-          etsy_link: 'http://etsy.com'
-          photograph: "Isabelle Foisy"
-          model: "Stéphanie Giroux"
-          related:
-            p1: ""
-        p7:
-          title: "Clair de Lune"
-          description: "The description"
-          etsy_link: 'http://etsy.com'
-          photograph: "Isabelle Foisy"
-          model: "Stéphanie Giroux"
         p8:
           title: "Voodoo Child"
           description: "The description"
