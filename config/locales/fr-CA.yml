@@ -645,12 +645,6 @@ fr-CA:
           model: "Khady Seye"
           related:
             p1: ""
-        p4:
-          title: "Couleur Café"
-          description: "The description"
-          etsy_link: 'http://etsy.com'
-          photograph: "Kaven Tremblay"
-          model: "Khady Seye"
         p5:
           title: "My Old Flame"
           description: "The description"
@@ -664,7 +658,6 @@ fr-CA:
           photograph: "Kaven Tremblay"
           model: "Khady Seye"
           related:
-            p1: ""
         p7:
           title: "Venus"
           description: "The description"
@@ -672,7 +665,6 @@ fr-CA:
           photograph: "Kaven Tremblay"
           model: "Khady Seye"
           related:
-            p1: ""
         p8:
           title: "Etta"
           description: "The description"
@@ -697,15 +689,6 @@ fr-CA:
           model: "Khady Seye"
           related:
             p1: ""
-        p11:
-          title: "Beauty and the Beast"
-          description: "The description"
-          etsy_link: 'http://etsy.com'
-          photograph: "Alexe Simard"
-          model: "Alexe Simard"
-          related:
-            p1: ""
-            p2: ""
         p12:
           title: "Christmas story"
           description: "The description"
@@ -716,14 +699,6 @@ fr-CA:
             p1: ""
         p13:
           title: "Chamane"
-          description: "The description"
-          etsy_link: 'http://etsy.com'
-          photograph: "Alexe Simard"
-          model: "Alexe Simard"
-          related:
-            p1: ""
-        p14:
-          title: "Water Lily"
           description: "The description"
           etsy_link: 'http://etsy.com'
           photograph: "Alexe Simard"
@@ -743,7 +718,6 @@ fr-CA:
           photograph: "Alexe Simard"
           model: "Alexe Simard"
           related:
-            p1: ""
         p17:
           title: "Winter Jellyfish"
           description: "The description"
@@ -757,7 +731,6 @@ fr-CA:
           photograph: "Alexe Simard"
           model: "Alexe Simard"
           related:
-            p1: ""
         p19:
           title: "Winter Octopus"
           description: "The description"
@@ -765,7 +738,6 @@ fr-CA:
           photograph: "Alexe Simard"
           model: "Alexe Simard"
           related:
-            p1: ""
         p20:
           title: "On the Road"
           description: "The description"
