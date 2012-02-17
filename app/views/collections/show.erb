@@ -6,6 +6,7 @@
 <h2 id="collection-name"><%= t("collections.index.#{@collection}") %></h2>
 
 <h3 id="pic-title"><%= current_product[:title] %></h3>
+
 <div id="more-details">
   <%= link_to t('collections.more_details'), collections_showpic_path(:name => @collection, :id => @id), {:id => 'more-details-link', :title => t('collections.more_details_title')} %>
 </div>

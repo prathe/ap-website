@@ -11,31 +11,31 @@
   <%= link_to t('collections.back_to_collection'), collections_show_path(:name => @collection, :id => @id) %>
 </div>
 
-<div id="details" name="details">
-  <!-- <p id="pic-description" class="text"><%= product[:description] %></p>
-  <% unless availability.empty? %>
-    <p id="product-availability"><%= raw "#{t('stores.availability')} #{availability}" %></p>
-  <% end %> -->
-
 <% unless related_pics.keys.empty? %>
-  <div id="related-pics" class="hidden">
-    <%= link_to "#details", {:title => product[:title]} do %>
-      <%= image_tag "/images/collections/#{@collection}/slideshow/p#{@id}.jpg", {:alt => product[:title]} %>
-    <% end %>
+  <div id="details" name="details">
+    <!-- <p id="pic-description" class="text"><%= product[:description] %></p>
+    <% unless availability.empty? %>
+      <p id="product-availability"><%= raw "#{t('stores.availability')} #{availability}" %></p>
+    <% end %> -->
 
-    <% related_pics_keys.each do |key| %>
-      <%
-        n = key[/[0-9]+/]
-        title = related_pics["p#{n}".to_sym] %>
-      <%= link_to "#details", {:title => title} do %>
-        <%= image_tag "/images/collections/#{@collection}/related/p#{@id}/p#{n}.jpg", {:alt => title} %>
+    <div id="related-pics" class="hidden">
+      <%= link_to "#details", {:title => product[:title]} do %>
+        <%= image_tag "/images/collections/#{@collection}/slideshow/p#{@id}.jpg", {:alt => product[:title]} %>
       <% end %>
-    <% end %>
+
+      <% related_pics_keys.each do |key| %>
+        <%
+          n = key[/[0-9]+/]
+          title = related_pics["p#{n}".to_sym] %>
+        <%= link_to "#details", {:title => title} do %>
+          <%= image_tag "/images/collections/#{@collection}/related/p#{@id}/p#{n}.jpg", {:alt => title} %>
+        <% end %>
+      <% end %>
+    </div>
+
+    <%#= link_to t('fields.buy_etsy'), product[:etsy_link], {:class => 'etsy', :title => t('fields.buy_etsy_title')} %>
   </div>
 <% end %>
-
-  <%#= link_to t('fields.buy_etsy'), product[:etsy_link], {:class => 'etsy', :title => t('fields.buy_etsy_title')} %>
-</div>
 
 <div id="large-pic"><%= link_to collections_show_path(:name => @collection, :id => @id), {:class => 'large-pic', :title => collection_name} do %><%= image_tag "/images/collections/#{@collection}/slideshow/p#{@id}.jpg", :alt => product[:title] %><% end %></div>
 
