@@ -40,6 +40,7 @@ fr-CA:
     back_to_collection: « retour à la collection
     more_details_title: Description du produit et gros plans
     index:
+      spring2012: "P/É 2012"
       winter_chic2011: Hiver Chic 2011
       fall2011: "AH 2011/12"
       macarons: "Rubans"
@@ -51,6 +52,7 @@ fr-CA:
       summer2010: Été 2010
       spring2010: Printemps 2010
     text_color:
+      spring2012: "#000000"
       winter_chic2011: "#000000"
       fall2011: "#000000"
       macarons: "#000000"
@@ -62,6 +64,7 @@ fr-CA:
       summer2010: "#000000"
       spring2010: "#000000"
     background_color:
+      spring2012: "#FFFFFF"
       winter_chic2011: "#FFFFFF"
       fall2011: "#FFFFFF"
       macarons: "#FFFFFF"
@@ -72,6 +75,154 @@ fr-CA:
       fall2010: "#FFFFFF"
       summer2010: "#FFFFFF"
       spring2010: "#FFFFFF"
+    spring2012:
+      availability: ""
+      products:
+        p1:
+          title: "Flore I"
+          description: ""
+          etsy_link: ''
+          photograph: "Sophie Belisle"
+          model: "Anne-Marie Roy"
+          related:
+            p1: ""
+            p2: ""
+        p2:
+          title: "Flore II"
+          description: ""
+          etsy_link: ''
+          photograph: "Sophie Belisle"
+          model: "Anne-Marie Roy"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p3:
+          title: "Daphné I"
+          description: ""
+          etsy_link: ''
+          photograph: "Sophie Belisle"
+          model: "Anne-Marie Roy"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p4:
+          title: "Daphné II"
+          description: ""
+          etsy_link: ''
+          photograph: "Sophie Belisle"
+          model: "Anne-Marie Roy"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+            p4: ""
+            p5: ""
+        p5:
+          title: "Daphné III"
+          description: ""
+          etsy_link: ''
+          photograph: "Sophie Belisle"
+          model: "Anne-Marie Roy"
+          related:
+            p1: ""
+        p6:
+          title: "Madame Butterfly I"
+          description: ""
+          etsy_link: ''
+          photograph: "Sophie Belisle"
+          model: "Anne-Marie Roy"
+          related:
+            p1: ""
+            p2: ""
+        p7:
+          title: "I love Daffodils"
+          description: ""
+          etsy_link: ''
+          photograph: "Sophie Belisle"
+          model: "Anne-Marie Roy"
+          related:
+            p1: ""
+            p2: ""
+        p8:
+          title: "Antoinette I"
+          description: ""
+          etsy_link: ''
+          photograph: "Sophie Belisle"
+          model: "Anne-Marie Roy"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p9:
+          title: "Antoinette II"
+          description: ""
+          etsy_link: ''
+          photograph: "Sophie Belisle"
+          model: "Anne-Marie Roy"
+          related:
+            p1: ""
+            p2: ""
+        p10:
+          title: "Swallows are back"
+          description: ""
+          etsy_link: ''
+          photograph: "Sophie Belisle"
+          model: "Anne-Marie Roy"
+          related:
+            p1: ""
+            p2: ""
+        p11:
+          title: "Butterfly Kiss"
+          description: ""
+          etsy_link: ''
+          photograph: "Sophie Belisle"
+          model: "Anne-Marie Roy"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p12:
+          title: "Polka"
+          description: ""
+          etsy_link: ''
+          photograph: "Sophie Belisle"
+          model: "Anne-Marie Roy"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+            p4: ""
+            p5: ""
+        p13:
+          title: "Madame Butterfly II"
+          description: ""
+          etsy_link: ''
+          photograph: "Sophie Belisle"
+          model: "Anne-Marie Roy"
+          related:
+            p1: ""
+            p2: ""
+            p3: ""
+        p14:
+          title: "Belt of Venus"
+          description: ""
+          etsy_link: ''
+          photograph: "Sophie Belisle"
+          model: "Anne-Marie Roy"
+          related:
+            p1: ""
+            p2: ""
+        p15:
+          title: "Artemis"
+          description: ""
+          etsy_link: ''
+          photograph: "Sophie Belisle"
+          model: "Anne-Marie Roy"
+          related:
+            p1: ""
+            p2: ""
     winter_chic2011:
       availability: ""
       products:
