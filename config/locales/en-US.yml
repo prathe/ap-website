@@ -40,6 +40,7 @@ en-US:
     back_to_collection: « back to collection
     more_details_title: Product description and close-ups
     index:
+      mcsummer2012: "Summer 2012 (mini collection)"
       spring2012: "S/S 2012"
       winter_chic2011: Winter Chic 2011
       fall2011: "FW 2011/12"
@@ -52,6 +53,7 @@ en-US:
       summer2010: Summer 2010
       spring2010: Spring 2010
     text_color:
+      mcsummer2012: "#000000"
       spring2012: "#000000"
       winter_chic2011: "#000000"
       fall2011: "#000000"
@@ -64,6 +66,7 @@ en-US:
       summer2010: "#000000"
       spring2010: "#000000"
     background_color:
+      mcsummer2012: "#FFFFFF"
       spring2012: "#FFFFFF"
       winter_chic2011: "#FFFFFF"
       fall2011: "#FFFFFF"
@@ -75,6 +78,65 @@ en-US:
       fall2010: "#FFFFFF"
       summer2010: "#FFFFFF"
       spring2010: "#FFFFFF"
+    mcsummer2012:
+      availability: ""
+      products:
+        p1:
+          title: "Tunique mini-robe Marina / Peigne Daphné I & II"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "?"
+          related:
+            p1: "Tunique mini-robe Marina"
+            p2: "Tunique mini-robe Marina"
+            p3: "Peigne Daphné I"
+            p4: "Peigne Daphné II"
+        p2:
+          title: "Tunique mini-robe Marina / Boucles d'oreilles Polka bleu royal & bleu marine"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "?"
+          related:
+            p1: "Boucles d'oreilles Polka bleu royal"
+            p2: "Boucles d'oreilles Polka bleu marine"
+        p3:
+          title: "Tunique mini-robe Marina / Boucles d'oreilles Madame Butterfly I & II"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "?"
+          related:
+            p1: "Boucles d'oreilles Madame Butterfly I"
+            p2: "Boucles d'oreilles Madame Butterfly II"
+        p4:
+          title: "Tunique mini-robe Candy / Boucles d'oreilles rubans or"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "?"
+          related:
+            p1: "Tunique mini-robe Candy"
+            p2: "Tunique mini-robe Candy"
+            p3: "Boucles d'oreilles rubans or"
+        p5:
+          title: "Tunique mini-robe Candy / Boucles d'oreilles Polka rose antique"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "?"
+          related:
+            p1: "Boucles d'oreilles Polka rose antique"
+            p2: "Boucles d'oreilles Polka rose antique"
+        p6:
+          title: "Tunique mini-robe Candy / Boucles d'oreilles rubans corail"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "?"
+          related:
+            p1: "Boucles d'oreilles rubans corail"
     spring2012:
       availability: ""
       products:
