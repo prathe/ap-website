@@ -137,6 +137,96 @@ en-US:
           model: "?"
           related:
             p1: "Boucles d'oreilles rubans corail"
+        p7:
+          title: "Tunique mini-robe Claudine / Boucles d'oreilles rubans blanc perle"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "?"
+          related:
+            p1: "Tunique mini-robe Claudine"
+            p2: "Boucles d'oreilles rubans blanc perle"
+            p3: "Boucles d'oreilles rubans blanc perle"
+        p8:
+          title: "Tunique mini-robe Claudine / Boucles d'oreilles Polka jaune/or / Peigne Daphné or"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "?"
+          related:
+            p1: "Boucles d'oreilles Polka jaune/or"
+            p2: "Peigne Daphné or"
+        p9:
+          title: "Tunique mini-robe Claudine / Boucles d'oreilles matelot I & II"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "?"
+          related:
+            p1: "Boucles d'oreilles matelot I"
+            p2: "Boucles d'oreilles matelot II"
+        p10:
+          title: "Tunique mini-robe Claudine / Barette matelot"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "?"
+          related:
+            p1: "Boucles d'oreilles matelot I"
+            p2: "Boucles d'oreilles matelot II"
+        p11:
+          title: "Tunique mini-robe Claudine / Barette matelot romance"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "?"
+          related:
+            p1: "Boucles d'oreilles matelot romance"
+            p2: "Boucles d'oreilles matelot romance"
+            p3: "Boucles d'oreilles matelot romance"
+        p12:
+          title: "Robe azur / Boucles d'oreilles rubans rouges"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: "Robe azur / Boucles d'oreilles rubans rouges"
+            p2: "Robe azur / Boucles d'oreilles rubans rouges"
+            p3: "Robe azur / Boucles d'oreilles rubans rouges"
+            p4: "Boucles d'oreilles rubans rouges"
+            p5: "Boucles d'oreilles rubans rouges"
+        p13:
+          title: "Robe azur / Boucles d'oreilles rubans bleus marines"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: "Robe azur"
+            p2: "Boucles d'oreilles rubans bleus marines"
+            p3: "Boucles d'oreilles rubans bleus marines"
+            p4: "Robe azur"
+        p14:
+          title: "Barette albatros"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: "Barette albatros"
+        p15:
+          title: "Robe d'anniversaire / Boucles d'oreilles Polka rouge & or"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Arnela Pandzic"
+          related:
+            p1: "Robe d'anniversaire / Boucles d'oreilles Polka rouge & or"
+            p2: "Robe d'anniversaire / Boucles d'oreilles Polka rouge & or"
+            p3: "Robe d'anniversaire / Boucles d'oreilles Polka rouge & or"
+            p4: "Robe d'anniversaire / Boucles d'oreilles Polka rouge & or"
+            p5: "Boucles d'oreilles Polka rouge & or"
     spring2012:
       availability: ""
       products:
