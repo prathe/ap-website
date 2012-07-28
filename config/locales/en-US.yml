@@ -82,55 +82,55 @@ en-US:
       availability: ""
       products:
         p1:
-          title: "Tunique mini-robe Marina / Peigne Daphné I & II"
+          title: "Marina Summer Tunic / Daphné Hair Comb I & II"
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
           model: "?"
           related:
-            p1: "Tunique mini-robe Marina"
-            p2: "Tunique mini-robe Marina"
-            p3: "Peigne Daphné I"
-            p4: "Peigne Daphné II"
+            p1: "Marina Summer Tunic"
+            p2: "Marina Summer Tunic"
+            p3: "Daphné Hair Comb I"
+            p4: "Daphné Hair Comb II"
         p2:
-          title: "Tunique mini-robe Marina / Boucles d'oreilles Polka bleu royal & bleu marine"
+          title: "Marina Summer Tunic / Royal Blue & Navy Polka Earrings"
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
           model: "?"
           related:
-            p1: "Boucles d'oreilles Polka bleu royal"
-            p2: "Boucles d'oreilles Polka bleu marine"
+            p1: "Royal blue Polka Earrings"
+            p2: "Navy Polka Earrings"
         p3:
-          title: "Tunique mini-robe Marina / Boucles d'oreilles Madame Butterfly I & II"
+          title: "Marina Summer Tunic / Madame Butterfly Earrings I & II"
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
           model: "?"
           related:
-            p1: "Boucles d'oreilles Madame Butterfly I"
-            p2: "Boucles d'oreilles Madame Butterfly II"
+            p1: "Madame Butterfly Earrings I"
+            p2: "Madame Butterfly Earrings II"
         p4:
-          title: "Tunique mini-robe Candy / Boucles d'oreilles rubans or"
+          title: "Candy Summer Tunic / Gold Ribbons Earrings"
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
           model: "?"
           related:
-            p1: "Tunique mini-robe Candy"
-            p2: "Tunique mini-robe Candy"
-            p3: "Boucles d'oreilles rubans or"
+            p1: "Candy Summer Tunic"
+            p2: "Candy Summer Tunic"
+            p3: "Gold Ribbons Earrings"
         p5:
-          title: "Tunique mini-robe Candy / Boucles d'oreilles Polka rose antique"
+          title: "Candy Summer Tunic / Antique Rose Polka Earrings"
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
           model: "?"
           related:
-            p1: "Boucles d'oreilles Polka rose antique"
-            p2: "Boucles d'oreilles Polka rose antique"
+            p1: "Antique Rose Polka Earrings"
+            p2: "Antique Rose Polka Earrings"
         p6:
-          title: "Tunique mini-robe Candy / Boucles d'oreilles rubans corail"
+          title: "Candy Summer Tunic / Coral Ribbons Earrings"
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
@@ -138,95 +138,131 @@ en-US:
           related:
             p1: "Boucles d'oreilles rubans corail"
         p7:
-          title: "Tunique mini-robe Claudine / Boucles d'oreilles rubans blanc perle"
+          title: "Claudine Summer Tunic / White Pearl Ribbons Earrings"
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
           model: "?"
           related:
-            p1: "Tunique mini-robe Claudine"
-            p2: "Boucles d'oreilles rubans blanc perle"
-            p3: "Boucles d'oreilles rubans blanc perle"
+            p1: "Claudine Summer Tunic"
+            p2: "White Pearl Ribbons Earrings"
+            p3: "White Pearl Ribbons Earrings"
         p8:
-          title: "Tunique mini-robe Claudine / Boucles d'oreilles Polka jaune/or / Peigne Daphné or"
+          title: "Claudine Summer Tunic / Yellow Gold Polka Earrings / Gold Daphné Hair Comb"
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
           model: "?"
           related:
-            p1: "Boucles d'oreilles Polka jaune/or"
-            p2: "Peigne Daphné or"
+            p1: "Yellow Gold Polka Earrings"
+            p2: "Gold Daphné Hair Comb"
         p9:
-          title: "Tunique mini-robe Claudine / Boucles d'oreilles matelot I & II"
+          title: "Claudine Summer Tunic / Matelot Earrings I & II"
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
           model: "?"
           related:
-            p1: "Boucles d'oreilles matelot I"
-            p2: "Boucles d'oreilles matelot II"
+            p1: "Matelot Earrings I"
+            p2: "Matelot Earrings II"
         p10:
-          title: "Tunique mini-robe Claudine / Barette matelot"
+          title: "Claudine Summer Tunic / Matelot Hair Clip"
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
           model: "?"
           related:
-            p1: "Boucles d'oreilles matelot I"
-            p2: "Boucles d'oreilles matelot II"
+            p1: "Matelot Hair Clip I"
+            p2: "Matelot Hair Clip II"
         p11:
-          title: "Tunique mini-robe Claudine / Barette matelot romance"
+          title: "Claudine Summer Tunic / Matelot Romance Hair Clip"
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
           model: "?"
           related:
-            p1: "Boucles d'oreilles matelot romance"
-            p2: "Boucles d'oreilles matelot romance"
-            p3: "Boucles d'oreilles matelot romance"
+            p1: "Matelot Romance Hair Clip"
+            p2: "Matelot Romance Hair Clip"
+            p3: "Matelot Romance Hair Clip"
         p12:
-          title: "Robe azur / Boucles d'oreilles rubans rouges"
+          title: "Azur Dress / Red Gold Ribbons Earrings"
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
           model: "Arnela Pandzic"
           related:
-            p1: "Robe azur / Boucles d'oreilles rubans rouges"
-            p2: "Robe azur / Boucles d'oreilles rubans rouges"
-            p3: "Robe azur / Boucles d'oreilles rubans rouges"
-            p4: "Boucles d'oreilles rubans rouges"
-            p5: "Boucles d'oreilles rubans rouges"
+            p1: "Azur Dress / Red Gold Ribbons Earrings"
+            p2: "Azur Dress / Red Gold Ribbons Earrings"
+            p3: "Azur Dress / Red Gold Ribbons Earrings"
+            p4: "Red Gold Ribbons Earrings"
+            p5: "Red Gold Ribbons Earrings"
         p13:
-          title: "Robe azur / Boucles d'oreilles rubans bleus marines"
+          title: "Azur Dress / Navy Gold Ribbons Earrings"
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
           model: "Arnela Pandzic"
           related:
-            p1: "Robe azur"
-            p2: "Boucles d'oreilles rubans bleus marines"
-            p3: "Boucles d'oreilles rubans bleus marines"
-            p4: "Robe azur"
+            p1: "Azur Dress"
+            p2: "Navy Gold Ribbons Earrings"
+            p3: "Navy Gold Ribbons Earrings"
+            p4: "Azur Dress"
         p14:
-          title: "Barette albatros"
+          title: "Albatros Hair Clip"
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
           model: "Arnela Pandzic"
           related:
-            p1: "Barette albatros"
+            p1: "Albatros Hair Clip"
         p15:
-          title: "Robe d'anniversaire / Boucles d'oreilles Polka rouge & or"
+          title: "Anniversary Dress / Red Gold Polka Earrings"
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
           model: "Arnela Pandzic"
           related:
-            p1: "Robe d'anniversaire / Boucles d'oreilles Polka rouge & or"
-            p2: "Robe d'anniversaire / Boucles d'oreilles Polka rouge & or"
-            p3: "Robe d'anniversaire / Boucles d'oreilles Polka rouge & or"
-            p4: "Robe d'anniversaire / Boucles d'oreilles Polka rouge & or"
-            p5: "Boucles d'oreilles Polka rouge & or"
+            p1: "Anniversary Dress / Red Gold Polka Earrings"
+            p2: "Anniversary Dress / Red Gold Polka Earrings"
+            p3: "Anniversary Dress / Red Gold Polka Earrings"
+            p4: "Anniversary Dress / Red Gold Polka Earrings"
+            p5: "Red Gold Polka Earrings"
+        p16:
+          title: "Anniversary Dress"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: ""
+          related:
+            p1: "Anniversary Dress"
+        p17:
+          title: "Acadie Hair Comb"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: ""
+          related:
+        p18:
+          title: "Bretagne Hair Clip"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: ""
+          related:
+        p19:
+          title: "Adriatic Hair Clip"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: ""
+          related:
+        p20:
+          title: "Adriatic Necklace"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: ""
+          related:
     spring2012:
       availability: ""
       products:

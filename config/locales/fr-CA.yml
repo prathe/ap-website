@@ -172,8 +172,8 @@ fr-CA:
           photograph: "Arnela Pandzic"
           model: "?"
           related:
-            p1: "Boucles d'oreilles matelot I"
-            p2: "Boucles d'oreilles matelot II"
+            p1: "Barette matelot I"
+            p2: "Barette matelot II"
         p11:
           title: "Tunique mini-robe Claudine / Barette matelot romance"
           description: ""
@@ -181,9 +181,9 @@ fr-CA:
           photograph: "Arnela Pandzic"
           model: "?"
           related:
-            p1: "Boucles d'oreilles matelot romance"
-            p2: "Boucles d'oreilles matelot romance"
-            p3: "Boucles d'oreilles matelot romance"
+            p1: "Barette matelot romance"
+            p2: "Barette matelot romance"
+            p3: "Barette matelot romance"
         p12:
           title: "Robe azur / Boucles d'oreilles rubans rouges"
           description: ""
@@ -227,6 +227,42 @@ fr-CA:
             p3: "Robe d'anniversaire / Boucles d'oreilles Polka rouge & or"
             p4: "Robe d'anniversaire / Boucles d'oreilles Polka rouge & or"
             p5: "Boucles d'oreilles Polka rouge & or"
+        p16:
+          title: "Robe d'anniversaire"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: ""
+          related:
+            p1: "Robe d'anniversaire"
+        p17:
+          title: "Peigne Acadie"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: ""
+          related:
+        p18:
+          title: "Barette Bretagne"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: ""
+          related:
+        p19:
+          title: "Barette Adriatique"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: ""
+          related:
+        p20:
+          title: "Collier Adriatique"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: ""
+          related:
     spring2012:
       availability: ""
       products:
