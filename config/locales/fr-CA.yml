@@ -86,7 +86,7 @@ fr-CA:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Stéphanie Blais"
           related:
             p1: "Tunique mini-robe Marina"
             p2: "Tunique mini-robe Marina"
@@ -97,7 +97,7 @@ fr-CA:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Stéphanie Blais"
           related:
             p1: "Boucles d'oreilles Polka bleu royal"
             p2: "Boucles d'oreilles Polka bleu marine"
@@ -106,7 +106,7 @@ fr-CA:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Stéphanie Blais"
           related:
             p1: "Boucles d'oreilles Madame Butterfly I"
             p2: "Boucles d'oreilles Madame Butterfly II"
@@ -115,7 +115,7 @@ fr-CA:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Jasmine Lacroix"
           related:
             p1: "Tunique mini-robe Candy"
             p2: "Tunique mini-robe Candy"
@@ -125,7 +125,7 @@ fr-CA:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Jasmine Lacroix"
           related:
             p1: "Boucles d'oreilles Polka rose antique"
             p2: "Boucles d'oreilles Polka rose antique"
@@ -134,7 +134,7 @@ fr-CA:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Jasmine Lacroix"
           related:
             p1: "Boucles d'oreilles rubans corail"
         p7:
@@ -142,7 +142,7 @@ fr-CA:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Stéphanie Blais"
           related:
             p1: "Tunique mini-robe Claudine"
             p2: "Boucles d'oreilles rubans blanc perle"
@@ -152,7 +152,7 @@ fr-CA:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Stéphanie Blais"
           related:
             p1: "Boucles d'oreilles Polka jaune/or"
             p2: "Peigne Daphné or"
@@ -161,7 +161,7 @@ fr-CA:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Stéphanie Blais"
           related:
             p1: "Boucles d'oreilles matelot I"
             p2: "Boucles d'oreilles matelot II"
@@ -170,7 +170,7 @@ fr-CA:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Stéphanie Blais"
           related:
             p1: "Barette matelot I"
             p2: "Barette matelot II"
@@ -179,7 +179,7 @@ fr-CA:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Stéphanie Blais"
           related:
             p1: "Barette matelot romance"
             p2: "Barette matelot romance"
@@ -232,7 +232,7 @@ fr-CA:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: ""
+          model: "Jasmine Lacroix"
           related:
             p1: "Robe d'anniversaire"
         p17:
@@ -258,6 +258,13 @@ fr-CA:
           related:
         p20:
           title: "Collier Adriatique"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: ""
+          related:
+        p21:
+          title: "Barette Matane"
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"

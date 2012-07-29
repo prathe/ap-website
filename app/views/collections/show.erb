@@ -23,7 +23,7 @@
   <% end %>
 </div>
 <% photographs = []; t("collections.#{@collection}.products").each{|name, product| photographs << product[:photograph]}; photographs = photographs.sort.uniq %>
-<% models = []; t("collections.#{@collection}.products").each{|name, product| models << product[:model]}; models = models.sort.uniq %>
+<% models = []; t("collections.#{@collection}.products").each{|name, product| models << product[:model] unless product[:model].empty?}; models = models.sort.uniq %>
 
 <div id="credits">
   <div><%= t((photographs.size > 1 ? 'photographs' : 'photograph'), {:name => photographs.join(', ')}) %></div>

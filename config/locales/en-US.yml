@@ -86,7 +86,7 @@ en-US:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Stéphanie Blais"
           related:
             p1: "Marina Summer Tunic"
             p2: "Marina Summer Tunic"
@@ -97,7 +97,7 @@ en-US:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Stéphanie Blais"
           related:
             p1: "Royal blue Polka Earrings"
             p2: "Navy Polka Earrings"
@@ -106,7 +106,7 @@ en-US:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Stéphanie Blais"
           related:
             p1: "Madame Butterfly Earrings I"
             p2: "Madame Butterfly Earrings II"
@@ -115,7 +115,7 @@ en-US:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Jasmine Lacroix"
           related:
             p1: "Candy Summer Tunic"
             p2: "Candy Summer Tunic"
@@ -125,7 +125,7 @@ en-US:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Jasmine Lacroix"
           related:
             p1: "Antique Rose Polka Earrings"
             p2: "Antique Rose Polka Earrings"
@@ -134,7 +134,7 @@ en-US:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Jasmine Lacroix"
           related:
             p1: "Boucles d'oreilles rubans corail"
         p7:
@@ -142,7 +142,7 @@ en-US:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Stéphanie Blais"
           related:
             p1: "Claudine Summer Tunic"
             p2: "White Pearl Ribbons Earrings"
@@ -152,7 +152,7 @@ en-US:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Stéphanie Blais"
           related:
             p1: "Yellow Gold Polka Earrings"
             p2: "Gold Daphné Hair Comb"
@@ -161,7 +161,7 @@ en-US:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Stéphanie Blais"
           related:
             p1: "Matelot Earrings I"
             p2: "Matelot Earrings II"
@@ -170,7 +170,7 @@ en-US:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Stéphanie Blais"
           related:
             p1: "Matelot Hair Clip I"
             p2: "Matelot Hair Clip II"
@@ -179,7 +179,7 @@ en-US:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: "?"
+          model: "Stéphanie Blais"
           related:
             p1: "Matelot Romance Hair Clip"
             p2: "Matelot Romance Hair Clip"
@@ -232,7 +232,7 @@ en-US:
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"
-          model: ""
+          model: "Jasmine Lacroix"
           related:
             p1: "Anniversary Dress"
         p17:
@@ -258,6 +258,13 @@ en-US:
           related:
         p20:
           title: "Adriatic Necklace"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: ""
+          related:
+        p21:
+          title: "Matane Hairclip"
           description: ""
           etsy_link: ''
           photograph: "Arnela Pandzic"

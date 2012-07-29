@@ -41,7 +41,7 @@
 
 <div id="credits">
   <div><%= t('photograph', {:name => product[:photograph]}) %></div>
-  <div><%= t((product[:model][/,/] ? 'models' : 'model'), {:name => product[:model]}) %></div>
+  <div><%= t((product[:model][/,/] ? 'models' : 'model'), {:name => product[:model]}) unless product[:model].empty? %></div>
 </div>
 
 <script>
