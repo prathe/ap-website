@@ -6,7 +6,6 @@
 
 <h2 id="collection-name"><%= link_to collection_name, collections_show_path(:name => @collection, :id => @id) %></h2>
 
-<h3 id="pic-title"><%= product[:title] %></h3>
 <div id="less-details">
   <%= link_to t('collections.back_to_collection'), collections_show_path(:name => @collection, :id => @id) %>
 </div>
@@ -34,6 +33,7 @@
     </div>
 
     <%#= link_to t('fields.buy_etsy'), product[:etsy_link], {:class => 'etsy', :title => t('fields.buy_etsy_title')} %>
+    <div id="pic-title" class="standalone"><%= product[:title] %></div>
   </div>
 <% end %>
 

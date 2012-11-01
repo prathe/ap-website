@@ -20,10 +20,10 @@ fr-CA:
       showpic: "Collection: %{name}"
   back:
   menu:
-    collections: Collections
-    stores: Boutiques
-    about: "À propos"
-    blog: Blogue
+    collections: collections
+    stores: boutiques
+    about: "à propos"
+    blog: blogue
   stores:
     availability: "Disponibilité en magasin :"
     oclan: Oclan
@@ -40,7 +40,7 @@ fr-CA:
     back_to_collection: « retour à la collection
     more_details_title: Description du produit et gros plans
     index:
-      mcsummer2012: "Été 2012 (mini collection)"
+      mcsummer2012: "Été 2012 (vêtements/accessoires)"
       spring2012: "P/É 2012"
       winter_chic2011: Hiver Chic 2011
       fall2011: "AH 2011/12"

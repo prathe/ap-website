@@ -1,6 +1,6 @@
 <h2><%= t('menu.collections') %></h2>
 <div id="collections">
-  <% %w{mcsummer2012 spring2012 macarons winter_chic2011}.each do |token| %>
+  <% %w{mcsummer2012 spring2012 macarons}.each do |token| %>
     <% collection = t("collections.index.#{token}") %>
     <% text_color =  t("collections.text_color.#{token}") %>
     <% background_color =  t("collections.background_color.#{token}") %>
@@ -16,7 +16,7 @@
 </div>
 
 <div id="pagination">
-    <%= link_to 'Archives »', collections_path(:page => 2) %>
+  <h2><%= link_to 'Archives »', collections_path(:page => 2) %></h2>
 </div>
 
 <script>
