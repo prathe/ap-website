@@ -40,6 +40,7 @@ en-US:
     back_to_collection: « back to collection
     more_details_title: Product description and close-ups
     index:
+      fall2012: "FW 2012"
       mcsummer2012: "Été 2012 (clothing/accessories)"
       spring2012: "S/S 2012"
       winter_chic2011: Winter Chic 2011
@@ -53,6 +54,7 @@ en-US:
       summer2010: Summer 2010
       spring2010: Spring 2010
     text_color:
+      fall2012: "#000000"
       mcsummer2012: "#000000"
       spring2012: "#000000"
       winter_chic2011: "#000000"
@@ -66,6 +68,7 @@ en-US:
       summer2010: "#000000"
       spring2010: "#000000"
     background_color:
+      fall2012: "#FFFFFF"
       mcsummer2012: "#FFFFFF"
       spring2012: "#FFFFFF"
       winter_chic2011: "#FFFFFF"
@@ -78,6 +81,115 @@ en-US:
       fall2010: "#FFFFFF"
       summer2010: "#FFFFFF"
       spring2010: "#FFFFFF"
+    fall2012:
+      availability: ""
+      products:
+        p1:
+          title: "Boucles d'oreilles Teen Spirit I/II/III"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Ivoire Nadeau"
+          related:
+            p1: "I"
+            p2: "II"
+            p3: "III"
+        p2:
+          title: "Boucles d'oreilles Masculin/Féminin I/II/III"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Ivoire Nadeau"
+          related:
+            p1: "I"
+            p2: "II"
+            p3: "III"
+        p3:
+          title: "Peigne Black Diamonds/Brillantine"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Ivoire Nadeau"
+          related:
+            p1: "Black Diamonds"
+            p2: "Brillantine"
+        p4:
+          title: "Boucles d'oreilles Ziggy Stardust"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Ivoire Nadeau"
+          related:
+            p1: ""
+        p5:
+          title: "Collier Coco I & Bracelet Grabrielle I/II"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Ivoire Nadeau"
+          related:
+            p1: "Collier Coco I"
+            p2: "Bracelet Gabrielle I"
+            p3: "Bracelet Gabrielle II"
+        p6:
+          title: "Collier Coco II/III"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Ivoire Nadeau"
+          related:
+            p1: "Collier Coco II"
+            p2: "Collier Coco III"
+        p7:
+          title: "Bagues Gabrielle"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Ivoire Nadeau"
+          related:
+            p1: ""
+        p8:
+          title: "Boucles d'oreilles Mademoiselle I"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Ivoire Nadeau"
+          related:
+            p1: "Boucles d'oreilles Mademoiselle I"
+        p9:
+          title: "Boucles d'oreilles Mademoiselle II/III"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Ivoire Nadeau"
+          related:
+            p1: "Boucles d'oreilles Mademoiselle II"
+            p1: "Boucles d'oreilles Mademoiselle III"
+        p10:
+          title: "Boucles d'oreilles 31 Rue Cambon"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Ivoire Nadeau"
+          related:
+            p1: ""
+        p11:
+          title: "Collier Love, etc."
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Ivoire Nadeau"
+          related:
+            p1: ""
+        p12:
+          title: "Fascinateur Rosa I/II"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Ivoire Nadeau"
+          related:
+            p1: "Rosa I"
+            p2: "Rosa II"
     mcsummer2012:
       availability: ""
       products:
