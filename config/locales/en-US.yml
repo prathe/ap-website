@@ -40,6 +40,7 @@ en-US:
     back_to_collection: « back to collection
     more_details_title: Product description and close-ups
     index:
+      winter2013: "FW 2013"
       fall2012: "FW 2012"
       mcsummer2012: "Summer 2012 (clothing/accessories)"
       spring2012: "S/S 2012"
@@ -54,6 +55,7 @@ en-US:
       summer2010: Summer 2010
       spring2010: Spring 2010
     text_color:
+      winter2013: "#000000"
       fall2012: "#000000"
       mcsummer2012: "#000000"
       spring2012: "#000000"
@@ -68,6 +70,7 @@ en-US:
       summer2010: "#000000"
       spring2010: "#000000"
     background_color:
+      winter2013: "#FFFFFF"
       fall2012: "#FFFFFF"
       mcsummer2012: "#FFFFFF"
       spring2012: "#FFFFFF"
