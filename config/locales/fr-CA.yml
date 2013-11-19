@@ -91,8 +91,8 @@ fr-CA:
           title: "Greensleeves"
           description: ""
           etsy_link: ''
-          photograph: "XXXXXXXXXXXXXX"
-          model: "YYYYYYYYYYYY"
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
           related:
             p1: "I"
             p2: "II"
@@ -100,8 +100,8 @@ fr-CA:
           title: "I Fought the Law"
           description: ""
           etsy_link: ''
-          photograph: "XXXXXXXXXXXXXX"
-          model: "YYYYYYYYYYYY"
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
           related:
             p1: "I"
             p2: "II"
@@ -110,8 +110,8 @@ fr-CA:
           title: "Kate"
           description: ""
           etsy_link: ''
-          photograph: "XXXXXXXXXXXXXX"
-          model: "YYYYYYYYYYYY"
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
           related:
             p1: "I"
             p2: "II"
@@ -119,8 +119,8 @@ fr-CA:
           title: "Braveheart"
           description: ""
           etsy_link: ''
-          photograph: "XXXXXXXXXXXXXX"
-          model: "YYYYYYYYYYYY"
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
           related:
             p1: "I"
             p2: "II"
@@ -128,8 +128,8 @@ fr-CA:
           title: "Lennox"
           description: ""
           etsy_link: ''
-          photograph: "XXXXXXXXXXXXXX"
-          model: "YYYYYYYYYYYY"
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
           related:
             p1: "I"
             p2: "II"
@@ -139,8 +139,8 @@ fr-CA:
           title: "God Save the Queen"
           description: ""
           etsy_link: ''
-          photograph: "XXXXXXXXXXXXXX"
-          model: "YYYYYYYYYYYY"
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
           related:
             p1: "I"
             p2: "II"
@@ -148,8 +148,8 @@ fr-CA:
           title: "Jane"
           description: ""
           etsy_link: ''
-          photograph: "XXXXXXXXXXXXXX"
-          model: "YYYYYYYYYYYY"
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
           related:
             p1: "I"
             p2: "II"
@@ -158,28 +158,46 @@ fr-CA:
           title: "Churchill"
           description: ""
           etsy_link: ''
-          photograph: "XXXXXXXXXXXXXX"
-          model: "YYYYYYYYYYYY"
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
           related:
             p1: "I"
         p9:
           title: "Churchill II"
           description: ""
           etsy_link: ''
-          photograph: "XXXXXXXXXXXXXX"
-          model: "YYYYYYYYYYYY"
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
           related:
             p1: "I"
         p10:
           title: "Dunans"
           description: ""
           etsy_link: ''
-          photograph: "XXXXXXXXXXXXXX"
-          model: "YYYYYYYYYYYY"
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
           related:
             p1: "I"
             p2: "II"
             p3: "III"
+        p11:
+          title: "Thistle O'Scotland"
+          description: ""
+          etsy_link: ''
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
+          related:
+            p1: "I"
+        p12:
+          title: "Lennox II"
+          description: ""
+          etsy_link: ''
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
+          related:
+            p1: "I"
+            p2: "II"
+            p2: "III"
     fall2012:
       availability: ""
       products:
