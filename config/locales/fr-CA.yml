@@ -40,7 +40,7 @@ fr-CA:
     back_to_collection: « retour à la collection
     more_details_title: Description du produit et gros plans
     index:
-      spring2013: "P/É 2013"
+      winter2013: "Automne/Hiver 2013-14"
       fall2012: "AH 2012"
       mcsummer2012: "Été 2012 (vêtements/accessoires)"
       spring2012: "P/É 2012"
@@ -55,7 +55,7 @@ fr-CA:
       summer2010: Été 2010
       spring2010: Printemps 2010
     text_color:
-      spring2013: "#000000"
+      winter2013: "#000000"
       fall2012: "#000000"
       mcsummer2012: "#000000"
       spring2012: "#000000"
@@ -70,7 +70,7 @@ fr-CA:
       summer2010: "#000000"
       spring2010: "#000000"
     background_color:
-      spring2013: "#FFFFFF"
+      winter2013: "#FFFFFF"
       fall2012: "#FFFFFF"
       mcsummer2012: "#FFFFFF"
       spring2012: "#FFFFFF"
@@ -84,11 +84,11 @@ fr-CA:
       fall2010: "#FFFFFF"
       summer2010: "#FFFFFF"
       spring2010: "#FFFFFF"
-    spring2013:
+    winter2013:
       availability: ""
       products:
         p1:
-          title: "Dahlia I"
+          title: "Greensleeves"
           description: ""
           etsy_link: ''
           photograph: "XXXXXXXXXXXXXX"
@@ -97,7 +97,7 @@ fr-CA:
             p1: "I"
             p2: "II"
         p2:
-          title: "Anémones I"
+          title: "I Fought the Law"
           description: ""
           etsy_link: ''
           photograph: "XXXXXXXXXXXXXX"
@@ -107,7 +107,7 @@ fr-CA:
             p2: "II"
             p2: "III"
         p3:
-          title: "Rappelle-toi I"
+          title: "Kate"
           description: ""
           etsy_link: ''
           photograph: "XXXXXXXXXXXXXX"
@@ -116,7 +116,7 @@ fr-CA:
             p1: "I"
             p2: "II"
         p4:
-          title: "Lana"
+          title: "Braveheart"
           description: ""
           etsy_link: ''
           photograph: "XXXXXXXXXXXXXX"
@@ -125,7 +125,7 @@ fr-CA:
             p1: "I"
             p2: "II"
         p5:
-          title: "Lana II"
+          title: "Lennox"
           description: ""
           etsy_link: ''
           photograph: "XXXXXXXXXXXXXX"
@@ -136,7 +136,7 @@ fr-CA:
             p3: "III"
             p4: "IV"
         p6:
-          title: "Rappelle-toi II"
+          title: "God Save the Queen"
           description: ""
           etsy_link: ''
           photograph: "XXXXXXXXXXXXXX"
@@ -145,7 +145,7 @@ fr-CA:
             p1: "I"
             p2: "II"
         p7:
-          title: "Anémones II"
+          title: "Jane"
           description: ""
           etsy_link: ''
           photograph: "XXXXXXXXXXXXXX"
@@ -155,7 +155,7 @@ fr-CA:
             p2: "II"
             p3: "III"
         p8:
-          title: "Souvenir de toi"
+          title: "Churchill"
           description: ""
           etsy_link: ''
           photograph: "XXXXXXXXXXXXXX"
@@ -163,7 +163,7 @@ fr-CA:
           related:
             p1: "I"
         p9:
-          title: "L'étoile a pleuré rose"
+          title: "Churchill II"
           description: ""
           etsy_link: ''
           photograph: "XXXXXXXXXXXXXX"
@@ -171,15 +171,15 @@ fr-CA:
           related:
             p1: "I"
         p10:
-          title: "Water Lily"
+          title: "Dunans"
           description: ""
           etsy_link: ''
           photograph: "XXXXXXXXXXXXXX"
           model: "YYYYYYYYYYYY"
           related:
-            p1: "Water Lily"
-            p2: "Water Lily II"
-            p3: "Water Lily III"
+            p1: "I"
+            p2: "II"
+            p3: "III"
     fall2012:
       availability: ""
       products:
