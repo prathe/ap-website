@@ -40,6 +40,7 @@ fr-CA:
     back_to_collection: « retour à la collection
     more_details_title: Description du produit et gros plans
     index:
+      summer2013: "P/É 2013"
       winter2013: "Automne/Hiver 2013-14"
       fall2012: "AH 2012"
       mcsummer2012: "Été 2012 (vêtements/accessoires)"
@@ -55,6 +56,7 @@ fr-CA:
       summer2010: Été 2010
       spring2010: Printemps 2010
     text_color:
+      summer2013: "#000000"
       winter2013: "#000000"
       fall2012: "#000000"
       mcsummer2012: "#000000"
@@ -70,6 +72,7 @@ fr-CA:
       summer2010: "#000000"
       spring2010: "#000000"
     background_color:
+      summer2013: "#FFFFFF"
       winter2013: "#FFFFFF"
       fall2012: "#FFFFFF"
       mcsummer2012: "#FFFFFF"

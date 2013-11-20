@@ -40,6 +40,7 @@ en-US:
     back_to_collection: « back to collection
     more_details_title: Product description and close-ups
     index:
+      summer2013: "S/S 2013"
       winter2013: "FW 2013"
       fall2012: "FW 2012"
       mcsummer2012: "Summer 2012 (clothing/accessories)"
@@ -55,6 +56,7 @@ en-US:
       summer2010: Summer 2010
       spring2010: Spring 2010
     text_color:
+      summer2013: "#000000"
       winter2013: "#000000"
       fall2012: "#000000"
       mcsummer2012: "#000000"
@@ -70,6 +72,7 @@ en-US:
       summer2010: "#000000"
       spring2010: "#000000"
     background_color:
+      summer2013: "#FFFFFF"
       winter2013: "#FFFFFF"
       fall2012: "#FFFFFF"
       mcsummer2012: "#FFFFFF"
@@ -84,6 +87,106 @@ en-US:
       fall2010: "#FFFFFF"
       summer2010: "#FFFFFF"
       spring2010: "#FFFFFF"
+    summer2013:
+      availability: ""
+      products:
+        p1:
+          title: "Dahlia I"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: "I"
+        p2:
+          title: "Anémones I"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: "I"
+        p3:
+          title: "Rappelles-toi I"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: "I"
+        p4:
+          title: "Lana"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: "I"
+        p5:
+          title: "Lana II"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: "I"
+        p6:
+          title: "Rappelles-toi II"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: "I"
+        p7:
+          title: "Anémones II"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: "I"
+            p1: "II"
+        p8:
+          title: "Souvenir de toi"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: "I"
+        p9:
+          title: "L'étoile a pleuré rose"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: "I"
+        p10:
+          title: "Water Lily"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: "I"
+        p11:
+          title: "Water Lily II"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: "I"
+        p12:
+          title: "Water Lily III"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: "I"
     winter2013:
       availability: ""
       products:
