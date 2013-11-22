@@ -40,6 +40,7 @@ fr-CA:
     back_to_collection: « retour à la collection
     more_details_title: Description du produit et gros plans
     index:
+      winter_chic2013: "Hiver Chic 2013"
       summer2013: "P/É 2013"
       winter2013: "Automne/Hiver 2013-14"
       fall2012: "AH 2012"
@@ -56,6 +57,7 @@ fr-CA:
       summer2010: Été 2010
       spring2010: Printemps 2010
     text_color:
+      winter_chic2013: "#000000"
       summer2013: "#000000"
       winter2013: "#000000"
       fall2012: "#000000"
@@ -72,6 +74,7 @@ fr-CA:
       summer2010: "#000000"
       spring2010: "#000000"
     background_color:
+      winter_chic2013: "#FFFFFF"
       summer2013: "#FFFFFF"
       winter2013: "#FFFFFF"
       fall2012: "#FFFFFF"
@@ -87,6 +90,106 @@ fr-CA:
       fall2010: "#FFFFFF"
       summer2010: "#FFFFFF"
       spring2010: "#FFFFFF"
+    winter_chic2013:
+      availability: ""
+      products:
+        p1:
+          title: "Esther"
+          description: ""
+          etsy_link: ''
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
+          related:
+            p1: "I"
+            p2: "II"
+        p2:
+          title: "Notre-Dame de Grâce"
+          description: ""
+          etsy_link: ''
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
+          related:
+            p1: "I"
+            p2: "II"
+        p3:
+          title: "Dark Paradise"
+          description: ""
+          etsy_link: ''
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
+          related:
+            p1: "I"
+            p2: "II"
+        p4:
+          title: "Dark Paradise II"
+          description: ""
+          etsy_link: ''
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
+          related:
+            p1: "I"
+            p2: "II"
+        p5:
+          title: "Dolores"
+          description: ""
+          etsy_link: ''
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
+          related:
+            p1: "I"
+        p6:
+          title: "Dolores II"
+          description: ""
+          etsy_link: ''
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
+          related:
+            p1: "I"
+            p2: "II"
+        p7:
+          title: "Victoria"
+          description: ""
+          etsy_link: ''
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
+          related:
+            p1: "I"
+        p8:
+          title: "Victoria II"
+          description: ""
+          etsy_link: ''
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
+          related:
+            p1: "I"
+            p2: "II"
+        p9:
+          title: "Satine"
+          description: ""
+          etsy_link: ''
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
+          related:
+            p1: "I"
+            p2: "II"
+            p3: "III"
+        p10:
+          title: "Spleen"
+          description: ""
+          etsy_link: ''
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
+          related:
+            p1: "I"
+        p11:
+          title: "Elena"
+          description: ""
+          etsy_link: ''
+          photograph: "Maxyme Gagné"
+          model: "Kassandra Legault @ Focus One Mannequins"
+          related:
+            p1: "I"
+            p2: "II"
     summer2013:
       availability: ""
       products:
