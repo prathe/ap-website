@@ -146,7 +146,7 @@ en-US:
           model: "Clémentine Pages"
           related:
             p1: "I"
-            p1: "II"
+            p2: "II"
         p8:
           title: "Souvenir de toi"
           description: ""
@@ -187,6 +187,84 @@ en-US:
           model: "Clémentine Pages"
           related:
             p1: "I"
+        p13:
+          title: "Anémones III"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: "I"
+        p14:
+          title: "Anémones IV"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+        p15:
+          title: "Anémones V"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: "I"
+        p16:
+          title: "Paradise I"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: "I"
+            p2: "II"
+        p17:
+          title: "Nabokov"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: "I"
+            p2: "II"
+        p18:
+          title: "Paradise II"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: "I"
+        p19:
+          title: "Oona"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: "I"
+            p2: "II"
+        p20:
+          title: "Lana III"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: "I"
+        p21:
+          title: "Elena"
+          description: ""
+          etsy_link: ''
+          photograph: "Arnela Pandzic"
+          model: "Clémentine Pages"
+          related:
+            p1: "I"
+            p2: "II"
+            p3: "III"
+            p4: "IV"
+            p5: "V"
+            p6: "VI"
     winter2013:
       availability: ""
       products:
